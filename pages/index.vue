@@ -1,9 +1,7 @@
 <template>
   <div>
 
-    <div id="spotlight-holder">
-      <div id="spotlight"></div>
-    </div>
+    <Logo></Logo>
 
     <div class="container-fluid" style="padding-top: 35vh" id="introduction">
       <div class="row">
@@ -80,38 +78,7 @@
       <Project></Project>
     </section>
 
-    <section id="contact-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <h1>Samenwerken?</h1>
-            <p class="mt-2">Heb je een goed idee of een ingewikkeld digitaal vraagstuk? We gaan graag het gesprek met je aan. Daag ons uit! (Tekst Hoppinger)</p>
-
-            <div class="row mt-5">
-              <div class="col-6">
-                <h5>Ons kantoor</h5>
-                <p> Zoutziederstraat 20 <br>
-                  3026 EL<br>
-                  Rotterdam
-                </p>
-              </div>
-              <div class="col-6">
-                <h5>Contact</h5>
-                <p> info@overbelicht.com<br>
-                  0611817099<br>
-                  Linkedin
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid p-0" id="contact-logo-holder">
-        <img src="/assets/contact_logo.png" id="contact-logo">
-      </div>
-
-    </section>
-
+    <Contact></Contact>
 
   </div>
 </template>
@@ -120,8 +87,10 @@
 
 
 import Project from "@/components/Project";
+import Contact from "@/components/Contact";
+import Logo from "@/components/Logo";
 export default {
-  components: {Project},
+  components: {Logo, Contact, Project},
   mounted() {
     document.addEventListener('DOMContentLoaded', (event) => {
         initGsap()
@@ -139,6 +108,7 @@ export default {
           done()
         }
       })
+      transition_timeline.to('#spotlight',{opacity: 0, marginLeft: '10%', duration: 1},0)
       transition_timeline.to(text_holder,{opacity: '0', duration: 0.5},0)
       transition_timeline.to(image_holder,{left: '120%', opacity:0, duration: 1},0)
     },
@@ -273,31 +243,15 @@ export default {
     mix-blend-mode: soft-light;
   }
 
-  #spotlight{
+  #spotlight {
     position: absolute;
     top: -10%;
     height: 120vh;
+    margin-left: 10%;
     width: 120vh;
     background-color: var(--light-purple);
     border-radius: 180vh;
-    opacity: 1;
-  }
-
-  #contact-section{
-    padding-top: 10vh;
-  }
-
-  #contact-section h5{
-    color: white;
-  }
-
-  #contact-logo-holder{
-  }
-
-  #contact-logo{
-    position: absolute;
-    right: 0;
-    height: 400px;
+    opacity: 0;
   }
 
   .round-icon{

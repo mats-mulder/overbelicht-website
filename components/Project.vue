@@ -24,14 +24,15 @@ export default {
         scrollTrigger: {
           trigger: '#project-2',
           start: 'top 10%',
-          markers: true,
           pin: true,
           scrub: 1,
         }
       });
-      t1.to(".project-image-holder", {width: '52%', opacity: 1, duration: 2},0)
+      t1.to(".project-image-holder", {width: '52%', opacity: 1, duration: 1},0)
+      t1.to("#spotlight", {opacity: 0.3, marginLeft: 0, duration: 1},0)
       t1.to(".project-image", {marginLeft: '-50%', duration: 5},0)
       t1.to(".project-image-holder", {x: '-50px', opacity: 0, duration: 2},4)
+      t1.to("#spotlight", {opacity: 0, marginLeft: '10%', duration: 1},4)
     })
   },
 }
