@@ -9,11 +9,9 @@ sections:
 - type: document
   path: content/home.md
   label: Home
-  match: "**/*"
 - type: document
   path: content/about.md
   label: About
-  match: "**/*"
 - type: heading
   label: Variable Content
 - type: directory
