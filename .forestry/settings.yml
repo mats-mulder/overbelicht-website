@@ -14,10 +14,13 @@ sections:
   label: About
 - type: heading
   label: Variable Content
-- type: document
-  path: content/projects.md
+- type: directory
+  path: content/projects
   label: Projects
+  create: documents
   match: "**/*"
+  templates:
+  - project
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

@@ -1,7 +1,19 @@
 ---
 label: Project
 hide_body: true
+display_field: customer
 fields:
+- name: index
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+  label: Index
 - name: customer
   type: text
   config:
