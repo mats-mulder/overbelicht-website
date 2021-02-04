@@ -47,3 +47,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- content/projects/projectuitleg-in-duidelijke-titel.md
