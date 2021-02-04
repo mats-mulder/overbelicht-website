@@ -14,10 +14,9 @@ sections:
   label: About
 - type: heading
   label: Variable Content
-- type: directory
-  path: content/projects
+- type: document
+  path: content/projects.md
   label: Projects
-  create: documents
   match: "**/*"
 upload_dir: static/images
 public_path: "/images"
