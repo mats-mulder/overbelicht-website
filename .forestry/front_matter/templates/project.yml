@@ -1,4 +1,37 @@
 ---
 label: Project
 hide_body: true
-fields: []
+fields:
+- name: customer
+  type: text
+  config:
+    required: true
+  label: Customer
+- name: services
+  type: tag_list
+  default:
+  - Huisstijl
+  - Website
+  - Fotografie
+  label: Services
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: introduction
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Introduction
+- name: content
+  type: blocks
+  label: Content
+  template_types: []
+  config:
+    min: 
+    max: 
