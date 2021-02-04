@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div id="page-transition">
+
+    </div>
+
     <div id="spotlight-holder">
       <div id="spotlight"></div>
     </div>
@@ -48,16 +52,17 @@ body{
   }
 
   .mid-p{
-    font-size: 2.2vh;
+    font-size: 2.3vh;
     font-weight: bolder;
   }
 
   .large-p{
-    font-size: 2.6vh;
+    font-size: 2.5vh;
+    font-weight: bolder;
   }
 
   p{
-    font-size: 2.2vh;
+    font-size: 2vh;
     font-family: avenir;
   }
 
@@ -92,6 +97,15 @@ body{
     height: 100vh;
     width: 100%;
     object-fit: cover;
+  }
+
+  #page-transition{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--yellow);
+    z-index: 600;
+    left: 100%;
   }
 
 </style>

@@ -1,16 +1,16 @@
 <template>
-    <div class="container-fluid p-0" id="project-2">
+    <div class="container-fluid p-0 project" style="margin-top: 45vh; margin-bottom: 45vh">
 
       <div class="project-image-holder">
-        <img class="project-image" src="/images/eb_1.jpg">
+        <img class="project-image" :src="project.image">
       </div>
 
 
       <div class="col-12 offset-md-1 col-md-8 col-lg-7 col-xl-4 project-text-holder">
-        <h4><span style="color: var(--green)">Branding</span> + <span style="color: var(--red)">Website</span> + <span style="color: var(--light-purple)">Fotografie</span></h4>
-        <h1>The Energy Boutique</h1>
-        <p class="mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
-        <NuxtLink to="/cases"><button class="btn-round mt-3">→</button></NuxtLink>
+        <h4><span v-for="(label, index) in project.services" :class="'service-'+label.toLowerCase()">{{ label }}<span v-if="index < project.services.length-1"> + </span></span></h4>
+        <h1>{{ project.title }}</h1>
+        <p class="mt-4 mid-p">{{ project.introduction }}</p>
+        <NuxtLink :to="project.path"><button class="btn-round mt-3">→</button></NuxtLink>
       </div>
     </div>
 </template>
@@ -19,33 +19,26 @@
 export default {
   name: "Project",
   mounted() {
-    document.addEventListener('DOMContentLoaded', (event) => {
-      const t1 = gsap.timeline({
-        scrollTrigger: {
-          trigger: '#project-2',
-          start: 'top 10%',
-          pin: true,
-          scrub: 1,
-        }
-      });
-      t1.to(".project-image-holder", {width: '52%', opacity: 1, duration: 1},0)
-      t1.to("#spotlight", {opacity: 0.3, marginLeft: 0, duration: 1},0)
-      t1.to(".project-image", {marginLeft: '-50%', duration: 5},0)
-      t1.to(".project-image-holder", {x: '-50px', opacity: 0, duration: 2},4)
-      t1.to("#spotlight", {opacity: 0, marginLeft: '10%', duration: 1},4)
-    })
+
   },
+  props:{
+    project: Object
+  }
 }
 </script>
 
 <style scoped>
   h1{
     color: var(--yellow);
-    font-size: 10vh;
+    font-size: 9vh!important;
     line-height: 90%;
   }
 
   p{
+    color: white;
+  }
+
+  h4{
     color: white;
   }
 
@@ -54,21 +47,33 @@ export default {
     height: 80vh;
     width: 50%;
     right: 0;
-    background-color: red;
     border-radius: 20px 0 0 20px;
     overflow: hidden;
     opacity: 0;
   }
 
   .project-text-holder{
-    padding-top: 20vh;
+    padding-top: 10%;
   }
 
   .project-image{
     width: 100vw;
     object-fit: cover;
+    background-color: black;
+    opacity: 0.85;
   }
 
+  .service-huisstijl{
+    color: var(--red);
+  }
+
+  .service-website{
+    color: var(--green);
+  }
+
+  .service-fotografie{
+    color: var(--light-purple);
+  }
 
   @media only screen and (max-width: 576px) {
 
@@ -78,15 +83,12 @@ export default {
 
   }
 
-  @media only screen and (max-width: 921px) {
+  @media only screen and (max-width: 991px) {
 
   }
 
   @media only screen and (max-width: 1199px) {
-    .project-image-holder{
-      width: 100%;
-      border-radius: 0px;
-    }
+
 
   }
 

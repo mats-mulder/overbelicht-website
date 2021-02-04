@@ -1,7 +1,9 @@
 <template>
   <div id="logo-holder">
-    <img src="/assets/kleur_logo.png" id="logo">
-    <img src="/assets/wit_logo.png" id="logo_white">
+    <nuxt-link to="/">
+      <img src="/assets/kleur_logo.png" id="logo">
+      <img src="/assets/wit_logo.png" id="logo_white">
+    </nuxt-link>
   </div>
 </template>
 
@@ -15,24 +17,45 @@ name: "Logo"
 
 #logo-holder{
   position: fixed;
+  width: 100%;
   left: 0;
   top: 0;
-  margin-top: 25px;
-  margin-left: 20px;
+  z-index: 500;
+  background-color: white;
 }
 
 #logo{
-  width: 120px;
-  position: absolute;
+  height: 6vh;
   opacity: 1;
   z-index: 200;
+  margin: 2vh;
+  position: absolute;
 }
 
 #logo_white{
-  width: 120px;
-  position: absolute;
+  height: 6vh;
   opacity: 0;
   z-index: 200;
+  margin: 2vh;
+  position: absolute;
+}
+
+@media only screen and (max-width: 576px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  #logo-holder{
+    height: 9vh;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+
 }
 
 

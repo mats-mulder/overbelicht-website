@@ -66,7 +66,27 @@
 <script>
 import Contact from "@/components/Contact";
 export default {
-  components: {Contact}
+  components: {Contact},
+  transition: {
+    leave(el, done){
+      const transition_timeline = gsap.timeline({
+        onComplete: function (){
+          done()
+        }
+      })
+      transition_timeline.set('#page-transition',{left: '-100%'})
+      transition_timeline.to('#page-transition',{left: 0, duration: 0.5},0)
+    },
+    enter(el, done){
+      const transition_timeline = gsap.timeline({
+        onComplete: function (){
+          done()
+        }
+      })
+      transition_timeline.to('#page-transition',{left: '-100%', duration: 0.5},0)
+    }
+  }
+
 }
 </script>
 

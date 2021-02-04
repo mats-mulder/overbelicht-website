@@ -3,37 +3,37 @@
 
     <Logo></Logo>
 
+    <nuxt-link id="about-link" to="/about">about</nuxt-link>
+
     <div class="container-fluid" style="padding-top: 35vh" id="introduction">
       <div class="row">
-        <div class="col-12 col-md-6 offset-md-5">
+        <div class="col-12 col-md-10 col-lg-8 offset-lg-3 col-xl-6 offset-xl-5">
           <h1>Wij leggen de basis voor jouw digitale toekomst</h1>
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-5 p-0" style="overflow: hidden">
-          <img src="/assets/light_purple_strokes.png">
-        </div>
-        <div class="col-5">
+      <div class="row mt-4">
+        <div class="col-12 col-md-8 col-lg-6 offset-lg-3 col-xl-5 offset-xl-5">
           <p class="large-p">Online is de nieuwe standaard. Maar hoe gaat jouw bedrijf mee in deze verandering? Met behulp van een slimme strategie, goed design en een sterke implementatie legt Overbelicht de basis voor jouw digitale toekomst.</p>
         </div>
       </div>
+      <img class="img-fluid" src="/assets/light_purple_strokes.png" id="intro-strokes">
     </div>
 
 
 
-    <div class="container-fluid" style="padding-top: 80vh" id="visie">
+    <div class="container-fluid" style="padding-top: 60vh" id="visie">
       <div class="row">
-        <div class="col-12 col-md-8 offset-md-2">
+        <div class="col-12 col-md-8 offset-md-1 offset-xl-2">
           <h1>Denken, ontwerpen, bouwen</h1>
         </div>
       </div>
       <div class="row mt-3">
-        <div class="col-12 col-md-6 offset-md-2">
+        <div class="col-12 col-md-7 col-xl-5 offset-md-1 offset-xl-2">
           <p class="mid-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
         </div>
       </div>
       <div class="row" style="margin-top: 7vh">
-        <div class="col-12 col-md-4 offset-md-2">
+        <div class="col-12 col-md-6 col-lg-5 col-xl-4 offset-md-1 offset-xl-2">
           <div class="row" >
             <div class="col-12" style="display: flex">
               <div style="flex: 15%">
@@ -67,7 +67,7 @@
         </div>
         </div>
 
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-6">
           <div id="animation"></div>
         </div>
       </div>
@@ -75,7 +75,7 @@
 
 
     <section id="projects">
-      <Project></Project>
+      <Project v-for="project in projects" :project="project"></Project>
     </section>
 
     <Contact></Contact>
@@ -98,29 +98,31 @@ export default {
       }
     )
   },
+  async asyncData ({ $content }) {
+    const projects = await $content('projects').sortBy('index').fetch()
+
+    return {
+      projects
+    }
+  },
   transition: {
     leave(el, done){
-      let project = document.getElementById('project-2')
-      let text_holder = project.getElementsByClassName('project-text-holder')[0]
-      let image_holder = project.getElementsByClassName('project-image-holder')[0]
       const transition_timeline = gsap.timeline({
         onComplete: function (){
           done()
         }
       })
-      transition_timeline.to('#spotlight',{opacity: 0, marginLeft: '10%', duration: 1},0)
-      transition_timeline.to(text_holder,{opacity: '0', duration: 0.5},0)
-      transition_timeline.to(image_holder,{left: '120%', opacity:0, duration: 1},0)
+      transition_timeline.set('#page-transition',{left: '100%'})
+      transition_timeline.to('#page-transition',{left: 0, duration: 0.5},0)
     },
-    enter(el, done) {
-      let full_image = el.getElementsByClassName('full-image')[0]
-      full_image.style.marginLeft = '-10%'
+    enter(el, done){
       const transition_timeline = gsap.timeline({
         onComplete: function (){
+          initGsap()
           done()
         }
       })
-      transition_timeline.to(full_image, {marginLeft: '0', opacity: 1, duration: 0.5});
+      transition_timeline.to('#page-transition',{left: '100%', duration: 0.5},0)
     }
   }
 }
@@ -157,33 +159,13 @@ export default {
     padding-bottom: 30vh;
   }
 
-  #projects{
-    margin-top: 75vh;
-    margin-bottom: 100vh;
-  }
-
-  .project h4{
-    font-size: 2rem;
-  }
-
-  .project h1{
-    font-size: 6rem;
-    color: var(--yellow);
-    line-height: 90%;
-  }
-
-  .project p{
-    font-size: 1.1rem;
-    color: white;
-  }
-
   .btn-round{
     background-color: transparent;
     border: 3px solid var(--yellow);
     border-radius: 100vh;
     color: white;
-    height: 75px;
-    width: 75px;
+    height: 7vh;
+    width: 7vh;
     font-size: 1.5rem;
     transition: 200ms;
   }
@@ -219,16 +201,6 @@ export default {
   .project-image{
     position: absolute;
     height: 100%;
-
-  }
-
-  #project-image-1{
-    opacity: 0;
-    mix-blend-mode: screen;
-  }
-
-  #project-image-2{
-    opacity: 0;
   }
 
 
@@ -240,7 +212,7 @@ export default {
     overflow: hidden;
     z-index: 300;
     top:0;
-    mix-blend-mode: soft-light;
+    mix-blend-mode: overlay;
   }
 
   #spotlight {
@@ -262,9 +234,49 @@ export default {
   }
 
   #animation{
-    margin: 100px;
     margin-top: -3vh;
+    max-width: 800px;
   }
 
+  #intro-strokes{
+    position: absolute;
+    left: 0;
+    margin-top: -15vh;
+    width: 40%;
+  }
+
+  #about-link{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 2vh;
+    font-family: Gilroy;
+    color: var(--dark-purple);
+    font-size: 2.4vh;
+    z-index: 501;
+  }
+
+
+  @media only screen and (max-width: 576px) {
+
+  }
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 991px) {
+    #intro-strokes{
+      position: relative;
+      margin-top: 0;
+      width: 100% !important;
+    }
+  }
+
+  @media only screen and (max-width: 1199px) {
+    #intro-strokes{
+     width: 25%;
+    }
+  }
 
 </style>

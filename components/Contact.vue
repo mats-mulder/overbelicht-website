@@ -40,15 +40,7 @@
 export default {
 name: "Contact",
   mounted() {
-    const timeline_contact_color = gsap.timeline({
-      scrollTrigger: {
-        trigger: '#contact-section',
-        start: 'top top',
-        end: 'bottom top',
-        scrub: true,
-      }
-    })
-    timeline_contact_color.to('body',{backgroundColor: '#C5BCFF'})
+
   }
 }
 </script>
