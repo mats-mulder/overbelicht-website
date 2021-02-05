@@ -73,6 +73,7 @@ fields:
   template_types:
   - project-image-right
   - project-full-image
+  - project-high-image
   config:
     min: 
     max: 
