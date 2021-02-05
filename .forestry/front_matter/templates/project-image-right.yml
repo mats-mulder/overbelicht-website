@@ -1,4 +1,28 @@
 ---
 label: Project - Image Right
 hide_body: true
-fields: []
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Description
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: image_to_border
+  type: boolean
+  label: Image to border
+  description: Must the image be aligned to right border?
