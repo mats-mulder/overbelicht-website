@@ -31,7 +31,7 @@ content:
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum.</p>"
-  image: ''
+  image: "/images/screenshot-2021-02-04-at-19-34-1.jpg"
   achtergrond_kleur: "#B7B7B7"
 image: "/images/eb_1.jpg"
 info:
