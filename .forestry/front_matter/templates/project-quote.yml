@@ -1,4 +1,19 @@
 ---
 label: Project - Quote
 hide_body: true
-fields: []
+display_field: author
+fields:
+- name: author
+  type: text
+  config:
+    required: true
+  label: Author
+- name: quote
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Quote
