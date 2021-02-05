@@ -11,6 +11,10 @@ introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem acc
   et quasi.
 content: []
 image: "/images/eb_1.jpg"
-info: []
+info:
+- title: De vraag
+  content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+    et quasi.
 
 ---
