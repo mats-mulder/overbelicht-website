@@ -26,5 +26,5 @@ fields:
   type: color
   label: Achtergrond Kleur
   config:
-    required: false
+    required: true
     color_format: Hex
