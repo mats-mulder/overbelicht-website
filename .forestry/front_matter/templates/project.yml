@@ -70,7 +70,9 @@ fields:
 - name: content
   type: blocks
   label: Content
-  template_types: []
+  template_types:
+  - project-image-right
+  - project-full-image
   config:
     min: 
     max: 
