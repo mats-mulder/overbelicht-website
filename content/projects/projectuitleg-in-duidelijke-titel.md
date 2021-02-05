@@ -9,7 +9,10 @@ title: Projectuitleg in duidelijke titel
 introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium, totam rem aperiam, eaqeeue ipsa quae ab illo inventore veritatis
   et quasi.
-content: []
+content:
+- template: project-full-image
+  title: Ernst in de tuin
+  image: "/images/IMGP4846.jpg"
 image: "/images/eb_1.jpg"
 info:
 - title: Resultaat
