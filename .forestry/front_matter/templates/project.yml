@@ -45,13 +45,6 @@ fields:
     schema:
       format: markdown
   label: Introduction
-- name: content
-  type: blocks
-  label: Content
-  template_types: []
-  config:
-    min: 
-    max: 
 - name: info
   type: field_group_list
   fields:
@@ -72,8 +65,15 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: info
+- name: content
+  type: blocks
+  label: Content
+  template_types: []
+  config:
+    min: 
+    max: 
 pages:
 - content/projects/design-for-designers.md
 - content/projects/projectuitleg-in-duidelijke-titel.md
