@@ -20,14 +20,31 @@ fields:
 - name: left_or_right
   type: boolean
   label: Left or Right
-- name: background
-  type: color
-  label: Background
-  config:
-    required: true
-    color_format: Hex
 - name: image
   type: file
   config:
     maxSize: 64
   label: Image
+- name: colors
+  type: field_group
+  config: {}
+  fields:
+  - name: background
+    type: color
+    label: Background
+    config:
+      required: true
+      color_format: Hex
+  - name: title
+    type: color
+    label: Title
+    config:
+      required: true
+      color_format: Hex
+  - name: text
+    type: color
+    label: Text
+    config:
+      required: true
+      color_format: Hex
+  label: Colors
