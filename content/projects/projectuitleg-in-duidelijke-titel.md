@@ -51,7 +51,7 @@ content:
     background: "#FFFFFF"
     title: "#F50000"
     text: "#D3B1B1"
-  left_or_right: false
+  left_or_right: true
 image: "/images/eb_1.jpg"
 info:
 - title: Resultaat
