@@ -74,6 +74,7 @@ fields:
   - project-image-right
   - project-full-image
   - project-high-image
+  - project-quote
   config:
     min: 
     max: 
