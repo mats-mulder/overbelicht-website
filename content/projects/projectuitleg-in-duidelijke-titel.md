@@ -33,6 +33,10 @@ content:
     culpa qui officia deserunt mollit anim id est laborum.</p>"
   image: "/images/screenshot-2021-02-04-at-19-34-1.jpg"
   achtergrond_kleur: "#B7B7B7"
+- template: project-quote
+  author: Helen, eigenares the Energy Boutique
+  quote: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.” "
 image: "/images/eb_1.jpg"
 info:
 - title: Resultaat
