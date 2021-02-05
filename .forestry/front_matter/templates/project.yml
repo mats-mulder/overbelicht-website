@@ -31,6 +31,11 @@ fields:
   config:
     required: true
   label: Title
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
 - name: introduction
   type: textarea
   default: ''
@@ -40,11 +45,6 @@ fields:
     schema:
       format: markdown
   label: Introduction
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
 - name: content
   type: blocks
   label: Content
@@ -52,6 +52,28 @@ fields:
   config:
     min: 
     max: 
+- name: info
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Content
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: info
 pages:
 - content/projects/design-for-designers.md
 - content/projects/projectuitleg-in-duidelijke-titel.md
