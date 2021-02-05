@@ -12,7 +12,7 @@ introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem acc
 content: []
 image: "/images/eb_1.jpg"
 info:
-- title: De vraag
+- title: Bekijk
   content: www.perspectief.nl
 - title: Resultaat
   content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
