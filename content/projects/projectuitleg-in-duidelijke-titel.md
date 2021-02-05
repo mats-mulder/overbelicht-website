@@ -41,6 +41,17 @@ content:
     background: "#031D44"
     quote: "#FFFFFF"
     author: "#E0B20C"
+- template: project-image-below
+  title: Klassiek, maar ook dynamisch
+  description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>"
+  image: "/images/group-31.jpg"
+  colors:
+    background: "#FFFFFF"
+    title: "#F50000"
+    text: "#D3B1B1"
+  left_or_right: false
 image: "/images/eb_1.jpg"
 info:
 - title: Resultaat
