@@ -17,3 +17,26 @@ fields:
     schema:
       format: markdown
   label: Quote
+- name: colors
+  type: field_group
+  config: {}
+  fields:
+  - name: background
+    type: color
+    label: Background
+    config:
+      required: true
+      color_format: Hex
+  - name: quote
+    type: color
+    label: Quote
+    config:
+      required: true
+      color_format: Hex
+  - name: author
+    type: color
+    label: Author
+    config:
+      required: true
+      color_format: Hex
+  label: Colors
