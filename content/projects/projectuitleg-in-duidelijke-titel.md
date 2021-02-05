@@ -37,6 +37,10 @@ content:
   author: Helen, eigenares the Energy Boutique
   quote: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.” "
+  colors:
+    background: "#031D44"
+    quote: "#FFFFFF"
+    author: "#E0B20C"
 image: "/images/eb_1.jpg"
 info:
 - title: Resultaat
