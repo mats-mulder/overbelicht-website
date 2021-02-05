@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 0
 services:
 - Huisstijl
 - Website
@@ -11,5 +11,6 @@ introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem acc
   et quasi.
 image: "/images/1591728896495.jpg"
 content: []
+info: []
 
 ---
