@@ -57,9 +57,9 @@ content:
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>"
   image: "/images/group-31.jpg"
   colors:
-    background: "#FFFFFF"
-    title: "#000000"
-    text: "#000000"
+    background: "#E47373"
+    title: "#2E8A71"
+    text: "#EE2B2B"
   left_or_right: true
 image: "/images/eb_1.jpg"
 info:
