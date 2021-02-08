@@ -1,4 +1,38 @@
 ---
 label: Project - Website Link
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  default: Bekijk de website
+- name: link
+  type: text
+  config:
+    required: true
+  label: Link
+- name: colors
+  type: field_group
+  config: {}
+  fields:
+  - name: background
+    type: color
+    label: Background
+    config:
+      required: true
+      color_format: Hex
+  - name: text
+    type: color
+    label: Text
+    config:
+      required: true
+      color_format: Hex
+  - name: dot
+    type: color
+    label: Dot
+    config:
+      required: true
+      color_format: Hex
+  label: Colors
