@@ -42,6 +42,7 @@ content:
     background_bottom: "#FF2020"
     title: "#34A388"
     text: "#9D36DF"
+    background: "#818181"
 - template: project-quote
   author: Helen, eigenares the Energy Boutique
   quote: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
