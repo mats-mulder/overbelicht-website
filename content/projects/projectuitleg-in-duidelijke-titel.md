@@ -23,6 +23,10 @@ content:
     culpa qui officia deserunt mollit anim id est laborum</p>"
   image: "/images/pallette.png"
   image_to_border: true
+  colors:
+    background: "#FFFFFF"
+    title: "#000000"
+    text: "#000000"
 - template: project-high-image
   title: Opknapbeurt
   description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -33,6 +37,11 @@ content:
     culpa qui officia deserunt mollit anim id est laborum.</p>"
   image: "/images/screenshot-2021-02-04-at-19-34-1.jpg"
   achtergrond_kleur: "#B7B7B7"
+  colors:
+    background_top: "#ACACAC"
+    background_bottom: "#FFFFFF"
+    title: "#000000"
+    text: "#000000"
 - template: project-quote
   author: Helen, eigenares the Energy Boutique
   quote: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
