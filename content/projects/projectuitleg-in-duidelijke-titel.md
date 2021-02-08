@@ -62,6 +62,13 @@ content:
     title: "#2E8A71"
     text: "#EE2B2B"
   left_or_right: true
+- template: project-website-link
+  title: Bekijk de website
+  link: www.perspectief.nl
+  colors:
+    background: "#FFFFFF"
+    text: "#000000"
+    dot: "#000000"
 image: "/images/eb_1.jpg"
 info:
 - title: Resultaat
