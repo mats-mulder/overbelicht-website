@@ -22,7 +22,7 @@ content:
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum</p>"
   image: "/images/pallette.png"
-  image_to_border: true
+  image_to_border: false
   colors:
     background: "#FF8686"
     title: "#FE3F3F"
