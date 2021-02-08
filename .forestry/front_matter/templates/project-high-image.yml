@@ -26,15 +26,9 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: background_top
+  - name: background
     type: color
-    label: Background Top
-    config:
-      required: true
-      color_format: Hex
-  - name: background_bottom
-    type: color
-    label: Background Bottom
+    label: Background
     config:
       required: true
       color_format: Hex
