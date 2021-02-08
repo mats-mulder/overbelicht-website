@@ -58,8 +58,8 @@ content:
   image: "/images/group-31.jpg"
   colors:
     background: "#FFFFFF"
-    title: "#F50000"
-    text: "#D3B1B1"
+    title: "#000000"
+    text: "#000000"
   left_or_right: true
 image: "/images/eb_1.jpg"
 info:
