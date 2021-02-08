@@ -22,8 +22,8 @@ const ScrollLottie = (obj) => {
   ScrollTrigger.create({
     trigger: obj.target,
     scrub: true,
-    start: "top 50%",
-    end: "top top",
+    start: "top 60%",
+    end: "bottom top",
     onUpdate: self => {
 
         anim.goToAndStop(self.progress *  (anim.totalFrames - 1), true)

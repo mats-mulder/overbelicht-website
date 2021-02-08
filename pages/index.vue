@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="row" style="margin-top: 7vh">
-        <div class="col-12 col-md-6 col-lg-5 col-xl-4 offset-md-1 offset-xl-2">
+        <div class="col-12 col-md-5 col-lg-5 col-xl-4 offset-md-1 offset-xl-2">
           <div class="row" >
             <div class="col-12" style="display: flex">
               <div style="flex: 15%">
@@ -67,7 +67,7 @@
         </div>
         </div>
 
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-sm-10 offset-sm-1 col-md-5 col-lg-4 offset-md-1">
           <div id="animation"></div>
         </div>
       </div>
@@ -228,16 +228,12 @@ export default {
   }
 
   .round-icon{
-    width: 50px;
-    height: 50px;
+    width: 5vh;
+    height: 5vh;
     background-color: var(--yellow);
     border-radius: 100px;
   }
 
-  #animation{
-    margin-top: -3vh;
-    max-width: 800px;
-  }
 
   #intro-strokes{
     position: absolute;
@@ -263,7 +259,9 @@ export default {
   }
 
   @media only screen and (max-width: 767px) {
-
+    #animation{
+      margin-top: 1.5rem;
+    }
   }
 
   @media only screen and (max-width: 991px) {

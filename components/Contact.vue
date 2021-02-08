@@ -8,7 +8,7 @@
       </div>
       <div class="row mt-4">
         <div class="col-12 col-md-6">
-          <p>Heb je een goed idee of een ingewikkeld digitaal vraagstuk? We gaan graag het gesprek met je aan. Daag ons uit! (Tekst Hoppinger)</p>
+          <p class="mid-p">Heb je een goed idee of een ingewikkeld digitaal vraagstuk? We gaan graag het gesprek met je aan. Daag ons uit! (Tekst Hoppinger)</p>
         </div>
       </div>
       <div class="row mt-5">
