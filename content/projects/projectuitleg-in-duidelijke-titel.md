@@ -24,9 +24,9 @@ content:
   image: "/images/pallette.png"
   image_to_border: true
   colors:
-    background: "#FFFFFF"
-    title: "#000000"
-    text: "#000000"
+    background: "#FF8686"
+    title: "#FE3F3F"
+    text: "#E52E2E"
 - template: project-high-image
   title: Opknapbeurt
   description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
