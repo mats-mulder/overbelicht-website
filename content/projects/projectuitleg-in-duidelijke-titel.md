@@ -38,10 +38,10 @@ content:
   image: "/images/screenshot-2021-02-04-at-19-34-1.jpg"
   achtergrond_kleur: "#B7B7B7"
   colors:
-    background_top: "#ACACAC"
-    background_bottom: "#FFFFFF"
-    title: "#000000"
-    text: "#000000"
+    background_top: "#FF9090"
+    background_bottom: "#FF2020"
+    title: "#34A388"
+    text: "#9D36DF"
 - template: project-quote
   author: Helen, eigenares the Energy Boutique
   quote: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
