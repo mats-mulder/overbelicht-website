@@ -22,11 +22,11 @@ content:
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum</p>"
   image: "/images/pallette.png"
-  image_to_border: false
+  image_to_border: true
   colors:
-    background: "#FF8686"
-    title: "#FE3F3F"
-    text: "#E52E2E"
+    background: "#FFFFFF"
+    title: "#000000"
+    text: "#000000"
 - template: project-high-image
   title: Opknapbeurt
   description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -40,9 +40,9 @@ content:
   colors:
     background_top: "#FF9090"
     background_bottom: "#FF2020"
-    title: "#34A388"
-    text: "#9D36DF"
-    background: "#818181"
+    title: "#000000"
+    text: "#000000"
+    background: "#CACACA"
 - template: project-quote
   author: Helen, eigenares the Energy Boutique
   quote: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -58,9 +58,9 @@ content:
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>"
   image: "/images/group-31.jpg"
   colors:
-    background: "#E47373"
-    title: "#2E8A71"
-    text: "#EE2B2B"
+    background: "#FFFFFF"
+    title: "#000000"
+    text: "#000000"
   left_or_right: true
 - template: project-website-link
   title: Bekijk de website
@@ -68,7 +68,7 @@ content:
   colors:
     background: "#FFFFFF"
     text: "#000000"
-    dot: "#000000"
+    dot: "#E8FF67"
 image: "/images/eb_1.jpg"
 info:
 - title: Resultaat
