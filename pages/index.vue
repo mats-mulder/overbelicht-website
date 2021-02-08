@@ -119,6 +119,7 @@ export default {
       const transition_timeline = gsap.timeline({
         onComplete: function (){
           initGsap()
+          initLottie()
           done()
         }
       })

@@ -86,6 +86,12 @@ body{
     font-size: 1.5rem;
   }
 
+  h5{
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 2vh;
+  }
+
   .nav-full-image{
     position: absolute;
     top: 0;
@@ -107,5 +113,25 @@ body{
     z-index: 600;
     left: 100%;
   }
+
+  .back-link{
+    position: fixed;
+    margin: 15px;
+    font-size: 3vh;
+    color: var(--yellow);
+    font-family: Gilroy;
+  }
+
+.service-huisstijl{
+  color: var(--red);
+}
+
+.service-website{
+  color: var(--green);
+}
+
+.service-fotografie{
+  color: var(--light-purple);
+}
 
 </style>

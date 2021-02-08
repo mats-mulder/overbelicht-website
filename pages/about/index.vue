@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <nuxt-link id="back" to="/">← Back</nuxt-link>
+    <nuxt-link class="back-link" to="/">← Back</nuxt-link>
 
     <section style="background-color: var(--light-purple)">
       <div class="container">
@@ -91,14 +91,6 @@ export default {
 </script>
 
 <style scoped>
-
-  #back{
-    position: absolute;
-    margin: 15px;
-    font-size: 3vh;
-    color: var(--yellow);
-    font-family: Gilroy;
-  }
 
   #section-2 h3{
     color: var(--light-purple);

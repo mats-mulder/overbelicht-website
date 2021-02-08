@@ -1,7 +1,7 @@
 function initLottie(){
   ScrollLottie({
     target: '#animation',
-    path: '/assets/home_animation_2.json',
+    path: '/assets/homepagedatav3.json',
     duration: 10,
     speed: 'medium'
   })

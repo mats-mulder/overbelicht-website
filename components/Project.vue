@@ -63,17 +63,7 @@ export default {
     opacity: 0.85;
   }
 
-  .service-huisstijl{
-    color: var(--red);
-  }
 
-  .service-website{
-    color: var(--green);
-  }
-
-  .service-fotografie{
-    color: var(--light-purple);
-  }
 
   @media only screen and (max-width: 576px) {
 
@@ -88,7 +78,6 @@ export default {
   }
 
   @media only screen and (max-width: 1199px) {
-
 
   }
 
