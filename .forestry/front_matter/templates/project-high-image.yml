@@ -28,3 +28,32 @@ fields:
   config:
     required: true
     color_format: Hex
+- name: colors
+  type: field_group
+  config: {}
+  fields:
+  - name: background_top
+    type: color
+    label: Background Top
+    config:
+      required: true
+      color_format: Hex
+  - name: background_bottom
+    type: color
+    label: Background Bottom
+    config:
+      required: true
+      color_format: Hex
+  - name: title
+    type: color
+    label: Title
+    config:
+      required: true
+      color_format: Hex
+  - name: text
+    type: color
+    label: Text
+    config:
+      required: true
+      color_format: Hex
+  label: Colors
