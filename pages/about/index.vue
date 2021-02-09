@@ -21,7 +21,7 @@
 
         <div class="row" style="padding-top: 10vh; padding-bottom: 10vh">
           <div class="col-12">
-            <img class="img-fluid" src="/assets/about_us.png">
+            <img class="img-fluid pre-load-image" src="/assets/about_us.png">
           </div>
         </div>
 
@@ -84,7 +84,7 @@ export default {
       transition_timeline.to('#page-transition',{left: 0, duration: 0.5},0)
     },
     enter(el, done){
-      let images = document.getElementsByTagName('img')
+      let images = document.getElementsByClassName('pre-load-image')
       let count = 0
       images.forEach(function (image) {
         image.onload = function () {

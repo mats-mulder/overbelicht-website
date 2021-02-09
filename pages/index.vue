@@ -93,10 +93,17 @@ export default {
   components: {Logo, Contact, Project},
   mounted() {
     document.addEventListener('DOMContentLoaded', (event) => {
-        initGsap()
-        initLottie()
+        initHomeAnimations()
       }
     )
+    window.addEventListener("resize", function (){
+      if(checkViewport() === false){
+        toggleAnimation(['project'],'disable')
+      }
+      else{
+        toggleAnimation(['project'],'enable')
+      }
+    });
   },
   async asyncData ({ $content }) {
     const projects = await $content('projects').sortBy('index').fetch()
@@ -109,6 +116,7 @@ export default {
     leave(el, done){
       const transition_timeline = gsap.timeline({
         onComplete: function (){
+          killAnimation(['project', 'background','lottie'])
           done()
         }
       })
@@ -116,10 +124,9 @@ export default {
       transition_timeline.to('#page-transition',{left: 0, duration: 0.5},0)
     },
     enter(el, done){
+      initHomeAnimations()
       const transition_timeline = gsap.timeline({
         onComplete: function (){
-          initGsap()
-          initLottie()
           done()
         }
       })

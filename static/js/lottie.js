@@ -20,6 +20,7 @@ const ScrollLottie = (obj) => {
   let timeObj = {currentFrame: 0}
   let endString = (obj.speed === "slow") ? "+=2000" : (obj.speed === "medium") ? "+=1000" : (obj.speed === undefined) ? "+=1250" : "+=500";
   ScrollTrigger.create({
+    id: 'lottie',
     trigger: obj.target,
     scrub: true,
     start: "top 60%",

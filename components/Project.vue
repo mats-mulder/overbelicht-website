@@ -9,6 +9,9 @@
       <div class="col-12 offset-md-1 col-md-8 col-lg-7 col-xl-4 project-text-holder">
         <h4><span v-for="(label, index) in project.services" :class="'service-'+label.toLowerCase()">{{ label }}<span v-if="index < project.services.length-1"> + </span></span></h4>
         <h1>{{ project.title }}</h1>
+        <div class="mobile-project-image-holder">
+          <img class="mobile-project-image" :src="project.image">
+        </div>
         <p class="mt-4 mid-p">{{ project.introduction }}</p>
         <NuxtLink :to="project.path"><button class="btn-round mt-3">→</button></NuxtLink>
       </div>
@@ -63,14 +66,30 @@ export default {
     opacity: 0.85;
   }
 
+  .mobile-project-image-holder{
+    display: none;
+    width: 100%;
+    height: 30vh;
+    overflow-x: hidden;
+  }
 
+  .mobile-project-image{
+    width: 100%;
+    min-height: 30vh;
+    object-fit: cover;
+  }
 
   @media only screen and (max-width: 576px) {
 
   }
 
   @media only screen and (max-width: 767px) {
-
+    .project-image-holder{
+      display: none;
+    }
+    .mobile-project-image-holder{
+      display: initial;
+    }
   }
 
   @media only screen and (max-width: 991px) {
