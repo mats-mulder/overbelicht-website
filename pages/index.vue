@@ -16,7 +16,7 @@
           <p class="large-p">Online is de nieuwe standaard. Maar hoe gaat jouw bedrijf mee in deze verandering? Met behulp van een slimme strategie, goed design en een sterke implementatie legt Overbelicht de basis voor jouw digitale toekomst.</p>
         </div>
       </div>
-      <img class="img-fluid" src="/assets/light_purple_strokes.png" id="intro-strokes">
+      <img class="img-fluid pre-load-image" src="/assets/light_purple_strokes.png" id="intro-strokes">
     </div>
 
 
@@ -102,6 +102,18 @@ export default {
         toggleAnimation(['project'],'enable')
       }
     });
+    let images = document.getElementsByClassName('pre-load-image')
+    let count = 0
+    images.forEach(function (image) {
+      image.onload = function () {
+        console.log(count)
+        if (count === images.length-1) {
+          gsap.to('#page-transition',{left: '100%', duration: 0.5},0)
+        } else {
+          count++
+        }
+      }
+    })
   },
   async asyncData ({ $content }) {
     const projects = await $content('projects').sortBy('index').fetch()

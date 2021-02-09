@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="page-transition">
-
+        <div id="loading-animation"></div>
     </div>
 
     <div id="spotlight-holder">
@@ -13,6 +13,15 @@
 
 <script>
   export default {
+    mounted() {
+      let anii = lottie.loadAnimation({
+        container: document.getElementById('loading-animation'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '/assets/loadingtest.json'
+      });
+    }
 
   }
 </script>
@@ -105,13 +114,20 @@ body{
     object-fit: cover;
   }
 
+  #loading-animation{
+    width: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10vh 0 0 -25vh;
+  }
+
   #page-transition{
     position: fixed;
     width: 100%;
     height: 100vh;
     background-color: var(--yellow);
     z-index: 600;
-    left: 100%;
   }
 
   .back-link{
