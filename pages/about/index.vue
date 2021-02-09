@@ -1,7 +1,9 @@
 <template>
   <div>
 
-    <nuxt-link class="back-link" to="/">← Back</nuxt-link>
+    <div class="back-btn-container">
+      <nuxt-link class="back-link" to="/">← Back</nuxt-link>
+    </div>
 
     <section style="background-color: var(--light-purple)">
       <div class="container">
@@ -115,6 +117,10 @@ export default {
 
 <style scoped>
 
+  body{
+    background-color: white;
+  }
+
   #section-2 h3{
     color: var(--light-purple);
   }
@@ -187,9 +193,12 @@ export default {
       left: 0!important;
       width: 80% !important;
     }
+    .back-btn-container{
+      background-color: var(--green);
+    }
   }
 
-  @media only screen and (max-width: 921px) {
+  @media only screen and (max-width: 991px) {
     #us-image{
       margin-top: -15%;
     }

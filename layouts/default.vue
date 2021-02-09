@@ -122,6 +122,10 @@ body{
     font-family: Gilroy;
   }
 
+  .back-link:hover{
+    color: var(--yellow);
+  }
+
 .service-huisstijl{
   color: var(--red);
 }
@@ -132,6 +136,13 @@ body{
 
 .service-fotografie{
   color: var(--light-purple);
+}
+
+.back-btn-container{
+  width: 100%;
+  position: fixed;
+  z-index: 500;
+  height: 7vh;
 }
 
 </style>

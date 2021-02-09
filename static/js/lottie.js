@@ -23,12 +23,21 @@ const ScrollLottie = (obj) => {
     id: 'lottie',
     trigger: obj.target,
     scrub: true,
-    start: "top 60%",
+    start: "top 50%",
     end: "bottom top",
     onUpdate: self => {
-
+      if(obj.duration) {
+        gsap.to(timeObj, {
+          duration: obj.duration,
+          currentFrame:(Math.floor(self.progress *  (anim.totalFrames - 1))),
+          onUpdate: () => {
+            anim.goToAndStop(timeObj.currentFrame, true)
+          },
+          ease: 'expo'
+        })
+      } else {
         anim.goToAndStop(self.progress *  (anim.totalFrames - 1), true)
-
+      }
     }
   });
 

@@ -44,7 +44,7 @@ function initHomeAnimations(){
       trigger: project,
       start: 'top 10%',
       pin: true,
-      scrub: 1,
+      scrub: 0.5,
       animation: t1
     })
     projectCount++
@@ -77,9 +77,6 @@ function initHomeAnimations(){
   t3.to('body',{backgroundColor: '#C5BCFF'})
   t3.to('#logo-holder', {backgroundColor: '#C5BCFF'},0)
 
-
-  //Init Lottie animation
-  initLottie()
 }
 
 

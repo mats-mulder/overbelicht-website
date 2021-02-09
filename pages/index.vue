@@ -92,6 +92,7 @@ import Logo from "@/components/Logo";
 export default {
   components: {Logo, Contact, Project},
   mounted() {
+    initLottie()
     initHomeAnimations()
     window.addEventListener("resize", function (){
       if(checkViewport() === false){
@@ -113,7 +114,7 @@ export default {
     leave(el, done){
       const transition_timeline = gsap.timeline({
         onComplete: function (){
-          killAnimation(['project', 'background','lottie'])
+          killAnimation(['project', 'background'])
           done()
         }
       })
@@ -122,6 +123,7 @@ export default {
     },
     enter(el, done){
       initHomeAnimations()
+      document.getElementsByTagName("BODY")[0].style.backgroundColor = 'white'
       const transition_timeline = gsap.timeline({
         onComplete: function (){
           done()

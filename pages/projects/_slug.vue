@@ -2,7 +2,9 @@
   <div>
 
     <div class="full-image-holder">
-      <nuxt-link class="back-link" to="/">← Back</nuxt-link>
+      <div class="back-btn-container">
+        <nuxt-link class="back-link" to="/">← Back</nuxt-link>
+      </div>
       <img class="full-image pre-load-image" :src="project.image">
     </div>
 
@@ -146,6 +148,7 @@ export default {
       transition_timeline.to('#page-transition',{left: 0, duration: 0.5},0)
     },
     enter(el, done){
+      document.getElementsByTagName("BODY")[0].style.backgroundColor = 'white'
       let images = document.getElementsByClassName('pre-load-image')
       let count = 0
       images.forEach(function (image) {
@@ -178,6 +181,13 @@ p{
   color: var(--dark-purple);
 }
 
+.back-btn-container{
+  background-color: white;
+}
+
+.back-link{
+  color: var(--dark-purple);
+}
 
 .full-image-holder{
   width: 100%;
