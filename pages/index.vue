@@ -92,10 +92,7 @@ import Logo from "@/components/Logo";
 export default {
   components: {Logo, Contact, Project},
   mounted() {
-    document.addEventListener('DOMContentLoaded', (event) => {
-        initHomeAnimations()
-      }
-    )
+    initHomeAnimations()
     window.addEventListener("resize", function (){
       if(checkViewport() === false){
         toggleAnimation(['project'],'disable')
