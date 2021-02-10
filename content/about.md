@@ -18,7 +18,8 @@ services:
   subtitle: Wat we doen
   content: Online is de nieuwe standaard. Maar hoe gaat jouw bedrijf mee in deze verandering?
     Met behulp van een slimme strategie, goed design en een sterke implementatie legt
-    Overbelicht de basis voor jouw digitale toekomst.
+    Ove belicht de basis voor jouw digitale toekomst.
+  image: "/images/watwedoen_shape.png"
 contact:
   title: Samenwerken?
   introduction: Heb je een goed idee of een ingewikkeld digitaal vraagstuk? We gaan
