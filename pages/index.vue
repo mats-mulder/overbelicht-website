@@ -104,6 +104,7 @@ export default {
     });
     let images = document.getElementsByClassName('pre-load-image')
     let count = 0
+    console.log(images.length)
     images.forEach(function (image) {
       image.onload = function () {
         console.log(count)
