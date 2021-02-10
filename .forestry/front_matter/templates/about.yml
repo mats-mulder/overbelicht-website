@@ -130,3 +130,5 @@ fields:
       labelField: 
     label: Content
   label: Contact
+pages:
+- content/about.md
