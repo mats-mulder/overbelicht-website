@@ -16,3 +16,37 @@ function highHeight(pageLoading){
 
   })
 }
+
+
+function waitForLoad(done, direction){
+  let images = document.getElementsByClassName('pre-load-image')
+  let count = 0
+  images.forEach(function (image) {
+    if(image.complete){
+      if (count === images.length-1) {
+        const transition_timeline = gsap.timeline({
+          onComplete: function (){
+            done()
+          }
+        })
+        transition_timeline.to('#page-transition',{left: direction, duration: 0.5},0)
+      } else {
+        count++
+      }
+    }
+    else{
+      image.onload = function () {
+        if (count === images.length-1) {
+          const transition_timeline = gsap.timeline({
+            onComplete: function (){
+              done()
+            }
+          })
+          transition_timeline.to('#page-transition',{left: direction, duration: 0.5},0)
+        } else {
+          count++
+        }
+      }
+    }
+  })
+}

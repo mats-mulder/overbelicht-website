@@ -132,8 +132,8 @@ body{
 
   .back-link{
     position: fixed;
-    margin: 15px;
-    font-size: 3vh;
+    margin: 12px;
+    font-size: 2.5vh;
     color: var(--yellow);
     font-family: Gilroy;
   }
@@ -158,7 +158,7 @@ body{
   width: 100%;
   position: fixed;
   z-index: 500;
-  height: 7vh;
+  height: 6vh;
 }
 
 </style>
