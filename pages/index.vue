@@ -8,15 +8,15 @@
     <div class="container-fluid" style="padding-top: 35vh" id="introduction">
       <div class="row">
         <div class="col-12 col-md-10 col-lg-8 offset-lg-3 col-xl-6 offset-xl-5">
-          <h1>Wij leggen de basis voor jouw digitale toekomst</h1>
+          <h1>{{ content.introduction.title }}</h1>
         </div>
       </div>
       <div class="row mt-4">
         <div class="col-12 col-md-8 col-lg-6 offset-lg-3 col-xl-5 offset-xl-5">
-          <p class="large-p">Online is de nieuwe standaard. Maar hoe gaat jouw bedrijf mee in deze verandering? Met behulp van een slimme strategie, goed design en een sterke implementatie legt Overbelicht de basis voor jouw digitale toekomst.</p>
+          <p class="large-p">{{ content.introduction.introduction }}</p>
         </div>
       </div>
-      <img class="img-fluid pre-load-image" src="/assets/light_purple_strokes.png" id="intro-strokes">
+      <img class="img-fluid pre-load-image" :src="content.introduction.image" id="intro-strokes">
     </div>
 
 
@@ -24,47 +24,27 @@
     <div class="container-fluid" style="padding-top: 60vh" id="visie">
       <div class="row">
         <div class="col-12 col-md-8 offset-md-1 offset-xl-2">
-          <h1>Denken, ontwerpen, bouwen</h1>
+          <h1>{{ content.visie.title }}</h1>
         </div>
       </div>
       <div class="row mt-3">
         <div class="col-12 col-md-7 col-xl-5 offset-md-1 offset-xl-2">
-          <p class="mid-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+          <p class="mid-p">{{ content.visie.introduction }}</p>
         </div>
       </div>
-      <div class="row" style="margin-top: 7vh">
+      <div class="row" style="margin-top: 6vh">
         <div class="col-12 col-md-5 col-lg-5 col-xl-4 offset-md-1 offset-xl-2">
           <div class="row" >
-            <div class="col-12" style="display: flex">
+            <div class="col-12 mt-2" style="display: flex" v-for="item in content.visie.subtext">
               <div style="flex: 15%">
                 <div class="round-icon"></div>
               </div>
               <div style="flex: 85%">
-                <h3 class="mt-2">Denken</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <h3 class="mt-2">{{ item.title }}</h3>
+                <p>{{ item.description }}</p>
               </div>
             </div>
-
-          <div class="col-12 mt-2" style="display: flex">
-            <div style="flex: 15%">
-              <div class="round-icon"></div>
-            </div>
-            <div style="flex: 85%">
-              <h3 class="mt-2">Ontwerpen</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            </div>
           </div>
-
-          <div class="col-12 mt-2" style="display: flex">
-            <div style="flex: 15%">
-              <div class="round-icon"></div>
-            </div>
-            <div style="flex: 85%">
-              <h3 class="mt-2">Bouwen</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            </div>
-          </div>
-        </div>
         </div>
 
         <div class="col-12 col-sm-10 offset-sm-1 col-md-5 col-lg-4 offset-md-1">
@@ -78,7 +58,7 @@
       <Project v-for="project in projects" :project="project"></Project>
     </section>
 
-    <Contact></Contact>
+    <Contact :content="content.contact"></Contact>
 
   </div>
 </template>
@@ -117,9 +97,9 @@ export default {
   },
   async asyncData ({ $content }) {
     const projects = await $content('projects').sortBy('index').fetch()
-
+    const content = await $content('home').fetch()
     return {
-      projects
+      projects, content
     }
   },
   transition: {
@@ -244,6 +224,7 @@ export default {
   .round-icon{
     width: 5vh;
     height: 5vh;
+    margin-top: 0.5vh;
     background-color: var(--yellow);
     border-radius: 100px;
   }

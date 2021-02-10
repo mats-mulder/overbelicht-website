@@ -3,28 +3,18 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1>Samenwerken?</h1>
+          <h1>{{ content.title }}</h1>
         </div>
       </div>
       <div class="row mt-4">
         <div class="col-12 col-md-6">
-          <p class="mid-p">Heb je een goed idee of een ingewikkeld digitaal vraagstuk? We gaan graag het gesprek met je aan. Daag ons uit! (Tekst Hoppinger)</p>
+          <p class="mid-p">{{ content.introduction }}</p>
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-6 col-md-3">
-          <h5>Ons kantoor</h5>
-          <p> Zoutziederstraat 20 <br>
-            3026 EL<br>
-            Rotterdam
-          </p>
-        </div>
-        <div class="col-6 col-md-3">
-          <h5>Contact</h5>
-          <p> info@overbelicht.com<br>
-            0611817099<br>
-            Linkedin
-          </p>
+        <div class="col-6 col-md-3" v-for="item in content.content">
+          <h5>{{ item.title }}</h5>
+          <div v-html="item.content"></div>
         </div>
       </div>
 
@@ -38,9 +28,9 @@
 
 <script>
 export default {
-name: "Contact",
-  mounted() {
-
+  name: "Contact",
+  props: {
+    content: Object
   }
 }
 </script>

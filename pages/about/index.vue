@@ -10,34 +10,34 @@
 
         <div class="row">
           <div class="col-12">
-            <h3>About</h3>
-            <h1>Een designer + developer</h1>
+            <h3>{{ content.introduction['over_ons'].subtitle }}</h3>
+            <h1>{{ content.introduction['over_ons'].title }}</h1>
           </div>
         </div>
 
         <div class="row mt-4">
           <div class="col-12 col-md-8 col-lg-7 col-xl-6">
-            <p class="mid-p">Wij zijn Marieke en Mats, een designer en developer. Wij vormen samen het team achter Overbelicht. Met ons krijg je een totaalpakket om de basis te leggen voor je digitale toekomst. (tekst veranderen hier).</p>
+            <p class="mid-p">{{ content.introduction['over_ons'].content }}</p>
           </div>
         </div>
 
         <div class="row" style="padding-top: 10vh; padding-bottom: 10vh">
           <div class="col-12">
-            <img class="img-fluid pre-load-image" src="/assets/about_us.png">
+            <img class="img-fluid pre-load-image" :src="content.introduction.image">
           </div>
         </div>
 
         <div class="row">
           <div class="col-12 text-left text-md-right">
-            <h3>Waar we in geloven</h3>
-            <h1>Een quote over dit stukje</h1>
+            <h3>{{ content.introduction.visie.subtitle }}</h3>
+            <h1>{{ content.introduction.visie.title }}</h1>
           </div>
         </div>
 
 
         <div class="row justify-content-end mt-4">
           <div class="col-12 col-md-8 col-lg-7 col-xl-6 text-left text-md-right">
-            <p class="mid-p">Online is de nieuwe standaard. Maar hoe gaat jouw bedrijf mee in deze verandering? Met behulp van een slimme strategie, goed design en een sterke implementatie legt Overbelicht de basis voor jouw digitale toekomst.</p>
+            <p class="mid-p">{{ content.introduction.visie.content }}</p>
           </div>
         </div>
 
@@ -50,22 +50,22 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3>Wat we doen</h3>
-            <h1>Branding + webdesign + development + fotografie</h1>
+            <h3>{{ content.services.subtitle }}</h3>
+            <h1>{{ content.services.title }}</h1>
           </div>
         </div>
         <div class="row mt-4">
           <div class="col-12 col-md-7 col-lg-6 col-xl-6">
-            <p class="mid-p">Online is de nieuwe standaard. Maar hoe gaat jouw bedrijf mee in deze verandering? Met behulp van een slimme strategie, goed design en een sterke implementatie legt Overbelicht de basis voor jouw digitale toekomst.</p>
+            <p class="mid-p">{{ content.services.content }}</p>
           </div>
           <div class="col-12 col-md-5 col-lg-5 col-xl-4 offset-lg-1 offset-xl-2">
-            <img class="img-fluid" src="/assets/watwedoen_shape.png">
+            <img class="img-fluid" :src="content.services.image">
           </div>
         </div>
       </div>
     </section>
 
-    <Contact></Contact>
+    <Contact :content="content.contact"></Contact>
 
 
   </div>
@@ -75,6 +75,12 @@
 import Contact from "@/components/Contact";
 export default {
   components: {Contact},
+  async asyncData ({ $content }) {
+    const content = await $content('about').fetch()
+    return {
+      content
+    }
+  },
   transition: {
     appear: true,
     leave(el, done){
@@ -90,12 +96,6 @@ export default {
       waitForLoad(done, '-100%')
     }
   },
-  methods: {
-    finish() {
-      alert('klaar')
-    }
-  }
-
 }
 </script>
 
