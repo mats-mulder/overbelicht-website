@@ -105,22 +105,14 @@ export default {
     let images = document.getElementsByClassName('pre-load-image')
     let count = 0
     images.forEach(function (image) {
-      if(image.complete){
-        if (count === images.length-1) {
-          gsap.to('#page-transition',{left: '100%', duration: 0.5},0)
-        } else {
-          count++
-        }
-      }
-      else{
         image.onload = function () {
           if (count === images.length-1) {
-            gsap.to('#page-transition',{left: '100%', duration: 0.5},0)
+            //gsap.to('#page-transition',{left: '100%', duration: 0.5},0)
           } else {
             count++
           }
         }
-      }
+
     })
   },
   async asyncData ({ $content }) {
@@ -131,6 +123,7 @@ export default {
     }
   },
   transition: {
+    appear: true,
     leave(el, done){
       const transition_timeline = gsap.timeline({
         onComplete: function (){
@@ -144,12 +137,22 @@ export default {
     enter(el, done){
       initHomeAnimations()
       document.getElementsByTagName("BODY")[0].style.backgroundColor = 'white'
-      const transition_timeline = gsap.timeline({
-        onComplete: function (){
-          done()
+      let images = document.getElementsByClassName('pre-load-image')
+      let count = 0
+      images.forEach(function (image) {
+        image.onload = function () {
+          if (count === images.length-1) {
+            const transition_timeline = gsap.timeline({
+              onComplete: function (){
+                done()
+              }
+            })
+            transition_timeline.to('#page-transition',{left: '100%', duration: 0.5},0)
+          } else {
+            count++
+          }
         }
       })
-      transition_timeline.to('#page-transition',{left: '100%', duration: 0.5},0)
     }
   }
 }
