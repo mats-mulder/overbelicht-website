@@ -20,6 +20,11 @@ fields:
       schema:
         format: markdown
     label: Introduction
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
   label: Introduction
 - name: visie
   type: field_group
@@ -80,6 +85,11 @@ fields:
       schema:
         format: markdown
     label: Introduction
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
   - name: content
     type: field_group_list
     fields:
