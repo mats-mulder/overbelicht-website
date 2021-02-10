@@ -104,14 +104,21 @@ export default {
     });
     let images = document.getElementsByClassName('pre-load-image')
     let count = 0
-    console.log(images.length)
     images.forEach(function (image) {
-      image.onload = function () {
-        console.log(count)
+      if(image.complete){
         if (count === images.length-1) {
           gsap.to('#page-transition',{left: '100%', duration: 0.5},0)
         } else {
           count++
+        }
+      }
+      else{
+        image.onload = function () {
+          if (count === images.length-1) {
+            gsap.to('#page-transition',{left: '100%', duration: 0.5},0)
+          } else {
+            count++
+          }
         }
       }
     })
