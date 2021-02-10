@@ -1,4 +1,127 @@
 ---
 label: About
 hide_body: true
-fields: []
+fields:
+- name: introduction
+  type: field_group
+  config: {}
+  fields:
+  - name: over_ons
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: text
+      config:
+        required: true
+      label: Title
+    - name: subtitle
+      type: text
+      config:
+        required: true
+      label: Subtitle
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Content
+    label: Over ons
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: visie
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: text
+      config:
+        required: true
+      label: Title
+    - name: subtitle
+      type: text
+      config:
+        required: true
+      label: Subtitle
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Content
+    label: Visie
+  label: Introduction
+- name: services
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: subtitle
+    type: text
+    config:
+      required: true
+    label: Subtitle
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Content
+  label: Services
+- name: contact
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: introduction
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Introduction
+  - name: content
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Content
+  label: Contact
