@@ -14,6 +14,13 @@ content:
 - template: project-full-image
   image: "/images/IMGP4846.jpg"
   title: BAD kantoor
+- template: project-website-link
+  title: Bekijk de website
+  link: www.beingadesigner.com
+  colors:
+    background: "#FFFFFF"
+    text: "#004D5A"
+    dot: "#FDBB1E"
 info:
 - title: Bekijk
   content: www.beingadesigner.com
