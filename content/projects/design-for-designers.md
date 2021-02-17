@@ -14,6 +14,15 @@ content:
 - template: project-full-image
   image: "/images/IMGP4846.jpg"
   title: BAD kantoor
+- template: project-image-below
+  image: "/images/screenshot-2021-02-14-at-19-04-16.png"
+  title: De beste oplossing voor alle betrokkenen
+  description: "<p>Blabla tekst</p>"
+  colors:
+    background: "#004D5A"
+    title: "#FFFFFF"
+    text: "#FFFFFF"
+  left_or_right: false
 - template: project-website-link
   title: Bekijk de website
   link: www.beingadesigner.com
