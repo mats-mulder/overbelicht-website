@@ -10,7 +10,10 @@ introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem acc
   doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
   et quasi.
 image: "/images/1591728896495.jpg"
-content: []
+content:
+- template: project-full-image
+  image: "/images/IMGP4846.jpg"
+  title: BAD kantoor
 info:
 - title: Bekijk
   content: www.beingadesigner.com
