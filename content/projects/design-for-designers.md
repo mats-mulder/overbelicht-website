@@ -12,7 +12,7 @@ introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem acc
 image: "/images/1591728896495.jpg"
 content:
 - template: project-full-image
-  image: "/images/IMGP4846.jpg"
+  image: "/images/0-studio-buiten-klein.jpg"
   title: BAD kantoor
 - template: project-image-below
   image: "/images/screenshot-2021-02-14-at-19-04-16.png"
