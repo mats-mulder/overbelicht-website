@@ -59,6 +59,14 @@ content:
 - template: project-full-image
   image: "/images/designsprint-foto-1.jpg"
   title: Sprintfoto
+- template: project-high-image
+  image: "/images/ob_3-fotos.png"
+  title: Plaatjes
+  description: "<p>Tekst</p>"
+  colors:
+    background: "#FFFFFF"
+    title: "#004D5A"
+    text: "#004D5A"
 info:
 - title: Bekijk
   content: www.beingadesigner.com
