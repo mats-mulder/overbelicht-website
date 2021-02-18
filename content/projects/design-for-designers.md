@@ -1,5 +1,5 @@
 ---
-index: 0
+index: 1
 services:
 - Huisstijl
 - Website
@@ -49,6 +49,9 @@ content:
     background: "#0096A1"
     title: "#FFFFFF"
     text: "#FFFFFF"
+- template: project-full-image
+  title: 3 collages
+  image: "/images/collage-met-collages.jpg"
 - template: project-full-image
   image: "/images/designsprint-foto-1.jpg"
   title: Sprintfoto
