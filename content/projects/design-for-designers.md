@@ -80,9 +80,10 @@ info:
 - title: Bekijk
   content: www.beingadesigner.com
 - title: De Vraag
-  content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-    et quasi.
+  content: Being A Designer was op zoek naar een nieuwe visuele identiteit. Een nieuwe
+    stijl, toepasbaar op een gloednieuwe website, social media en drukwerk. In deze
+    identiteit moet de creatieve, intuïtieve en flexibele manier van werken van dit
+    design thinking bureau naar voren komen.
 - title: Resultaat
   content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
     doloremque laudantium.
