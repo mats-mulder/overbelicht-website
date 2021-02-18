@@ -85,7 +85,8 @@ info:
     identiteit moet de creatieve, intuïtieve en flexibele manier van werken van dit
     design thinking bureau naar voren komen.
 - title: Resultaat
-  content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-    doloremque laudantium.
+  content: 'Een analyse van de gewenste uitstraling en bedrijfsidentiteit vormden
+    de basis voor de nieuwe huisstijl: een gloednieuw website design, offerte & factuur
+    ontwerp en social media materiaal. '
 
 ---
