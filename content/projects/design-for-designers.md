@@ -9,7 +9,7 @@ title: Werken aan een onbekende toekomst
 introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
   et quasi.
-image: "/images/1591728896495.jpg"
+image: "/images/ob_foto-studio.jpg"
 content:
 - template: project-full-image
   image: "/images/0-studio-buiten-klein.jpg"
