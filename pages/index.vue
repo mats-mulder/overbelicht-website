@@ -71,9 +71,13 @@ import Contact from "@/components/Contact";
 import Logo from "@/components/Logo";
 export default {
   components: {Logo, Contact, Project},
+  head() {
+    return {
+      title: "Home - Overbelicht"
+    }
+  },
   mounted() {
     initLottie()
-    initHomeAnimations()
     window.addEventListener("resize", function (){
       if(checkViewport() === false){
         toggleAnimation(['project'],'disable')
@@ -82,18 +86,6 @@ export default {
         toggleAnimation(['project'],'enable')
       }
     });
-    let images = document.getElementsByClassName('pre-load-image')
-    let count = 0
-    images.forEach(function (image) {
-        image.onload = function () {
-          if (count === images.length-1) {
-            //gsap.to('#page-transition',{left: '100%', duration: 0.5},0)
-          } else {
-            count++
-          }
-        }
-
-    })
   },
   async asyncData ({ $content }) {
     const projects = await $content('projects').sortBy('index').fetch()

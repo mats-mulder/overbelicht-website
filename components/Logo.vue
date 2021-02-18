@@ -1,7 +1,7 @@
 <template>
   <div id="logo-holder">
     <nuxt-link to="/">
-      <img src="/assets/kleur_logo.png" id="logo">
+      <img src="/assets/logo_no_yellow.png" id="logo">
       <img src="/assets/wit_logo.png" id="logo_white">
     </nuxt-link>
   </div>

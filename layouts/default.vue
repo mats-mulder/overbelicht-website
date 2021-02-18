@@ -19,7 +19,7 @@
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/assets/loadingtest.json'
+        path: '/assets/loadingtest2.json'
       });
     }
 

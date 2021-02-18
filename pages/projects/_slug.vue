@@ -126,6 +126,11 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: this.project.title + " - Overbelicht"
+    }
+  },
   mounted() {
     highHeight(true)
     window.addEventListener("resize", function (){

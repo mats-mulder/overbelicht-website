@@ -74,6 +74,11 @@
 <script>
 import Contact from "@/components/Contact";
 export default {
+  head() {
+    return {
+      title: "About - Overbelicht"
+    }
+  },
   components: {Contact},
   async asyncData ({ $content }) {
     const content = await $content('about').fetch()
