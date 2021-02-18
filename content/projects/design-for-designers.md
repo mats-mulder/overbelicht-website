@@ -23,13 +23,6 @@ content:
     title: "#FFFFFF"
     text: "#FFFFFF"
   left_or_right: false
-- template: project-website-link
-  title: Bekijk de website
-  link: www.beingadesigner.com
-  colors:
-    background: "#FFFFFF"
-    text: "#004D5A"
-    dot: "#FDBB1E"
 - template: project-image-right
   title: Collages creëren
   description: "<p>Blabla tekst</p>"
@@ -67,6 +60,16 @@ content:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
+- template: project-full-image
+  image: "/images/voorbeeldcollage.png"
+  title: Voorbeeldcollage
+- template: project-website-link
+  title: Bekijk de website
+  link: www.beingadesigner.com
+  colors:
+    background: "#FFFFFF"
+    text: "#004D5A"
+    dot: "#FDBB1E"
 info:
 - title: Bekijk
   content: www.beingadesigner.com
