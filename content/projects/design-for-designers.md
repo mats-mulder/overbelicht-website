@@ -11,9 +11,6 @@ introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem acc
   et quasi.
 image: "/images/1591728896495.jpg"
 content:
-- template: project-full-image
-  image: "/images/0-studio-buiten-klein.jpg"
-  title: BAD kantoor
 - template: project-image-below
   image: "/images/screenshot-2021-02-14-at-19-04-16.png"
   title: De beste oplossing voor alle betrokkenen
@@ -52,9 +49,6 @@ content:
 - template: project-full-image
   title: 3 collages
   image: "/images/collage-met-collages.jpg"
-- template: project-full-image
-  image: "/images/designsprint-foto-1.jpg"
-  title: Sprintfoto
 - template: project-high-image
   image: "/images/ob_3-fotos.png"
   title: Plaatjes
@@ -64,8 +58,14 @@ content:
     title: "#004D5A"
     text: "#004D5A"
 - template: project-full-image
+  image: "/images/designsprint-foto-1.jpg"
+  title: Sprintfoto
+- template: project-full-image
   image: "/images/voorbeeldcollage.png"
   title: Voorbeeldcollage
+- template: project-full-image
+  image: "/images/0-studio-buiten-klein.jpg"
+  title: BAD kantoor
 - template: project-website-link
   title: Bekijk de website
   link: www.beingadesigner.com
@@ -73,6 +73,9 @@ content:
     background: "#FFFFFF"
     text: "#004D5A"
     dot: "#FDBB1E"
+- template: project-full-image
+  image: "/images/ob_foto-andre-binnen.jpg"
+  title: Andre binnen
 info:
 - title: Bekijk
   content: www.beingadesigner.com
