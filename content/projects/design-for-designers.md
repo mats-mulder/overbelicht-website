@@ -30,6 +30,15 @@ content:
     background: "#FFFFFF"
     text: "#004D5A"
     dot: "#FDBB1E"
+- template: project-image-right
+  title: Collages creëren
+  description: "<p>Blabla tekst</p>"
+  image: "/images/spetter-brush.png"
+  image_to_border: true
+  colors:
+    background: "#FFFFFF"
+    title: "#004D5A"
+    text: "#004D5A"
 info:
 - title: Bekijk
   content: www.beingadesigner.com
