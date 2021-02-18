@@ -56,6 +56,9 @@ content:
     background: "#0096A1"
     title: "#FFFFFF"
     text: "#FFFFFF"
+- template: project-full-image
+  image: "/images/designsprint-foto-1.jpg"
+  title: Sprintfoto
 info:
 - title: Bekijk
   content: www.beingadesigner.com
