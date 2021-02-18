@@ -41,7 +41,7 @@ content:
   description: "<p>Tekst</p>"
   image: "/images/projectenpagina.png"
 - template: project-image-below
-  image: "/images/collage-contact.png"
+  image: ''
   title: Schilderen, scheuren, plakken
   left_or_right: true
   description: "<p>Tekst</p>"
