@@ -8,7 +8,7 @@
 
       <div class="col-12 offset-md-1 col-md-8 col-lg-7 col-xl-4 project-text-holder">
         <h4><span v-for="(label, index) in project.services" :class="'service-'+label.toLowerCase()">{{ label }}<span v-if="index < project.services.length-1"> + </span></span></h4>
-        <h1>{{ project.title }}</h1>
+        <h1 class="mt-3">{{ project.title }}</h1>
         <div class="mobile-project-image-holder">
           <img class="mobile-project-image" :src="project.image">
         </div>
@@ -33,8 +33,8 @@ export default {
 <style scoped>
   h1{
     color: var(--yellow);
-    font-size: 9vh!important;
-    line-height: 90%;
+    font-size: 7vh!important;
+    line-height: 95%;
   }
 
   p{

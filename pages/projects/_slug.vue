@@ -48,7 +48,7 @@
         </div>
         <div class="row mt-4">
           <div class="col-12 col-md-10 offset-md-1 col-lg-4 col-xl-4 offset-xl-2">
-            <div v-html="section.description" :style="{color: section.colors.text}"></div>
+            <div class="text-color-container" v-html="section.description" :style="{color: section.colors.text}"></div>
           </div>
           <div v-if="section.image_to_border === true" class="col-12 col-md-10 col-lg-6 offset-md-1 col-xl-5 p-0 mt-5 mt-lg-0">
             <img class="img-fluid" :src="section.image">
@@ -65,7 +65,7 @@
         <div class="row mt-4">
           <div class="col-12 col-md-10 offset-md-1 col-lg-3 offset-xl-2">
             <h3 :style="{color: section.colors.title}">{{ section.title }}</h3>
-            <div :style="{color: section.colors.text}" class="mt-5" v-html="section.description"></div>
+            <div :style="{color: section.colors.text}" class="mt-5 text-color-container" v-html="section.description"></div>
           </div>
           <div class="col-12 col-md-10 offset-md-1 col-lg-6 col-xl-5 mt-5 mt-lg-0">
             <img class="img-fluid high-image" :src="section.image">
@@ -92,11 +92,11 @@
           <div class="row">
             <div class="col-12 col-md-6 col-lg-5 col-xl-4" v-if="section.left_or_right === false">
               <h3 :style="{color: section.colors.title}">{{ section.title }}</h3>
-              <div :style="{color: section.colors.text}" class="mt-5" v-html="section.description"></div>
+              <div :style="{color: section.colors.text}" class="mt-5 text-color-container" v-html="section.description"></div>
             </div>
             <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4 offset-sm-4 offset-md-6 offset-lg-7 offset-xl-8 text-left text-sm-right" v-if="section.left_or_right === true">
               <h3 :style="{color: section.colors.title}">{{ section.title }}</h3>
-              <div :style="{color: section.colors.text}" class="mt-5" v-html="section.description"></div>
+              <div :style="{color: section.colors.text}" class="mt-5 text-color-container" v-html="section.description"></div>
             </div>
           </div>
           <img class="img-fluid mt-5" :src="section.image">
@@ -136,6 +136,11 @@ export default {
     window.addEventListener("resize", function (){
       highHeight(false)
     });
+    document.getElementsByClassName('text-color-container').forEach(function (el){
+      el.getElementsByTagName('p').forEach(function (text){
+        text.style.color = el.style.color
+      })
+    })
   },
   async asyncData ({ $content, params }) {
     const project = await $content('projects', params.slug).fetch()
