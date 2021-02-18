@@ -47,6 +47,15 @@ content:
   title: Titel
   description: "<p>Tekst</p>"
   image: "/images/projectenpagina.png"
+- template: project-image-below
+  image: "/images/collage-contact.png"
+  title: Schilderen, scheuren, plakken
+  left_or_right: true
+  description: "<p>Tekst</p>"
+  colors:
+    background: "#0096A1"
+    title: "#FFFFFF"
+    text: "#FFFFFF"
 info:
 - title: Bekijk
   content: www.beingadesigner.com
