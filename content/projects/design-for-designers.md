@@ -9,7 +9,7 @@ title: Werken aan een onbekende toekomst
 introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
   et quasi.
-image: "/images/ob_foto-studio.jpg"
+image: "/images/1591728896495.jpg"
 content:
 - template: project-full-image
   image: "/images/0-studio-buiten-klein.jpg"
@@ -26,7 +26,7 @@ content:
 - template: project-image-right
   title: Collages creëren
   description: "<p>Blabla tekst</p>"
-  image: "/images/spetter-brush.png"
+  image: "/images/verfveeg-brush.png"
   image_to_border: true
   colors:
     background: "#FFFFFF"
