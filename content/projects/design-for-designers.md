@@ -6,9 +6,10 @@ services:
 - Fotografie
 customer: Being a Designer
 title: Werken aan een onbekende toekomst
-introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-  et quasi.
+introduction: 'Being A Designer, een design thinking bureau uit Rotterdam, was toe
+  aan een nieuw jasje. Een analyse van de gewenste uitstraling en bedrijfsidentiteit
+  vormden de basis voor de nieuwe huisstijl: een gloednieuw website design, social
+  media uitingen en drukwerk. '
 image: "/images/1591728896495.jpg"
 content:
 - template: project-image-below
