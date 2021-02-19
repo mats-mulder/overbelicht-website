@@ -5,7 +5,7 @@ services:
 - Website
 - Fotografie
 customer: Being a Designer
-title: Werken aan een onbekende toekomst
+title: Samenwerken aan vernieuwing
 introduction: 'Being A Designer, een design thinking bureau uit Rotterdam, was toe
   aan een nieuw jasje. Een analyse van de gewenste uitstraling en bedrijfsidentiteit
   vormden de basis voor de nieuwe huisstijl: een gloednieuw website design, social
@@ -88,8 +88,9 @@ info:
     maar ook op social media, in video's, offertes met verhalen en workshopmaterialen.
     Aanpakken dus!
 - title: Resultaat
-  content: 'Een analyse van de gewenste uitstraling en bedrijfsidentiteit vormden
-    de basis voor de nieuwe huisstijl: een gloednieuw website design, offerte & factuur
-    ontwerp en social media materiaal. '
+  content: 'Scheuren, knippen, combineren, plakken. In de trainingen en trajecten
+    van Being A Designer wordt intuïtief en vaak visueel gewerkt. De stijl bestaat
+    daarom uit verfvegen, scheurranden en spetters waarmee collages en verhalen verteld
+    kunnen worden. '
 
 ---
