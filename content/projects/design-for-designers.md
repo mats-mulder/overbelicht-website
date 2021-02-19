@@ -70,6 +70,15 @@ content:
 - template: project-full-image
   title: 3 collages
   image: "/images/collage-met-collages3.jpg"
+- template: project-image-below
+  title: Iets hier
+  description: "<p>Iets hier</p>"
+  colors:
+    background: "#FFFFFF"
+    title: "#004D5A"
+    text: "#004D5A"
+  left_or_right: false
+  image: ''
 - template: project-full-image
   image: "/images/0-studio-buiten-klein.jpg"
   title: BAD kantoor
