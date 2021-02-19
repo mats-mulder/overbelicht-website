@@ -18,7 +18,10 @@ content:
 - template: project-image-below
   image: "/images/screenshot-2021-02-14-at-19-04-16.png"
   title: De beste oplossing voor alle betrokkenen
-  description: "<p>Blabla tekst</p>"
+  description: "<p>In ieder project van Being A Designer is het leren van ontwerpvaardigheden
+    een belangrijk onderdeel, zodat organisaties zelf in staat zijn de beste oplossingen
+    voor ingewikkelde vraagstukken te vinden. Deze ontwerpvaardigheden komen terug
+    op de website en social media. </p>"
   colors:
     background: "#004D5A"
     title: "#FFFFFF"
