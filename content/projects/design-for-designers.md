@@ -45,9 +45,12 @@ content:
   title: Voorbeeldcollage
 - template: project-image-below
   image: ''
-  title: Schilderen, scheuren, plakken
+  title: Schilderen, scheuren, combineren, plakken
   left_or_right: true
-  description: "<p>Tekst</p>"
+  description: <p>Een foto, een blauwe filter, gele spetters en een witte stift. Hiermee
+    maakten we collages voor op de verschillende tabbladen van de website. Nieuwe
+    collages zijn zo gemaakt door ieder teamlid van Being A Designer. Collages komen
+    terug in de hele stijl. <br></p><p class="p2"></p>
   colors:
     background: "#0096A1"
     title: "#FFFFFF"
