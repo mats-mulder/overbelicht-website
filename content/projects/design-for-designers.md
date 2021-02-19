@@ -34,14 +34,6 @@ content:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
-- template: project-high-image
-  colors:
-    background: "#D3E9DB"
-    title: "#004D5A"
-    text: "#004D5A"
-  title: Titel
-  description: "<p>Tekst</p>"
-  image: "/images/projectenpagina.png"
 - template: project-image-below
   image: ''
   title: Schilderen, scheuren, plakken
