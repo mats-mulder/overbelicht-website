@@ -32,6 +32,6 @@ contact:
     content: "<p>Zoutziederstraat 20<br>3026 EL<br>Rotterdam</p>"
   - title: Contact
     content: "<p>info@overbelicht.com<br>0611817099<br>Linkedin</p>"
-  image: "/images/contact_logo.png"
+  image: "/images/ob_afbeelding-homepage-23.png"
 
 ---
