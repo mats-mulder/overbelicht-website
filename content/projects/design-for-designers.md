@@ -8,8 +8,9 @@ customer: Being a Designer
 title: Samenwerken aan vernieuwing
 introduction: 'Being A Designer, een design thinking bureau uit Rotterdam, was toe
   aan een nieuw jasje. Een analyse van de gewenste uitstraling en bedrijfsidentiteit
-  vormden de basis voor de nieuwe huisstijl: een gloednieuw website design, social
-  media uitingen en drukwerk. '
+  vormden de basis voor de nieuwe huisstijl: een gloednieuw website design, sprekende
+  foto''s en elementen om al het digitale materiaal en drukwerk in de nieuwe stijl
+  te kunnen gieten.'
 image: "/images/1591728896495.jpg"
 content:
 - template: project-full-image
