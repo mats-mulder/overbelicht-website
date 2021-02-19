@@ -55,9 +55,12 @@ content:
   title: 3 collages
   image: "/images/collage-met-collages.jpg"
 - template: project-high-image
-  image: "/images/ob_3-fotos.png"
-  title: Plaatjes
-  description: "<p>Tekst</p>"
+  image: "/images/fotos-bad2.png"
+  title: Plaatjes schieten
+  description: "<p>De nieuwe stijl van Being A Designer werkt goed met foto's. Daarom
+    hebben wij ook de fotografie onder handen genomen. We fotografeerden het team
+    en de studio, maar liepen ook mee met verschillende design sprints en trainingen
+    om een database aan goed beeldmateriaal aan te leggen. </p>"
   colors:
     background: "#FFFFFF"
     title: "#004D5A"
