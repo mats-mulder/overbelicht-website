@@ -5,16 +5,23 @@ services:
 - Website
 - Fotografie
 customer: Being a Designer
-title: Werken aan een onbekende toekomst
-introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-  et quasi.
+title: Samenwerken aan vernieuwing
+introduction: 'Being A Designer, een design thinking bureau uit Rotterdam, was toe
+  aan een nieuw jasje. Een analyse van de gewenste uitstraling en bedrijfsidentiteit
+  vormden de basis voor de nieuwe huisstijl: een gloednieuw website design, social
+  media uitingen en drukwerk. '
 image: "/images/1591728896495.jpg"
 content:
+- template: project-full-image
+  image: "/images/ob_foto-andre-binnen.jpg"
+  title: Andre binnen
 - template: project-image-below
   image: "/images/screenshot-2021-02-14-at-19-04-16.png"
   title: De beste oplossing voor alle betrokkenen
-  description: "<p>Blabla tekst</p>"
+  description: "<p>In ieder project van Being A Designer is het leren van ontwerpvaardigheden
+    een belangrijk onderdeel, zodat organisaties zelf in staat zijn de beste oplossingen
+    voor ingewikkelde vraagstukken te vinden. Deze ontwerpvaardigheden komen terug
+    op de website en social media. </p>"
   colors:
     background: "#004D5A"
     title: "#FFFFFF"
@@ -22,21 +29,16 @@ content:
   left_or_right: false
 - template: project-image-right
   title: Collages creëren
-  description: "<p>Blabla tekst</p>"
+  description: "<p>Verfvegen, spetters en foto's - met de verschillende elementen
+    van de nieuwe huisstijl kun je gemakkelijk collages samenstellen. Wij maakten
+    de eerste voorbeelden, maar iedere ontwerper kan een nieuw en eigen verhaal vertellen
+    met zelf gecreëerde collages. </p>"
   image: "/images/verfveeg-brush.png"
   image_to_border: true
   colors:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
-- template: project-high-image
-  colors:
-    background: "#D3E9DB"
-    title: "#004D5A"
-    text: "#004D5A"
-  title: Titel
-  description: "<p>Tekst</p>"
-  image: "/images/projectenpagina.png"
 - template: project-image-below
   image: ''
   title: Schilderen, scheuren, plakken
@@ -73,18 +75,20 @@ content:
     background: "#FFFFFF"
     text: "#004D5A"
     dot: "#FDBB1E"
-- template: project-full-image
-  image: "/images/ob_foto-andre-binnen.jpg"
-  title: Andre binnen
 info:
 - title: Bekijk
   content: www.beingadesigner.com
 - title: De Vraag
-  content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-    et quasi.
+  content: Een breed toepasbare visuele identiteit. Uitstraling? Creatief, flexibel
+    en intuïtief. Being A Designer duikt samen met klanten in abstracte, vaak publieke
+    onderwerpen, om terug te komen met concrete oplossingen voor alle betrokkenen.
+    De hands-on werkwijze van Being A Designer moet niet alleen terugkomen op de website,
+    maar ook op social media, in video's, offertes met verhalen en workshopmaterialen.
+    Aanpakken dus!
 - title: Resultaat
-  content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-    doloremque laudantium.
+  content: 'Scheuren, knippen, combineren, plakken. In de trainingen en trajecten
+    van Being A Designer wordt intuïtief en vaak visueel gewerkt. De stijl bestaat
+    daarom uit verfvegen, scheurranden en spetters waarmee collages en verhalen verteld
+    kunnen worden. '
 
 ---
