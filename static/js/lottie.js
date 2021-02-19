@@ -23,8 +23,8 @@ const ScrollLottie = (obj) => {
     id: 'lottie',
     trigger: obj.target,
     scrub: true,
-    start: "top 65%",
-    end: "bottom 15%",
+    start: "top 75%",
+    end: "bottom 5%",
     onUpdate: self => {
       if(obj.duration) {
         gsap.to(timeObj, {

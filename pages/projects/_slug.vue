@@ -18,13 +18,13 @@
       <div class="row mt-4">
         <div class="col-12 col-md-10 col-lg-8 col-xl-7">
           <p class="mid-p">{{ project.introduction }}</p>
-          <div class="row" v-for="(item, index) in project.info" :class="{'mt-5': index === 0}">
+          <div class="row mb-3" v-for="(item, index) in project.info" :class="{'mt-5': index === 0}">
 
-            <div class="col-12 col-md-3">
-              <h5>{{ item.title }}</h5>
+            <div class="col-12 col-md-3" >
+              <h5 style="margin-bottom: 0; line-height: unset">{{ item.title }}</h5>
             </div>
             <div class="col-12 col-md-9" >
-              <p>{{ item.content }}</p>
+              <p style="margin-bottom: 0">{{ item.content }}</p>
             </div>
 
           </div>
@@ -170,6 +170,11 @@ export default {
 
 h1{
   color: var(--dark-purple);
+}
+
+h5{
+  color: var(--dark-purple);
+
 }
 
 p{
