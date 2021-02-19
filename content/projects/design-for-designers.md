@@ -29,8 +29,10 @@ content:
   left_or_right: false
 - template: project-image-right
   title: Collages creëren
-  description: "<p>Verfvegen en spetters - stel je collages samen heldere foto's en
-    deze elementen en vertel daarmee een nieuw verhaal.</p>"
+  description: "<p>Verfvegen, spetters en foto's - met de verschillende elementen
+    van de nieuwe huisstijl kun je gemakkelijk collages samenstellen. Wij maakten
+    de eerste voorbeelden, maar iedere ontwerper kan een nieuw en eigen verhaal vertellen
+    met zelf gecreëerde collages. </p>"
   image: "/images/verfveeg-brush.png"
   image_to_border: true
   colors:
