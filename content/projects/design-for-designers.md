@@ -80,7 +80,7 @@ content:
   left_or_right: false
   image: ''
 - template: project-full-image
-  image: "/images/0-studio-buiten-klein.jpg"
+  image: "/images/ob_-studio-buiten-9.jpg"
   title: BAD kantoor
 - template: project-website-link
   title: Bekijk de website
