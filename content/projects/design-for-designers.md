@@ -39,6 +39,9 @@ content:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
+- template: project-full-image
+  image: "/images/voorbeeldcollage.png"
+  title: Voorbeeldcollage
 - template: project-image-below
   image: ''
   title: Schilderen, scheuren, plakken
@@ -62,9 +65,6 @@ content:
 - template: project-full-image
   image: "/images/designsprint-foto-1.jpg"
   title: Sprintfoto
-- template: project-full-image
-  image: "/images/voorbeeldcollage.png"
-  title: Voorbeeldcollage
 - template: project-full-image
   image: "/images/0-studio-buiten-klein.jpg"
   title: BAD kantoor
