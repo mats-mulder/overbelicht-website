@@ -81,10 +81,12 @@ info:
 - title: Bekijk
   content: www.beingadesigner.com
 - title: De Vraag
-  content: Being A Designer was op zoek naar een nieuwe visuele identiteit. Een nieuwe
-    stijl, toepasbaar op een gloednieuwe website, social media en drukwerk. In deze
-    identiteit moet de creatieve, intuïtieve en flexibele manier van werken van dit
-    design thinking bureau naar voren komen.
+  content: Een breed toepasbare visuele identiteit. Uitstraling? Creatief, flexibel
+    en intuïtief. Being A Designer duikt samen met klanten in abstracte, vaak publieke
+    onderwerpen, om terug te komen met concrete oplossingen voor alle betrokkenen.
+    De hands-on werkwijze van Being A Designer moet niet alleen terugkomen op de website,
+    maar ook op social media, in video's, offertes met verhalen en workshopmaterialen.
+    Aanpakken dus!
 - title: Resultaat
   content: 'Een analyse van de gewenste uitstraling en bedrijfsidentiteit vormden
     de basis voor de nieuwe huisstijl: een gloednieuw website design, offerte & factuur
