@@ -30,10 +30,11 @@ content:
   left_or_right: false
 - template: project-image-right
   title: Collages creëren
-  description: "<p>Verfvegen, spetters en foto's - met de verschillende elementen
-    van de nieuwe huisstijl kun je gemakkelijk collages samenstellen. Wij maakten
-    de eerste voorbeelden, maar iedere ontwerper kan een nieuw en eigen verhaal vertellen
-    met zelf gecreëerde collages. </p>"
+  description: "<p>Foto’s, tekst en illustraties worden gecombineerd tot een collage
+    met gevoel van ‘craft’, door verschillende elementen te gebruiken zoals gescheurd
+    papier, verfvegen en speciale brushes. Wij maakten de eerste voorbeelden, maar
+    iedere ontwerper kan een nieuw en eigen verhaal vertellen met zelf gecreëerde
+    collages.</p>"
   image: "/images/verfveeg-brush.png"
   image_to_border: true
   colors:
