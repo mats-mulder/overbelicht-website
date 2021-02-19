@@ -69,7 +69,7 @@ content:
     text: "#FFFFFF"
 - template: project-full-image
   title: 3 collages
-  image: "/images/collage-met-collages2.jpg"
+  image: "/images/collage-met-collages3.jpg"
 - template: project-full-image
   image: "/images/0-studio-buiten-klein.jpg"
   title: BAD kantoor
