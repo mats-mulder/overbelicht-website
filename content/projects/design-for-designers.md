@@ -12,6 +12,9 @@ introduction: 'Being A Designer, een design thinking bureau uit Rotterdam, was t
   media uitingen en drukwerk. '
 image: "/images/1591728896495.jpg"
 content:
+- template: project-full-image
+  image: "/images/ob_foto-andre-binnen.jpg"
+  title: Andre binnen
 - template: project-image-below
   image: "/images/screenshot-2021-02-14-at-19-04-16.png"
   title: De beste oplossing voor alle betrokkenen
@@ -23,7 +26,8 @@ content:
   left_or_right: false
 - template: project-image-right
   title: Collages creëren
-  description: "<p>Blabla tekst</p>"
+  description: "<p>Verfvegen en spetters - stel je collages samen heldere foto's en
+    deze elementen en vertel daarmee een nieuw verhaal.</p>"
   image: "/images/verfveeg-brush.png"
   image_to_border: true
   colors:
@@ -74,9 +78,6 @@ content:
     background: "#FFFFFF"
     text: "#004D5A"
     dot: "#FDBB1E"
-- template: project-full-image
-  image: "/images/ob_foto-andre-binnen.jpg"
-  title: Andre binnen
 info:
 - title: Bekijk
   content: www.beingadesigner.com
