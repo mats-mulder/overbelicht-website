@@ -44,6 +44,17 @@ content:
 - template: project-full-image
   image: "/images/voorbeeldcollage.png"
   title: Voorbeeldcollage
+- template: project-high-image
+  image: "/images/fotos-bad2.png"
+  title: Plaatjes schieten
+  description: "<p>De nieuwe stijl van Being A Designer werkt goed met foto's. Daarom
+    hebben wij ook de fotografie onder handen genomen. We fotografeerden het team
+    en de studio, maar liepen ook mee met verschillende design sprints en trainingen
+    om een database aan goed beeldmateriaal aan te leggen. </p>"
+  colors:
+    background: "#FFFFFF"
+    title: "#004D5A"
+    text: "#004D5A"
 - template: project-image-below
   image: ''
   title: Schilderen, scheuren, combineren, plakken
@@ -59,20 +70,6 @@ content:
 - template: project-full-image
   title: 3 collages
   image: "/images/collage-met-collages2.jpg"
-- template: project-high-image
-  image: "/images/fotos-bad2.png"
-  title: Plaatjes schieten
-  description: "<p>De nieuwe stijl van Being A Designer werkt goed met foto's. Daarom
-    hebben wij ook de fotografie onder handen genomen. We fotografeerden het team
-    en de studio, maar liepen ook mee met verschillende design sprints en trainingen
-    om een database aan goed beeldmateriaal aan te leggen. </p>"
-  colors:
-    background: "#FFFFFF"
-    title: "#004D5A"
-    text: "#004D5A"
-- template: project-full-image
-  image: "/images/designsprint-foto-1.jpg"
-  title: Sprintfoto
 - template: project-full-image
   image: "/images/0-studio-buiten-klein.jpg"
   title: BAD kantoor
