@@ -58,7 +58,7 @@ content:
     text: "#FFFFFF"
 - template: project-full-image
   title: 3 collages
-  image: "/images/collage-met-collages.jpg"
+  image: "/images/collage-met-collages2.jpg"
 - template: project-high-image
   image: "/images/fotos-bad2.png"
   title: Plaatjes schieten
