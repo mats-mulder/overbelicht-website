@@ -7,9 +7,9 @@ introduction:
   image: "/images/light_purple_strokes.png"
 visie:
   title: Denken, ontwerpen, bouwen
-  introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi
+  introduction: "Een website bouwen zonder strategie? Een advies geven zonder uitwerking?
+    \nWat geloven in een totaalaanpak. De beste ideeën ontstaan namelijk wanneer je
+    betrokken bent bij het gehele proces."
   subtext:
   - title: Denken
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
