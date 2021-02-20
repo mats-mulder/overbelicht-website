@@ -36,5 +36,8 @@ content:
     background: "#FFFFFF"
     title: "#160046"
     text: "#160046"
+- template: project-full-image
+  image: "/images/ob_foto-paddenstoel.png"
+  title: Paddenstoel
 
 ---
