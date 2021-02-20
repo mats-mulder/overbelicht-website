@@ -18,9 +18,10 @@ visie:
       de kern van jullie vraag.
     slogan: het probleem door en door leren kennen
   - title: Ontwerpen
-    description: 'In de ontwerpfase combineren we de inzichten uit stap 1 met onze
-      kennis en expertise op het gebied van design en innovatie. We zijn experts in
-      het omzetten van abstracte ideeën naar prachtige visuele designs. '
+    description: 'Nu is het tijd om de abstracte inzichten om te zetten in concrete
+      ideeën. Daarbij helpt onze kennis en expertise op het gebied van design en innovatie
+      ons om de juiste keuzes te maken. En het belangrijkste: onze uiteindelijke ontwerpen
+      zijn een lust voor het oog!'
     slogan: kennis en expertise om de juiste keuzes te maken
   - title: Bouwen
     description: 'Daarbij is het vooral van belang om de juiste keuzes te maken: wat
