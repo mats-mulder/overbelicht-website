@@ -37,10 +37,19 @@ content:
     title: "#160046"
     text: "#160046"
 - template: project-full-image
-  image: "/images/ob_foto-paddenstoel.png"
-  title: Paddenstoel
-- template: project-full-image
   image: "/images/home-section.png"
   title: Home section
+- template: project-image-below
+  image: "/images/sectie-landgoederen.png"
+  title: Jarenlange ervaring
+  description: "<p>Tekst</p>"
+  left_or_right: false
+  colors:
+    background: "#FFFFFF"
+    title: "#160046"
+    text: "#160046"
+- template: project-full-image
+  image: "/images/ob_foto-paddenstoel.png"
+  title: Paddenstoel
 
 ---
