@@ -43,7 +43,7 @@ content:
   image: "/images/sectie-landgoederen.png"
   title: Jarenlange ervaring
   description: "<p>Tekst</p>"
-  left_or_right: false
+  left_or_right: true
   colors:
     background: "#FFFFFF"
     title: "#160046"
