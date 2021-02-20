@@ -26,6 +26,6 @@ content:
     background: "#B7B7B7"
     title: "#160046"
     text: "#160046"
-  image: ''
+  image: "/images/ob_home-perspectief.png"
 
 ---
