@@ -23,7 +23,7 @@ const ScrollLottie = (obj) => {
     id: 'lottie',
     trigger: obj.target,
     scrub: true,
-    start: "top 75%",
+    start: "top 65%",
     end: "bottom 5%",
     onUpdate: self => {
       if(obj.duration) {

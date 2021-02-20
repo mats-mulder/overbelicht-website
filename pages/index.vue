@@ -5,6 +5,7 @@
 
     <nuxt-link id="about-link" to="/about">about</nuxt-link>
 
+    <!-- INTRODUCTION -->
     <div class="container-fluid" style="padding-top: 35vh" id="introduction">
       <div class="row">
         <div class="col-12 col-md-10 col-lg-8 offset-lg-3 col-xl-6 offset-xl-5">
@@ -20,27 +21,27 @@
     </div>
 
 
-
+    <!-- VISIE -->
     <div class="container-fluid" style="padding-top: 60vh" id="visie">
       <div class="row">
-        <div class="col-12 col-md-8 offset-md-1 offset-xl-2">
+        <div class="col-12 col-md-8 offset-md-1 offset-xl-1">
           <h1>{{ content.visie.title }}</h1>
         </div>
       </div>
       <div class="row mt-3">
-        <div class="col-12 col-md-7 col-xl-5 offset-md-1 offset-xl-2">
+        <div class="col-12 col-md-7 col-xl-6 offset-md-1 offset-xl-1">
           <p class="mid-p">{{ content.visie.introduction }}</p>
         </div>
       </div>
-      <div class="row" style="margin-top: 6vh">
-        <div class="col-12 col-md-5 col-lg-5 col-xl-4 offset-md-1 offset-xl-2">
+      <div class="row" style="margin-top: 4vh">
+        <div class="col-12 col-md-5 col-lg-5 col-xl-5 offset-md-1 offset-xl-1">
           <div class="row" >
             <div class="col-12 mt-2" style="display: flex" v-for="item in content.visie.subtext">
-              <div style="flex: 15%">
+              <div style="flex: 8%">
                 <div class="round-icon"></div>
               </div>
-              <div style="flex: 85%">
-                <h3 class="mt-2">{{ item.title }}</h3>
+              <div style="flex: 92%">
+                <h4 class="mt-2">{{ item.title + ': ' }}<span style="font-weight: 500">{{ item.slogan }}</span></h4>
                 <p>{{ item.description }}</p>
               </div>
             </div>
@@ -54,11 +55,15 @@
     </div>
 
 
+    <!-- PROJECTS -->
     <section id="projects">
       <Project v-for="project in projects" :project="project"></Project>
     </section>
 
+
+    <!-- CONTACT -->
     <Contact :content="content.contact"></Contact>
+
 
   </div>
 </template>
@@ -127,6 +132,10 @@ export default {
 
   body{
     background-color: white;
+  }
+
+  h2{
+    color: var(--dark-purple);
   }
 
   h4{
@@ -214,8 +223,8 @@ export default {
   }
 
   .round-icon{
-    width: 5vh;
-    height: 5vh;
+    width: 4vh;
+    height: 4vh;
     margin-top: 0.5vh;
     background-color: var(--yellow);
     border-radius: 100px;
@@ -235,9 +244,22 @@ export default {
     right: 0;
     margin: 2vh;
     font-family: Gilroy;
+    font-weight: bold;
     color: var(--dark-purple);
     font-size: 2.4vh;
     z-index: 501;
+  }
+
+  a{
+    color: var(--dark-purple);
+  }
+
+  a:hover{
+    color: var(--dark-purple);
+  }
+
+  #animation{
+    margin-top: -7vh;
   }
 
 

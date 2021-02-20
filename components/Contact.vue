@@ -45,6 +45,7 @@ h5{
   color: white;
 }
 
+
 #contact-logo-holder{
   width: 100%;
   height: 400px;

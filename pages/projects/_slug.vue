@@ -111,7 +111,7 @@
               <h3 :style="{color: section.colors.text}" style="float: left">{{ section.title }}</h3>
               <div style="float: left">
                 <div style="float: left" :style="{backgroundColor: section.colors.dot}" class="small-round"></div>
-                <h3 style="float: left" :style="{color: section.colors.text}" >{{ section.link }}</h3>
+                <h3 style="float: left" ><a :style="{color: section.colors.text}" target="_blank" :href="'http://'+section.link">{{ section.link }}</a></h3>
               </div>
             </div>
           </div>
@@ -187,6 +187,7 @@ p{
 
 .back-link{
   color: var(--dark-purple);
+  font-weight: bold;
 }
 
 .full-image-holder{
@@ -241,6 +242,8 @@ p{
   margin-right: 1vh;
   margin-top: 0.5vh;
 }
+
+
 
 .high-image{
   position: absolute;

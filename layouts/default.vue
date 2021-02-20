@@ -39,6 +39,18 @@ body{
   }
 
   @font-face {
+    font-family: Gilroy;
+    font-weight: normal;
+    src: url(/fonts/Gilroy-Regular.otf);
+  }
+
+  @font-face {
+    font-family: Gilroy;
+    font-weight: 500;
+    src: url(/fonts/Gilroy-Medium.otf);
+  }
+
+  @font-face {
     font-family: avenir;
     src: url(/fonts/Avenir-Light-07.ttf);
   }
@@ -79,7 +91,7 @@ body{
     font-family: Gilroy;
     font-weight: bold;
     color: white;
-    font-size: 2.5rem;
+    font-size: 5vh;
   }
 
   h3{
@@ -136,6 +148,7 @@ body{
     font-size: 2.5vh;
     color: var(--yellow);
     font-family: Gilroy;
+    font-weight: bold;
   }
 
   .back-link:hover{

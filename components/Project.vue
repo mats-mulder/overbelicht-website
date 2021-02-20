@@ -79,6 +79,10 @@ export default {
     object-fit: cover;
   }
 
+  button:focus{
+    outline: 0px!important;
+  }
+
   @media only screen and (max-width: 576px) {
 
   }
