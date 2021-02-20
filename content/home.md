@@ -11,7 +11,7 @@ visie:
     \nWat geloven in een totaalaanpak. De beste ideeën ontstaan namelijk wanneer je
     betrokken bent bij het gehele proces."
   subtext:
-  - title: Denken
+  - title: 'Denken: het probleem door en door leren kennen'
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation.
