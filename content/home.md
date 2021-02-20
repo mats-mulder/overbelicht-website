@@ -19,14 +19,13 @@ visie:
       We stoppen pas als we aan zijn gekomen bij de kern van jullie vraag.
     slogan: het probleem door en door leren kennen
   - title: Ontwerpen
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation.
-    slogan: kennis en inzicht om de juiste keuzes te maken
+    description: 'In de ontwerpfase combineren we de inzichten uit stap 1 met onze
+      kennis en expertise op het gebied van design en innovatie. We zijn experts in
+      het omzetten van abstracte ideeën naar prachtige visuele designs. '
+    slogan: kennis en expertise om de juiste keuzes te maken
   - title: Bouwen
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation.
+    description: 'Daarbij is het vooral van belang om de juiste keuzes te maken: wat
+      gaan we maken en wat niet? En welke bestaande middelen kunnen we gebruiken? '
     slogan: de ervaring om dingen goed te maken
 contact:
   title: Samenwerken?
