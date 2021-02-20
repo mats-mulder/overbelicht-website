@@ -1,12 +1,12 @@
 ---
-index: 3
+index: 2
 services:
 - Huisstijl
 - Website
 - Fotografie
 customer: Perspectief
 title: De tuin tentoonstellen
-image: ''
+image: "/images/ob_foto-bij.png"
 introduction: leuke tekst
 info:
 - title: Bekijk
