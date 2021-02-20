@@ -19,5 +19,13 @@ content:
 - template: project-full-image
   title: Ernst in tuin
   image: "/images/ob_foto-ernst.png"
+- template: project-high-image
+  title: Opknapbeurt
+  description: "<p>tekst</p>"
+  colors:
+    background: "#B7B7B7"
+    title: "#160046"
+    text: "#160046"
+  image: ''
 
 ---
