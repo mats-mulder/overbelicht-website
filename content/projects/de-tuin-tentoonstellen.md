@@ -15,6 +15,9 @@ info:
   content: x
 - title: Resultaat
   content: x
-content: []
+content:
+- template: project-full-image
+  title: Ernst in tuin
+  image: "/images/ob_foto-ernst.png"
 
 ---
