@@ -26,8 +26,8 @@ visie:
   - title: Bouwen
     description: 'Nu komt alles samen: we zetten de inzichten en ontwerpen om in concrete
       vernieuwing. Daarbij vinden we het belangrijk om niet één tool of taal te gebruiken
-      voor al onze klanten, maar maken we dé perfect match tussen probleem en techniek.
-      Alleen zo leggen we het juiste fundament voor jouw digitale toekomst.'
+      voor al onze klanten, maar kiezen we juiste techniek voor jouw probleem. Alleen
+      zo leggen we het juiste fundament voor jouw digitale toekomst.'
     slogan: een sterke implementatie door ervaring
 contact:
   title: Samenwerken?
