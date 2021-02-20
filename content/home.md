@@ -24,9 +24,12 @@ visie:
       zijn een lust voor het oog!'
     slogan: kennis en expertise om de juiste keuzes te maken
   - title: Bouwen
-    description: 'Daarbij is het vooral van belang om de juiste keuzes te maken: wat
-      gaan we maken en wat niet? En welke bestaande middelen kunnen we gebruiken? '
-    slogan: de ervaring om dingen goed te maken
+    description: 'In deze stap komt alles samen: we zetten de inzichten en ontwerpen
+      om in concrete vernieuwing. Daarbij vinden we het belangrijk om niet één tool
+      of taal te gebruiken voor al onze klanten, maar maken we dé perfect match tussen
+      probleem en techniek. Alleen zo leggen we het juiste fundament voor jouw digitale
+      toekomst.'
+    slogan: een sterke implementatie door ervaring
 contact:
   title: Samenwerken?
   introduction: Heb je een goed idee of een ingewikkeld digitaal vraagstuk? We gaan
