@@ -52,6 +52,11 @@ fields:
       config:
         required: true
       label: Title
+    - name: slogan
+      type: text
+      config:
+        required: true
+      label: Slogan
     - name: description
       type: textarea
       default: ''
