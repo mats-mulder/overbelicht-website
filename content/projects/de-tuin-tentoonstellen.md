@@ -9,6 +9,8 @@ title: De tuin tentoonstellen
 image: ''
 introduction: leuke tekst
 info:
+- title: Bekijk
+  content: www.tuinenlandschapsdokter.nl
 - title: De vraag
   content: x
 - title: Resultaat
