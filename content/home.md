@@ -13,9 +13,9 @@ visie:
   subtext:
   - title: Denken
     description: Centraal in onze aanpak staat een sterk analytisch proces. Jullie
-      bedrijf, uitdagingen en markt leren is namelijk ven essentieel belang om een
-      goed ontwerp neer te zetten. We stoppen pas als we aan zijn gekomen bij de kern
-      van jullie vraag.
+      bedrijf, uitdagingen en markt leren kennen is namelijk ven essentieel belang
+      om een goed ontwerp neer te zetten. We stoppen pas als we aan zijn gekomen bij
+      de kern van jullie vraag.
     slogan: het probleem door en door leren kennen
   - title: Ontwerpen
     description: 'In de ontwerpfase combineren we de inzichten uit stap 1 met onze
