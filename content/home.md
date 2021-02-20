@@ -24,11 +24,10 @@ visie:
       het oog!
     slogan: kennis en expertise om de juiste keuzes te maken
   - title: Bouwen
-    description: 'In deze stap komt alles samen: we zetten de inzichten en ontwerpen
-      om in concrete vernieuwing. Daarbij vinden we het belangrijk om niet één tool
-      of taal te gebruiken voor al onze klanten, maar maken we dé perfect match tussen
-      probleem en techniek. Alleen zo leggen we het juiste fundament voor jouw digitale
-      toekomst.'
+    description: 'Nu komt alles samen: we zetten de inzichten en ontwerpen om in concrete
+      vernieuwing. Daarbij vinden we het belangrijk om niet één tool of taal te gebruiken
+      voor al onze klanten, maar maken we dé perfect match tussen probleem en techniek.
+      Alleen zo leggen we het juiste fundament voor jouw digitale toekomst.'
     slogan: een sterke implementatie door ervaring
 contact:
   title: Samenwerken?
