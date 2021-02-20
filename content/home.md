@@ -11,18 +11,21 @@ visie:
     \nWat geloven in een totaalaanpak. De beste ideeën ontstaan namelijk wanneer je
     betrokken bent bij het gehele proces."
   subtext:
-  - title: 'Denken: het probleem door en door leren kennen'
+  - title: Denken
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation.
-  - title: 'Ontwerpen: kennis en inzicht om de juiste keuzes te maken'
+    slogan: het probleem door en door leren kennen
+  - title: Ontwerpen
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation.
-  - title: 'Bouwen: de ervaring om dingen goed te maken'
+    slogan: kennis en inzicht om de juiste keuzes te maken
+  - title: Bouwen
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation.
+    slogan: de ervaring om dingen goed te maken
 contact:
   title: Samenwerken?
   introduction: Heb je een goed idee of een ingewikkeld digitaal vraagstuk? We gaan
