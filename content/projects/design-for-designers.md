@@ -5,7 +5,7 @@ services:
 - Website
 - Fotografie
 customer: Being a Designer
-title: Samenwerken aan vernieuwing
+title: Design voor designers
 introduction: 'Being A Designer, een design thinking bureau uit Rotterdam, was toe
   aan een nieuw jasje. Een analyse van de gewenste uitstraling en bedrijfsidentiteit
   vormden de basis voor de nieuwe huisstijl: een gloednieuw website design, sprekende
