@@ -51,5 +51,14 @@ content:
 - template: project-full-image
   image: "/images/ob_foto-paddenstoel.png"
   title: Paddenstoel
+- template: project-image-below
+  title: In de details
+  image: "/images/logo-perspectief.png"
+  description: "<p>Tekst</p>"
+  colors:
+    background: "#FFFFFF"
+    title: "#160046"
+    text: "#160046"
+  left_or_right: false
 
 ---
