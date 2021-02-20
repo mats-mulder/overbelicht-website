@@ -20,7 +20,7 @@
 
     </div>
     <div class="container-fluid p-0" id="contact-logo-holder">
-      <img class="img-fluid" src="/assets/contact_logo.png" id="contact-logo">
+      <img class="img-fluid" :src="content.image" id="contact-logo">
     </div>
 
   </section>
