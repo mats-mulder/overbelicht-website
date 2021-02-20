@@ -12,11 +12,10 @@ visie:
     betrokken bent bij het gehele proces."
   subtext:
   - title: Denken
-    description: Centraal in onze aanpak staat een sterk analytisch proces. Om een
-      goed ontwerp neer te zetten is het namelijk van ongekend belang om jullie bedrijf
-      en de uitdagingen waarvoor jullie staan door en door te begrijpen. We duiken
-      niet alleen in wie jullie zijn, maar ook in de markt waarin jullie opereren.
-      We stoppen pas als we aan zijn gekomen bij de kern van jullie vraag.
+    description: Centraal in onze aanpak staat een sterk analytisch proces. Jullie
+      bedrijf, uitdagingen en markt leren is namelijk ven essentieel belang om een
+      goed ontwerp neer te zetten. We stoppen pas als we aan zijn gekomen bij de kern
+      van jullie vraag.
     slogan: het probleem door en door leren kennen
   - title: Ontwerpen
     description: 'In de ontwerpfase combineren we de inzichten uit stap 1 met onze
