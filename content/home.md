@@ -12,9 +12,11 @@ visie:
     betrokken bent bij het gehele proces."
   subtext:
   - title: Denken
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation.
+    description: Centraal in onze aanpak staat een sterk analytisch proces. Om een
+      goed ontwerp neer te zetten is het namelijk van ongekend belang om jullie bedrijf
+      en de uitdagingen waarvoor jullie staan door en door te begrijpen. We duiken
+      niet alleen in wie jullie zijn, maar ook in de markt waarin jullie opereren.
+      We stoppen pas als we aan zijn gekomen bij de kern van jullie vraag.
     slogan: het probleem door en door leren kennen
   - title: Ontwerpen
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
