@@ -39,5 +39,8 @@ content:
 - template: project-full-image
   image: "/images/ob_foto-paddenstoel.png"
   title: Paddenstoel
+- template: project-full-image
+  image: "/images/home-section.png"
+  title: Home section
 
 ---
