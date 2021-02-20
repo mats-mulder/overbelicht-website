@@ -18,10 +18,10 @@ visie:
       de kern van jullie vraag.
     slogan: het probleem door en door leren kennen
   - title: Ontwerpen
-    description: 'Nu is het tijd om de abstracte inzichten om te zetten in concrete
+    description: Nu is het tijd om de abstracte inzichten om te zetten in concrete
       ideeën. Daarbij helpt onze kennis en expertise op het gebied van design en innovatie
-      ons om de juiste keuzes te maken. En het belangrijkste: onze uiteindelijke ontwerpen
-      zijn een lust voor het oog!'
+      ons om de juiste keuzes te maken. Onze ontwerpen zijn vernieuwend, uniek, maar
+      bovenal, een lust voor het oog!
     slogan: kennis en expertise om de juiste keuzes te maken
   - title: Bouwen
     description: 'In deze stap komt alles samen: we zetten de inzichten en ontwerpen
