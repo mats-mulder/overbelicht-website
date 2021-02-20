@@ -27,5 +27,14 @@ content:
     title: "#160046"
     text: "#160046"
   image: "/images/ob_home-perspectief.png"
+- template: project-image-right
+  image: "/images/ob_kleuren-perspectief.png"
+  title: "(Vooral) natuurtintent"
+  description: "<p>Tekst</p>"
+  image_to_border: true
+  colors:
+    background: "#FFFFFF"
+    title: "#160046"
+    text: "#160046"
 
 ---
