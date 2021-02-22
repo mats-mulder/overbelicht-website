@@ -1,11 +1,11 @@
 ---
-index: 1
+index: 3
 services:
 - Huisstijl
 - Website
 - Fotografie
 customer: The Energy Boutique
-title: Projectuitleg in duidelijke titel
+title: Een compleet nieuwe uitstraling
 introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium, totam rem aperiam, eaqeeue ipsa quae ab illo inventore veritatis
   et quasi.
@@ -22,9 +22,9 @@ content:
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum</p>"
   image: "/images/pallette.png"
-  image_to_border: false
+  image_to_border: true
   colors:
-    background: "#FFFFFF"
+    background: "#CD2626"
     title: "#000000"
     text: "#000000"
 - template: project-high-image
@@ -61,7 +61,7 @@ content:
     background: "#FFFFFF"
     title: "#000000"
     text: "#000000"
-  left_or_right: true
+  left_or_right: false
 - template: project-website-link
   title: Bekijk de website
   link: www.perspectief.nl
