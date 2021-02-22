@@ -48,9 +48,6 @@ content:
     background: "#FFFFFF"
     title: "#160046"
     text: "#160046"
-- template: project-full-image
-  image: "/images/ob_foto-paddenstoel.png"
-  title: Paddenstoel
 - template: project-image-below
   title: In de details
   image: "/images/logo-perspectief.png"
@@ -60,5 +57,16 @@ content:
     title: "#160046"
     text: "#160046"
   left_or_right: false
+- template: project-full-image
+  image: "/images/ob_foto-paddenstoel.png"
+  title: Paddenstoel
+- template: project-high-image
+  image: "/images/ob_fotos-perspectief.png"
+  title: Plaatjes om bij weg te dromen
+  description: "<p>tekst</p>"
+  colors:
+    background: "#EAEAEA"
+    title: "#160046"
+    text: "#160046"
 
 ---
