@@ -68,5 +68,12 @@ content:
     background: "#EAEAEA"
     title: "#160046"
     text: "#160046"
+- template: project-website-link
+  title: Bekijk de website
+  link: www.tuinenlandschapsdokter.nl
+  colors:
+    background: "#FFFFFF"
+    text: "#160046"
+    dot: "#FFF5C1"
 
 ---
