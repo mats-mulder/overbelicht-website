@@ -63,7 +63,7 @@ content:
 - template: project-high-image
   image: "/images/ob_fotos-perspectief.png"
   title: Plaatjes om bij weg te dromen
-  description: "<p>tekst</p>"
+  description: "<p>Tekst</p>"
   colors:
     background: "#EAEAEA"
     title: "#160046"
