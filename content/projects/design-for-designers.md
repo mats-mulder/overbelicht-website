@@ -72,14 +72,14 @@ content:
     text: "#FFFFFF"
   image_full_width: true
 - template: project-image-below
-  title: Iets hier
+  title: Ruimte voor de tekeningen van André
   description: "<p>Iets hier</p>"
   colors:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
-  left_or_right: false
-  image: ''
+  left_or_right: true
+  image: "/images/tekening-andre.jpg"
   image_full_width: false
 - template: project-full-image
   image: "/images/ob_-studio-buiten-9.jpg"
