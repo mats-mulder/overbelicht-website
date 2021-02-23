@@ -72,7 +72,7 @@ content:
     text: "#FFFFFF"
   image_full_width: true
 - template: project-image-right
-  title: Ruimte voor de tekeningen van André
+  title: Ruimte voor eigen creativiteit
   description: "<p>Tekst</p>"
   image: "/images/tekening-andre.jpg"
   colors:
