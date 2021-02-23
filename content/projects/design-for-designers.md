@@ -53,7 +53,7 @@ content:
   description: "<p>De nieuwe stijl van Being A Designer werkt goed met foto's. Daarom
     hebben wij ook de fotografie onder handen genomen. We fotografeerden het team
     en de studio, maar liepen ook mee met verschillende design sprints en trainingen
-    om een database aan goed beeldmateriaal aan te leggen. </p>"
+    om een database aan scherp en kwalitatief beeldmateriaal aan te leggen.</p>"
   colors:
     background: "#FFFFFF"
     title: "#004D5A"
@@ -62,10 +62,9 @@ content:
   image: "/images/collage-met-collages3.jpg"
   title: Schilderen, scheuren, combineren, plakken
   left_or_right: true
-  description: <p>Een foto, een blauwe filter, gele spetters en een witte stift. Hiermee
-    maakten we collages voor op de verschillende tabbladen van de website. Nieuwe
-    collages zijn zo gemaakt door ieder teamlid van Being A Designer. Collages komen
-    terug in de hele stijl. <br></p><p class="p2"></p>
+  description: "<p>Een foto, een blauwe filter, gele spetters en een witte stift.
+    Hiermee maakten we collages voor op de verschillende tabbladen van de website.
+    Nieuwe collages zijn zo gemaakt door ieder teamlid van Being A Designer. </p>"
   colors:
     background: "#0096A1"
     title: "#FFFFFF"
