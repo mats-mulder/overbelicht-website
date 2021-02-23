@@ -13,6 +13,7 @@ content:
 - template: project-full-image
   title: Ernst in de tuin
   image: "/images/IMGP4846.jpg"
+  width_or_height: true
 - template: project-image-right
   title: Een vertrouwde uitstraling
   description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -62,6 +63,7 @@ content:
     title: "#000000"
     text: "#000000"
   left_or_right: false
+  image_full_width: false
 - template: project-website-link
   title: Bekijk de website
   link: www.perspectief.nl
@@ -80,5 +82,6 @@ info:
 - title: Resultaat
   content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
     doloremque laudantium.
+active: false
 
 ---
