@@ -5,7 +5,7 @@ services:
 - Website
 - Fotografie
 customer: Perspectief
-title: De tuin tentoonstellen
+title: Digitaal schoffelen
 image: "/images/ob_foto-bij.png"
 introduction: leuke tekst
 info:
@@ -19,6 +19,7 @@ content:
 - template: project-full-image
   title: Ernst in tuin
   image: "/images/ob_foto-ernst.png"
+  width_or_height: false
 - template: project-high-image
   title: Opknapbeurt
   description: "<p>tekst</p>"
@@ -39,6 +40,7 @@ content:
 - template: project-full-image
   image: "/images/home-section.png"
   title: Home section
+  width_or_height: false
 - template: project-image-below
   image: "/images/sectie-landgoederen.png"
   title: Jarenlange ervaring
@@ -62,6 +64,7 @@ content:
 - template: project-full-image
   image: "/images/ob_foto-paddenstoel.png"
   title: Paddenstoel
+  width_or_height: false
 - template: project-high-image
   image: "/images/ob_fotos-perspectief.png"
   title: Plaatjes om bij weg te dromen
