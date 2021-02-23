@@ -6,11 +6,9 @@ services:
 - Fotografie
 customer: Being a Designer
 title: Design voor designers
-introduction: 'Being A Designer, een design thinking bureau uit Rotterdam, was toe
-  aan een nieuw jasje. Een analyse van de gewenste uitstraling en bedrijfsidentiteit
-  vormden de basis voor de nieuwe huisstijl: een gloednieuw website design, sprekende
-  foto''s en elementen om al het digitale materiaal en drukwerk in de nieuwe stijl
-  te kunnen gieten.'
+introduction: Hoe ontwerp je een nieuwe stijl voor de meest kritische ogen - van designers
+  zelf? Wij gingen aan de slag om het dynamische en creatieve karakter van Being A
+  Designer te vangen in een nieuwe identiteit.
 image: "/images/1591728896495.jpg"
 content:
 - template: project-full-image
