@@ -17,7 +17,7 @@ content:
   width_or_height: true
 - template: project-image-below
   image: "/images/screenshot-2021-02-14-at-19-04-16.png"
-  title: De beste oplossing voor alle betrokkenen
+  title: Flexibele website voor een flexibele business
   description: "<p>In ieder project van Being A Designer is het leren en toepassen
     van ontwerpvaardigheden een belangrijk onderdeel. Zo zijn organisaties zelf in
     staat de beste oplossingen voor ingewikkelde vraagstukken te vinden. Toch is elke
@@ -33,10 +33,10 @@ content:
 - template: project-image-right
   title: Collages creëren
   description: "<p>Foto’s, tekst en illustraties worden gecombineerd tot een collage
-    met gevoel van ‘craft’, door verschillende elementen te gebruiken zoals gescheurd
-    papier, verfvegen en speciale brushes. Wij maakten de eerste voorbeelden, maar
-    iedere ontwerper kan een nieuw en eigen verhaal vertellen met zelf gecreëerde
-    collages.</p>"
+    met gevoel van ‘craft’. Door verschillende elementen te gebruiken zoals gescheurd
+    papier, verfvegen en speciale brushes komt de hands-on aanpak van Being A Designer
+    terug in de stijl. Met deze elementen kan iedere ontwerper een nieuw en eigen
+    verhaal vertellen met zelf gecreëerde collages.</p>"
   image: "/images/verfveeg-brush.png"
   image_to_border: true
   colors:
