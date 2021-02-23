@@ -71,16 +71,15 @@ content:
     title: "#FFFFFF"
     text: "#FFFFFF"
   image_full_width: true
-- template: project-image-below
+- template: project-image-right
   title: Ruimte voor de tekeningen van André
-  description: "<p>Iets hier</p>"
+  description: "<p>Tekst</p>"
+  image: "/images/tekening-andre.jpg"
   colors:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
-  left_or_right: true
-  image: "/images/tekening-andre.jpg"
-  image_full_width: false
+  image_to_border: false
 - template: project-full-image
   image: "/images/ob_-studio-buiten-9.jpg"
   title: BAD kantoor
