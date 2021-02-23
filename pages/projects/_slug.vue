@@ -36,7 +36,10 @@
 
       <!-- FULL IMAGE-->
       <div class="container-fluid p-0 project-full-image-holder" v-if="section.template === 'project-full-image'">
-        <img class="img-fluid project-full-image" :src="section.image">
+        <div v-if="section['width_or_height'] === true" class="project-full-image-holder">
+          <img class="img-fluid project-full-image" :src="section.image">
+        </div>
+        <img v-if="section['width_or_height'] === false" class="img-fluid project-full-image-width" :src="section.image">
       </div>
 
       <!-- IMAGE RIGHT -->
@@ -99,8 +102,9 @@
               <div :style="{color: section.colors.text}" class="mt-5 text-color-container" v-html="section.description"></div>
             </div>
           </div>
-          <img class="img-fluid mt-5" :src="section.image">
+          <img v-if="section['image_full_width'] === false" class="img-fluid mt-5" :src="section.image">
         </div>
+        <img style="width: 100%" v-if="section['image_full_width'] === true" class="img-fluid" :src="section.image">
       </div>
 
       <!-- WEBSITE LINK -->
@@ -223,6 +227,10 @@ p{
   min-width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.project-full-image-width{
+  width: 100%;
 }
 
 .high-image-background{

@@ -57,7 +57,7 @@
 
     <!-- PROJECTS -->
     <section id="projects">
-      <Project v-for="project in projects" :project="project"></Project>
+      <Project v-if="project.active === true" v-for="project in projects" :project="project"></Project>
     </section>
 
 
@@ -259,7 +259,9 @@ export default {
   }
 
   #animation{
-    margin-top: -7vh;
+    margin-top: -10%;
+    max-width: 600px;
+
   }
 
 
