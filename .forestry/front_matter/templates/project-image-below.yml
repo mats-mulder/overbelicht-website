@@ -20,6 +20,9 @@ fields:
 - name: left_or_right
   type: boolean
   label: Left or Right
+- name: image_full_width
+  type: boolean
+  label: Image full width
 - name: image
   type: file
   config:
