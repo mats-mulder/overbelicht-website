@@ -57,7 +57,7 @@ content:
     title: "#004D5A"
     text: "#004D5A"
 - template: project-image-below
-  image: ''
+  image: "/images/collage-met-collages3.jpg"
   title: Schilderen, scheuren, combineren, plakken
   left_or_right: true
   description: <p>Een foto, een blauwe filter, gele spetters en een witte stift. Hiermee
@@ -68,10 +68,7 @@ content:
     background: "#0096A1"
     title: "#FFFFFF"
     text: "#FFFFFF"
-  image_full_width: false
-- template: project-full-image
-  title: 3 collages
-  image: "/images/collage-met-collages3.jpg"
+  image_full_width: true
 - template: project-image-below
   title: Iets hier
   description: "<p>Iets hier</p>"
