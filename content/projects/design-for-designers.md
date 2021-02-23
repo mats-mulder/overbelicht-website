@@ -30,6 +30,21 @@ content:
     text: "#FFFFFF"
   left_or_right: false
   image_full_width: false
+- template: project-image-below
+  title: Flexibele website voor een flexibele business
+  image: "/images/designsprint-foto-2.jpg"
+  image_full_width: true
+  colors:
+    background: "#FFFFFF"
+    title: "#004D5A"
+    text: "#004D5A"
+  description: "<p>Het team van Being A Designer is relatief klein, en de opdrachten
+    verschillen vaak veel. Al gaat het altijd over design leren, design toepassen
+    en design coachen, de business verandert mee met de soort projecten die er spelen.
+    Zo hebben we onlangs een 'academy' pagina toegevoegd waarin je een design gerelateerde
+    training kunt boeken. De website is zo ingericht dat er altijd ruimte is voor
+    nieuwe ideeën, secties of pagina's. </p>"
+  left_or_right: false
 - template: project-image-right
   title: Collages creëren
   description: "<p>Foto’s, tekst en illustraties worden gecombineerd tot een collage
