@@ -28,6 +28,7 @@ content:
     title: "#FFFFFF"
     text: "#FFFFFF"
   left_or_right: false
+  image_full_width: false
 - template: project-image-right
   title: Collages creëren
   description: "<p>Foto’s, tekst en illustraties worden gecombineerd tot een collage
@@ -67,6 +68,7 @@ content:
     background: "#0096A1"
     title: "#FFFFFF"
     text: "#FFFFFF"
+  image_full_width: false
 - template: project-full-image
   title: 3 collages
   image: "/images/collage-met-collages3.jpg"
@@ -79,6 +81,7 @@ content:
     text: "#004D5A"
   left_or_right: false
   image: ''
+  image_full_width: false
 - template: project-full-image
   image: "/images/ob_-studio-buiten-9.jpg"
   title: BAD kantoor
@@ -104,5 +107,6 @@ info:
     van Being A Designer wordt intuïtief en vaak visueel gewerkt. De stijl bestaat
     daarom uit verfvegen, scheurranden en spetters waarmee collages en verhalen verteld
     kunnen worden. '
+active: true
 
 ---

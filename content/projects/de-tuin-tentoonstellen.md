@@ -48,6 +48,7 @@ content:
     background: "#FFFFFF"
     title: "#160046"
     text: "#160046"
+  image_full_width: false
 - template: project-image-below
   title: In de details
   image: "/images/logo-perspectief.png"
@@ -57,6 +58,7 @@ content:
     title: "#160046"
     text: "#160046"
   left_or_right: false
+  image_full_width: false
 - template: project-full-image
   image: "/images/ob_foto-paddenstoel.png"
   title: Paddenstoel
@@ -75,5 +77,6 @@ content:
     background: "#FFFFFF"
     text: "#160046"
     dot: "#FFF5C1"
+active: true
 
 ---
