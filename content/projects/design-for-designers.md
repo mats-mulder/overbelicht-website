@@ -16,6 +16,7 @@ content:
 - template: project-full-image
   image: "/images/ob_foto-andre-binnen.jpg"
   title: Andre binnen
+  width_or_height: true
 - template: project-image-below
   image: "/images/screenshot-2021-02-14-at-19-04-16.png"
   title: De beste oplossing voor alle betrokkenen
@@ -45,6 +46,7 @@ content:
 - template: project-full-image
   image: "/images/voorbeeldcollage.png"
   title: Voorbeeldcollage
+  width_or_height: false
 - template: project-high-image
   image: "/images/fotos-bad2.png"
   title: Plaatjes schieten
@@ -82,6 +84,7 @@ content:
 - template: project-full-image
   image: "/images/ob_-studio-buiten-9.jpg"
   title: BAD kantoor
+  width_or_height: false
 - template: project-website-link
   title: Bekijk de website
   link: www.beingadesigner.com
