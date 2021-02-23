@@ -18,10 +18,12 @@ content:
 - template: project-image-below
   image: "/images/screenshot-2021-02-14-at-19-04-16.png"
   title: De beste oplossing voor alle betrokkenen
-  description: "<p>In ieder project van Being A Designer is het leren van ontwerpvaardigheden
-    een belangrijk onderdeel, zodat organisaties zelf in staat zijn de beste oplossingen
-    voor ingewikkelde vraagstukken te vinden. Deze ontwerpvaardigheden komen terug
-    op de website en social media. </p>"
+  description: "<p>In ieder project van Being A Designer is het leren en toepassen
+    van ontwerpvaardigheden een belangrijk onderdeel. Zo zijn organisaties zelf in
+    staat de beste oplossingen voor ingewikkelde vraagstukken te vinden. Toch is elke
+    organisatie anders, en moet de stijl voor iedereen bruikbaar zijn. Daarom bestaat
+    de nieuwe stijl uit fotografische en grafische elementen die continu opnieuw te
+    combineren zijn. </p><p></p><p></p>"
   colors:
     background: "#004D5A"
     title: "#FFFFFF"
