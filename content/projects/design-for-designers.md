@@ -46,7 +46,7 @@ content:
 - template: project-full-image
   image: "/images/voorbeeldcollage.png"
   title: Voorbeeldcollage
-  width_or_height: false
+  width_or_height: true
 - template: project-high-image
   image: "/images/fotos-bad2.png"
   title: Plaatjes schieten
