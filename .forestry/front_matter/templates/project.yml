@@ -3,6 +3,9 @@ label: Project
 hide_body: true
 display_field: customer
 fields:
+- name: active
+  type: boolean
+  label: Active
 - name: index
   type: number
   description: ''
