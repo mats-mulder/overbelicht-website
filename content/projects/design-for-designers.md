@@ -17,7 +17,7 @@ content:
   width_or_height: true
 - template: project-image-below
   image: "/images/screenshot-2021-02-14-at-19-04-16.png"
-  title: Flexibele website voor een flexibele business
+  title: De beste oplossing voor alle betrokkenen
   description: "<p>In ieder project van Being A Designer is het leren en toepassen
     van ontwerpvaardigheden een belangrijk onderdeel. Zo zijn organisaties zelf in
     staat de beste oplossingen voor ingewikkelde vraagstukken te vinden. Toch is elke
