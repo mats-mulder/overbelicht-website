@@ -12,7 +12,7 @@ introduction:
       voor digitale vernieuwing.
   image: "/images/about_us.png"
   visie:
-    title: Betrokken en verantwoordelijk
+    title: De juiste dingen, goed doen
     subtitle: Waar we in geloven
     content: jewpe
 services:
