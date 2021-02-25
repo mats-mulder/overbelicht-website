@@ -17,9 +17,12 @@ introduction:
 services:
   title: Branding + webdesign + development + fotografie
   subtitle: Wat we doen
-  content: Online is de nieuwe standaard. Maar hoe gaat jouw bedrijf mee in deze verandering?
-    Met behulp van een slimme strategie, goed design en een sterke implementatie legt
-    Ove belicht de basis voor jouw digitale toekomst.
+  content: 'Geen enkel bedrijf ontsnapt tegenwoordig meer aan digitalisatie. Maar
+    waar grote bedrijven zelf alle kennis in huis halen, is het voor de kleinere speler
+    soms best lastig om mee te komen met deze verandering. Overbelicht richt zich
+    op hen. Wij hebben alle talent, kennis en expertise in huis om digitaal te vernieuwen.
+    Soms ontwerpen we een huisstijl en werken dit uit tot een compleet nieuwe website.
+    Maar soms '
   image: "/images/watwedoen_shape.png"
 contact:
   title: Samenwerken?
