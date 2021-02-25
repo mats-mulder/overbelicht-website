@@ -22,7 +22,8 @@ introduction:
 services:
   title: Branding + webdesign + development + fotografie
   subtitle: Wat we doen
-  content: 'De oplossing moet altijd een antwoord zijn op het probleem. '
+  content: De oplossing moet altijd het antwoord zijn op het probleem. Daarom hebben
+    we een breed scala aan skills om
   image: "/images/watwedoen_shape.png"
 contact:
   title: Samenwerken?
