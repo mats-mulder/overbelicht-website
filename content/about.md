@@ -17,12 +17,11 @@ introduction:
 services:
   title: Branding + webdesign + development + fotografie
   subtitle: Wat we doen
-  content: 'Geen enkel bedrijf ontsnapt tegenwoordig meer aan digitalisatie. Maar
-    waar grote bedrijven zelf alle kennis in huis halen, is het voor de kleinere speler
+  content: Geen enkel bedrijf ontsnapt tegenwoordig meer aan digitalisatie. Maar waar
+    grote bedrijven zelf alle kennis in huis halen, is het voor de kleinere speler
     soms best lastig om mee te komen met deze verandering. Overbelicht richt zich
-    op hen. Wij hebben alle talent, kennis en expertise in huis om digitaal te vernieuwen.
-    Soms ontwerpen we een huisstijl en werken dit uit tot een compleet nieuwe website.
-    Maar soms '
+    op hen. Wij hebben alle talent, kennis en expertise in huis om digitaal te vernieuwen,
+    maar bepalen samen de juiste oplossing voor jouw probleem.
   image: "/images/watwedoen_shape.png"
 contact:
   title: Samenwerken?
