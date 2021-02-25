@@ -30,9 +30,10 @@ visie:
       zo leggen we het juiste fundament voor jouw digitale toekomst.'
     slogan: een sterke implementatie door ervaring
 contact:
-  title: Samenwerken?
-  introduction: Heb je een goed idee of een ingewikkeld digitaal vraagstuk? We gaan
-    graag het gesprek met je aan. Daag ons uit! (Tekst Hoppinger)
+  title: Wat zijn jullie uitdagingen?
+  introduction: Ben je geïnteresseerd geraakt in ons concept? Leuk! Wij zijn benieuwd
+    naar jouw bedrijf en de uitdagingen die voor jullie liggen. Stuur ons een berichtje
+    en we maken graag een keer kennis.
   content:
   - title: Ons kantoor
     content: "<p>Zoutziederstraat 20<br>3026 EL<br>Rotterdam</p>"
