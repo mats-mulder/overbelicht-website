@@ -2,17 +2,19 @@
 introduction:
   over_ons:
     title: Een designer + developer
-    subtitle: About
-    content: Wij zijn Marieke en Mats, een designer en developer. Wij vormen samen
-      het team achter Overbelicht. Met ons krijg je een totaalpakket om de basis te
-      leggen voor je digitale toekomst. (tekst veranderen hier).
+    subtitle: Over ons
+    content: Aangenaam! Wij zijn Marieke en Mats en vormen samen het team achter Overbelicht.
+      Marieke is een visueel wonder. Ze ontwerpt, illustreert, animeert, schildert
+      en tekent. Ze heeft een achtergrond in industrieel design, richtte een ontwerp
+      bureau op in haar studententijd en werkt als experiment designer bij een groot
+      bureau. Mats is de technische nerd. Hij kent alle technieken, talen en tools
+      om de beste implementatie te realiseren. Samen is dit de perfecte combinatie
+      voor digitale vernieuwing.
   image: "/images/about_us.png"
   visie:
-    title: Een quote over dit stukje
+    title: Betrokken en verantwoordelijk
     subtitle: Waar we in geloven
-    content: Wij zijn Marieke en Mats, een designer en developer. Wij vormen samen
-      het team achter Overbelicht. Met ons krijg je een totaalpakket om de basis te
-      leggen voor je digitale toekomst. (tekst veranderen hier).
+    content: jewpe
 services:
   title: Branding + webdesign + development + fotografie
   subtitle: Wat we doen
