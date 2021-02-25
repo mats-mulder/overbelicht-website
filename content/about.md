@@ -8,8 +8,7 @@ introduction:
       en tekent. Ze heeft een achtergrond in industrieel design, richtte een ontwerp
       bureau op in haar studententijd en werkt als experiment designer bij een groot
       bureau. Mats is de technische nerd. Hij kent alle technieken, talen en tools
-      om de beste implementatie te realiseren. Samen is dit de perfecte combinatie
-      voor digitale vernieuwing.
+      om de beste implementatie te realiseren. De perfecte samenwerking dus!
   image: "/images/about_us.png"
   visie:
     title: De juiste dingen, goed doen
