@@ -22,12 +22,13 @@ introduction:
 services:
   title: Branding + design + development + fotografie
   subtitle: Wat we doen
-  content: 'De oplossing moet altijd het antwoord zijn op het probleem. Daarom hebben
-    we een breed scala aan skills om ieder project aan te pakken. Het liefst pakken
-    we het grondig aan: we verfrissen je huisstijl en werken dit uit tot een prachtige
-    nieuwe website, inclusief foto''s, illustraties en animaties. Maar je kunt ook
-    altijd bij ons terecht voor een kleine eerste stap, of een stukje van hele keten.
-    Wij staan klaar om te helpen!'
+  content: De oplossing moet altijd het antwoord zijn op het probleem. Daarom hebben
+    we een breed scala aan skills om ieder project aan te pakken. En het liefst pakken
+    we het grondig aan. We verfrissen je huisstijl en werken dit uit tot een prachtige
+    nieuwe website inclusief foto's, want ook voor fotografie kan je bij ons terecht.
+    We vullen je website aan met illustraties en animaties die passen bij je nieuwe
+    digitale identiteit. Je kunt altijd bij ons terecht voor een kleine eerste stap,
+    of een stukje van de hele keten. Wij staan klaar om te helpen!
   image: "/images/watwedoen_shape.png"
 contact:
   title: Samenwerken?
