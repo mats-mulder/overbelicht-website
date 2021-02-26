@@ -53,7 +53,7 @@ content:
   image_full_width: false
 - template: project-image-below
   title: In de details
-  image: "/images/logo-perspectief.png"
+  image: "/images/ezgif-com-gif-maker-2.gif"
   description: "<p>Tekst</p>"
   colors:
     background: "#FFFFFF"
