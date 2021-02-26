@@ -131,7 +131,7 @@ info:
 - title: Resultaat
   content: "<p>Scheuren, knippen, combineren, plakken. In de trainingen en trajecten
     van Being A Designer wordt intuïtief en vaak visueel gewerkt. De stijl bestaat
-    daarom uit verfvegen, scheurranden en spetters waarmee verhalen verteld kunnen
+    daarom uit verfvegen, scheurranden en spetters waar verhalen verteld mee kunnen
     worden.</p>"
 active: true
 
