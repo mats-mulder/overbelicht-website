@@ -59,19 +59,9 @@ content:
     text: "#153243"
   image: "/images/homeee.jpg"
 - template: project-full-image
-  image: "/images/home-section.png"
-  title: Home section
+  image: "/images/ob_foto-paddenstoel.png"
+  title: Paddenstoel
   width_or_height: false
-- template: project-image-below
-  image: "/images/sectie-landgoederen.png"
-  title: Jarenlange ervaring
-  description: "<p>Tekst</p>"
-  left_or_right: true
-  colors:
-    background: "#FFFFFF"
-    title: "#160046"
-    text: "#160046"
-  image_full_width: false
 - template: project-image-below
   title: In de details
   image: "/images/ezgif-com-gif-maker-3.gif"
@@ -82,18 +72,14 @@ content:
     text: "#160046"
   left_or_right: false
   image_full_width: false
-- template: project-full-image
-  image: "/images/ob_foto-paddenstoel.png"
-  title: Paddenstoel
-  width_or_height: false
 - template: project-high-image
-  image: "/images/ob_fotos-perspectief.png"
-  title: Plaatjes om bij weg te dromen
-  description: "<p>Tekst</p>"
+  image: "/images/group.jpg"
+  title: Prachtige elementen
+  description: "<p>test</p>"
   colors:
-    background: "#EAEAEA"
-    title: "#160046"
-    text: "#160046"
+    background: "#FFFFFF"
+    title: "#153243"
+    text: "#153243"
 - template: project-website-link
   title: Bekijk de website
   link: www.tuinenlandschapsdokter.nl
