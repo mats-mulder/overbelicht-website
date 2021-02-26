@@ -15,10 +15,10 @@ info:
   content: <p><a href="www.tuinenlandschapsdokter.nl" title="">www.tuinenlandschapsdokter.nl</a></p>
 - title: De vraag
   content: "<p>Perspectief ontwerpt en realiseert de mooiste tuinen van Diepenveen,
-    maar was online een beetje achterop geraakt. De website was een oud monster: veel
-    tekst, weinig afbeeldingen en geen mogelijkheden om zelf dingen aan te passen.
-    Perspectief vroeg ons om op basis van hun huidige stijl een compleet nieuwe online
-    ervaring neer te zetten.</p>"
+    maar was online een beetje achterop geraakt. De oude website bestond uit veel
+    tekst, weinig afbeelding en het was onmogelijk om zelf aanpassingen te doen. Perspectief
+    vroeg ons om op basis van hun huidige stijl een compleet nieuwe online ervaring
+    neer te zetten.</p>"
 - title: Resultaat
   content: "<p></p>"
 content:
