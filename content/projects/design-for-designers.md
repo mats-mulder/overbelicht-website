@@ -62,12 +62,12 @@ content:
   title: 3 collages
   width_or_height: false
 - template: project-high-image
-  image: "/images/fotos-bad2.png"
+  image: "/images/fotos-bad3.png"
   title: Plaatjes schieten
   description: "<p>De nieuwe stijl van Being A Designer werkt goed met foto's. Daarom
     hebben wij ook de fotografie onder handen genomen. We fotografeerden het team
     en de studio, maar liepen ook mee met verschillende design sprints en trainingen
-    om een database aan scherp en kwalitatief beeldmateriaal aan te leggen.</p>"
+    om een database met scherp en kwalitatief beeldmateriaal aan te leggen.</p>"
   colors:
     background: "#FFFFFF"
     title: "#004D5A"
