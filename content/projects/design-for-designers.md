@@ -44,10 +44,6 @@ content:
     title: "#004D5A"
     text: "#004D5A"
   image_to_border: false
-- template: project-full-image
-  image: "/images/collage-met-collages-nieuw.jpg"
-  title: 3 collages
-  width_or_height: false
 - template: project-image-right
   title: Schilderen, scheuren, combineren, plakken
   description: "<p>Foto’s, tekst en illustraties worden gecombineerd tot een collage
@@ -61,6 +57,10 @@ content:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
+- template: project-full-image
+  image: "/images/collage-met-collages-nieuw.jpg"
+  title: 3 collages
+  width_or_height: false
 - template: project-high-image
   image: "/images/fotos-bad2.png"
   title: Plaatjes schieten
