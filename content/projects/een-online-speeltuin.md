@@ -13,7 +13,7 @@ introduction: 'StuD, het Delftse uitzendbureau voor technische studenten, organi
   van StuD playground!'
 info:
 - title: Bekijk
-  content: <p><a href="https://studplayground-2019.web.app/" title="www.studplayground.nl">https://studplayground-2019.web.app/</a></p>
+  content: <p><a href="https://studplayground-2019.web.app/" title="www.studplayground.nl">studplayground-2019.web.app</a></p>
 - title: De opdracht
   content: "<p>Onze missie: een online speeltuin creëren. De website moet studenten
     de mogelijkheid bieden zich in te schrijven met een eigen initiatief - van een
@@ -76,7 +76,7 @@ content:
   title: Buiten studuction
 - template: project-website-link
   title: Bekijk de website
-  link: https://studplayground-2019.web.app/
+  link: studplayground-2019.web.app
   colors:
     background: "#FFFFFF"
     text: "#000000"
