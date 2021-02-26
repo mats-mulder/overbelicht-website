@@ -13,17 +13,17 @@ introduction:
   visie:
     title: De juiste dingen, goed doen
     subtitle: Waar we in geloven
-    content: Geen enkel bedrijf ontsnapt tegenwoordig meer aan digitalisatie. Maar
-      waar grote bedrijven zelf alle kennis in huis halen, is het voor de kleinere
-      speler soms best lastig om mee te komen met deze verandering. Overbelicht richt
-      zich op hen. Wij hebben alle talent, kennis en expertise in huis om digitaal
-      te vernieuwen. Samen zoeken we naar de juiste oplossing voor de uitdaging waar
-      jullie voor staan, stropen onze mouwen op en gaan aan de slag.
+    content: Geen enkel bedrijf ontsnapt meer aan digitalisatie. Maar waar grote bedrijven
+      zelf alle kennis in huis halen, is het voor de kleinere spelers soms best lastig
+      om mee te komen met deze verandering. Overbelicht richt zich op hen. Wij hebben
+      alle talent, kennis en expertise in huis om digitaal te vernieuwen. Samen zoeken
+      we naar de juiste oplossing voor de uitdaging waar jullie voor staan, stropen
+      onze mouwen op en gaan aan de slag.
 services:
   title: Branding + webdesign + development + fotografie
   subtitle: Wat we doen
-  content: De oplossing moet altijd het antwoord zijn op het probleem. Daarom hebben
-    we een breed scala aan skills om
+  content: 'De oplossing moet altijd het antwoord zijn op het probleem. Daarom hebben
+    we een breed scala aan skills om ieder project aan te pakken. '
   image: "/images/watwedoen_shape.png"
 contact:
   title: Samenwerken?
