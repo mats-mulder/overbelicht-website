@@ -36,6 +36,16 @@ content:
     text: "#000000"
   left_or_right: false
   image_full_width: false
+- template: project-image-right
+  title: Blijven hangen in animaties
+  description: "<p>First things first, eerst even losgaan in de speeltuin voordat
+    je de line-up bekijkt. </p>"
+  image: "/images/gif-playground-home.gif"
+  colors:
+    background: "#FFFFFF"
+    title: "#031D44"
+    text: "#031D44"
+  image_to_border: false
 - template: project-high-image
   title: De vetste artiesten op een rij
   image: "/images/wholepage.png"
