@@ -45,7 +45,7 @@ content:
     title: "#153243"
     text: "#153243"
 - template: project-high-image
-  title: Sterke focus op ontwerp
+  title: Tuinontwerp
   description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -63,13 +63,15 @@ content:
   width_or_height: false
 - template: project-image-below
   title: The devil is in the details
-  image: "/images/ezgif-com-gif-maker-3.gif"
-  description: "<p>Tekst</p>"
+  image: "/images/ezgif-com-gif-maker-8.gif"
+  description: "<p>Wij houden van humor en verfijning in onze ontwerpen. Daarom besteden
+    we veel aandacht aan die laatste kleine details. Een illustratie, animatie of
+    de juiste foto: van goed naar perfectie.</p>"
   colors:
     background: "#FFFFFF"
     title: "#160046"
     text: "#160046"
-  left_or_right: true
+  left_or_right: false
   image_full_width: false
 - template: project-high-image
   image: "/images/group.jpg"
