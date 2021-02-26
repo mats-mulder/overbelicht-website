@@ -16,7 +16,7 @@ introduction:
     content: Geen enkel bedrijf ontsnapt meer aan digitalisatie. Maar waar grote bedrijven
       zelf alle kennis in huis halen, is het voor de kleinere spelers soms best lastig
       om mee te komen met deze verandering. Overbelicht richt zich op hen. Wij hebben
-      alle talent, kennis en expertise in huis om digitaal te vernieuwen. Samen zoeken
+      alle talent, kennis en expertise op zak om digitaal te vernieuwen. Samen zoeken
       we naar de juiste oplossing voor de uitdaging waar jullie voor staan, stropen
       onze mouwen op en gaan aan de slag.
 services:
