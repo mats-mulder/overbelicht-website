@@ -102,7 +102,7 @@ content:
   title: De ultieme uiting
   description: "<p>blabla</p>"
   image: "/images/ezgif-com-gif-maker-1.gif"
-  image_to_border: false
+  image_to_border: true
   colors:
     background: "#FFFFFF"
     title: "#000000"
