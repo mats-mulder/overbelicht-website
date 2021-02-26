@@ -73,6 +73,10 @@ content:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
+- template: project-full-image
+  image: "/images/ezgif-com-gif-maker.gif"
+  title: Werkwijze gif
+  width_or_height: false
 - template: project-image-below
   image: "/images/collage-met-collages3.jpg"
   title: Schilderen, scheuren, combineren, plakken
