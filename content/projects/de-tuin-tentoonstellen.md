@@ -31,6 +31,20 @@ content:
   title: Ernst in tuin
   image: "/images/ob_foto-ernst.png"
   width_or_height: false
+- template: project-image-right
+  image: "/images/ob_kleuren-perspectief.png"
+  title: Een vrolijk nieuw kleurenpalet
+  description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum</p>"
+  image_to_border: true
+  colors:
+    background: "#FFFFFF"
+    title: "#153243"
+    text: "#153243"
 - template: project-high-image
   title: Opknapbeurt
   description: "<p>tekst</p>"
@@ -39,15 +53,6 @@ content:
     title: "#160046"
     text: "#160046"
   image: "/images/ob_home-perspectief.png"
-- template: project-image-right
-  image: "/images/ob_kleuren-perspectief.png"
-  title: "(Vooral) natuurtintent"
-  description: "<p>Tekst</p>"
-  image_to_border: true
-  colors:
-    background: "#FFFFFF"
-    title: "#160046"
-    text: "#160046"
 - template: project-full-image
   image: "/images/home-section.png"
   title: Home section
