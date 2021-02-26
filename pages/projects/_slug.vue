@@ -64,8 +64,15 @@
 
       <!--High Image-->
 
-      <div class="container-fluid high-image-container" :style="{backgroundColor: section.colors.background}" v-if="section.template === 'project-high-image'">
-        <div class="row mt-4">
+      <div class="container-fluid high-image-container" style="padding-top: 0" v-if="section.template === 'project-high-image'">
+        <div class="row high-image-background"  :style="{backgroundColor: section.colors.background}">
+          <div class="col-12 col-md-10 offset-md-1 col-lg-3 offset-xl-2" style="opacity: 0">
+            <h3 :style="{color: section.colors.title}">{{ section.title }}</h3>
+            <div :style="{color: section.colors.text}" class="mt-5 text-color-container" v-html="section.description"></div>
+          </div>
+        </div>
+
+        <div class="row" style="padding-top: 15vh">
           <div class="col-12 col-md-10 offset-md-1 col-lg-3 offset-xl-2">
             <h3 :style="{color: section.colors.title}">{{ section.title }}</h3>
             <div :style="{color: section.colors.text}" class="mt-5 text-color-container" v-html="section.description"></div>
@@ -136,10 +143,13 @@ export default {
     }
   },
   mounted() {
+    /*
     highHeight(true)
     window.addEventListener("resize", function (){
       highHeight(false)
     });
+
+     */
     document.getElementsByClassName('text-color-container').forEach(function (el){
       el.getElementsByTagName('p').forEach(function (text){
         text.style.color = el.style.color
@@ -235,10 +245,8 @@ p{
 
 .high-image-background{
   position: absolute;
-  height: 75vh;
-  width: 100%;
-  left: 0;
-  margin-top: -15vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 
 .small-round{
@@ -254,7 +262,7 @@ p{
 
 
 .high-image{
-  position: absolute;
+
 }
 
 @media only screen and (max-width: 576px) {
