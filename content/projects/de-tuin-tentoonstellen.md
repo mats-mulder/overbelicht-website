@@ -16,8 +16,8 @@ info:
 - title: De vraag
   content: "<p>Perspectief ontwerpt en realiseert de mooiste tuinen van Diepenveen,
     maar was online een beetje achterop geraakt. De oude website bestond uit veel
-    tekst, weinig afbeelding en het was onmogelijk om zelf aanpassingen te doen. Perspectief
-    vroeg ons om op basis van hun huidige stijl een compleet nieuwe online ervaring
+    tekst, weinig afbeeldingen en het was onmogelijk om zelf aanpassingen te doen.
+    Perspectief vroeg ons om op basis van hun logo een compleet nieuwe online ervaring
     neer te zetten.</p>"
 - title: Resultaat
   content: "<p>Een verandering kan soms best moeilijk zijn. Daarom lieten we oude
