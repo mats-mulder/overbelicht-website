@@ -20,10 +20,14 @@ introduction:
       we naar de juiste oplossing voor de uitdaging waar jullie voor staan, stropen
       onze mouwen op en gaan aan de slag.
 services:
-  title: Branding + webdesign + development + fotografie
+  title: Branding + design + development + fotografie
   subtitle: Wat we doen
   content: 'De oplossing moet altijd het antwoord zijn op het probleem. Daarom hebben
-    we een breed scala aan skills om ieder project aan te pakken. '
+    we een breed scala aan skills om ieder project aan te pakken. Het liefst pakken
+    we het grondig aan: we verfrissen je huisstijl en werken dit uit tot een prachtige
+    nieuwe website, inclusief foto''s, illustraties en animaties. Maar je kunt ook
+    altijd bij ons terecht voor een kleine eerste stap, of een stukje van hele keten.
+    Wij staan klaar om te helpen!'
   image: "/images/watwedoen_shape.png"
 contact:
   title: Samenwerken?
