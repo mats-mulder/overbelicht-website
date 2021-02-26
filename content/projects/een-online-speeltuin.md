@@ -25,6 +25,17 @@ info:
     inschrijven? Gebruik het online kladpapier om je idee op te tekenen en in te schrijven.
     Interactie is het sleutelwoord op dit online festivalterrein. </p>"
 content:
+- template: project-image-below
+  title: Loading playground...
+  description: "<p>First things first, eerst even losgaan in de speeltuin voordat
+    je de line-up bekijkt. De homepage toont </p>"
+  image: "/images/ezgif-com-gif-maker-6.gif"
+  colors:
+    background: "#FFFFFF"
+    title: "#000000"
+    text: "#000000"
+  left_or_right: false
+  image_full_width: false
 - template: project-high-image
   title: De vetste artiesten op een rij
   image: "/images/wholepage.png"
@@ -33,16 +44,6 @@ content:
     title: "#000000"
     text: "#000000"
   description: "<p>test</p>"
-- template: project-image-below
-  title: Load playground
-  description: "<p>load</p>"
-  image: "/images/ezgif-com-gif-maker-6.gif"
-  colors:
-    background: "#FFFFFF"
-    title: "#000000"
-    text: "#000000"
-  left_or_right: false
-  image_full_width: false
 - template: project-full-image
   image: "/images/home.png"
   title: Home overview
