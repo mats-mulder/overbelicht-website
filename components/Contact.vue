@@ -1,5 +1,5 @@
 <template>
-  <section id="contact-section">
+  <section id="contact-section" style="min-height: 100vh">
     <div class="container">
       <div class="row">
         <div class="col-12">

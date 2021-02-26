@@ -35,7 +35,7 @@
     <div v-for="section in project.content">
 
       <!-- FULL IMAGE-->
-      <div class="container-fluid p-0 project-full-image-holder" v-if="section.template === 'project-full-image'">
+      <div class="container-fluid p-0" v-if="section.template === 'project-full-image'">
         <div v-if="section['width_or_height'] === true" class="project-full-image-holder">
           <img class="img-fluid project-full-image" :src="section.image">
         </div>
