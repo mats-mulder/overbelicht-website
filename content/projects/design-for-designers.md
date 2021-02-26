@@ -74,10 +74,10 @@ content:
 - template: project-image-right
   title: Ruimte voor eigen creativiteit
   description: "<p>Being A Designer bestaat uit ontwerpers met verschillende creatieve
-    skills. André bijvoorbeeld, maakt fenomenale tekeningen die precies de essentie
-    van concrete of abstracte onderwerpen blootleggen. Essentieel is dat deze tekeningen
-    gecombineerd kunnen worden met de nieuwe stijl. Daarom hebben we veel ruimte over
-    gelaten voor creatieve werken van verschillende teamleden.</p>"
+    skills. André, bijvoorbeeld, maakt fenomenale tekeningen die precies de essentie
+    van abstracte onderwerpen blootleggen. Essentieel is dat deze tekeningen gecombineerd
+    kunnen worden met de nieuwe stijl. Daarom hebben we veel ruimte over gelaten voor
+    ieders creatieve uitspattingen.</p>"
   image: "/images/tekening-andre.jpg"
   colors:
     background: "#FFFFFF"
