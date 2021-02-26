@@ -9,8 +9,8 @@ image: "/images/19143807_1384453781621335_7115561523214085166_o.jpg"
 introduction: 'StuD, het Delftse uitzendbureau voor technische studenten, organiseert
   jaarlijks een groot feest op een oud industrieterrein. Het concept werd onlangs
   omgegooid: studenten mochten nu eigen initiatieven inbrengen op het terrein. Dit
-  fysieke speelterrein had ook een online versie nodig: wij creëerden de website van
-  StuD playground!'
+  fysieke speelterrein had ook een online versie nodig, dus creëerden wij de website
+  van StuD playground!'
 info:
 - title: Bekijk
   content: "<p>www.xxx.com</p>"
