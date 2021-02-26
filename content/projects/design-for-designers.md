@@ -44,7 +44,7 @@ content:
     Zo hebben we onlangs een 'academy' pagina toegevoegd waarin je een design gerelateerde
     training kunt boeken. De website is zo ingericht dat er altijd ruimte is voor
     nieuwe ideeën, secties of pagina's. </p>"
-  left_or_right: false
+  left_or_right: true
 - template: project-full-image
   image: "/images/collage-met-collages-nieuw.jpg"
   title: 3 collages
