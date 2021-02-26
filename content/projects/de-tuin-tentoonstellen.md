@@ -7,7 +7,9 @@ services:
 customer: Perspectief
 title: Een digitale schoffelbeurt
 image: "/images/ob_foto-bij.png"
-introduction: leuke tekst
+introduction: Een natuurlijke vijver, een Japanse tuin, een bijenvolk? Alles wat perspectief
+  aanraakt vergroent. Maar online was er wat achterstallig onderhoud. Hoog tijd voor
+  een digitale schoffelbeurt dus.
 info:
 - title: Bekijk
   content: <p><a href="www.tuinenlandschapsdokter.nl" title="">www.tuinenlandschapsdokter.nl</a></p>
