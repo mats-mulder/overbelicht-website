@@ -6,11 +6,11 @@ active: true
 customer: Stud Playground
 title: Een online festivalterrein
 image: "/images/stucution.jpg"
-introduction: 'StuD, het Delftse uitzendbureau voor technische studenten, organiseert
+introduction: 'Stud, het Delftse uitzendbureau voor technische studenten, organiseert
   jaarlijks een groot feest op een oud industrieterrein. Het concept werd onlangs
   omgegooid: studenten mochten nu eigen initiatieven inbrengen op het terrein. Dit
   fysieke speelterrein had ook een online versie nodig, dus creëerden wij de website
-  van StuD playground!'
+  van Stud playground!'
 info:
 - title: Bekijk
   content: <p><a href="https://studplayground-2019.web.app/" title="www.studplayground.nl">studplayground-2019.web.app</a></p>
