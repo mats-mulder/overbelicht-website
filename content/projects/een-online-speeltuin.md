@@ -4,7 +4,7 @@ services:
 - Website
 active: true
 customer: Stud Playground
-title: Een online speeltuin
+title: Een online festivalterrein
 image: "/images/19143807_1384453781621335_7115561523214085166_o.jpg"
 introduction: 'Stud playground '
 info:
