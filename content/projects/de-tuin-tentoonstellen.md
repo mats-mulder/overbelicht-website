@@ -77,7 +77,7 @@ content:
   title: Prachtige elementen
   description: "<p>test</p>"
   colors:
-    background: "#FFFFFF"
+    background: "#EAEAEA"
     title: "#153243"
     text: "#153243"
 - template: project-website-link
