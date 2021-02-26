@@ -73,10 +73,6 @@ content:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
-- template: project-full-image
-  image: "/images/ezgif-com-gif-maker.gif"
-  title: Werkwijze gif
-  width_or_height: false
 - template: project-image-below
   image: "/images/collage-met-collages3.jpg"
   title: Schilderen, scheuren, combineren, plakken
@@ -102,6 +98,15 @@ content:
     title: "#004D5A"
     text: "#004D5A"
   image_to_border: false
+- template: project-image-right
+  title: De ultieme uiting
+  description: "<p>blabla</p>"
+  image: "/images/ezgif-com-gif-maker-1.gif"
+  image_to_border: false
+  colors:
+    background: "#FFFFFF"
+    title: "#000000"
+    text: "#000000"
 - template: project-full-image
   image: "/images/ob_-studio-buiten-9.jpg"
   title: BAD kantoor
