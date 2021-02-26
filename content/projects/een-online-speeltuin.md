@@ -27,8 +27,8 @@ info:
 content:
 - template: project-image-below
   title: Loading playground...
-  description: "<p>First things first, eerst even losgaan in de speeltuin voordat
-    je de line-up bekijkt. De homepage toont </p>"
+  description: "<p>De homepage toont direct waar het om gaat op dit festival: muziek,
+    cultuur en stands. </p>"
   image: "/images/ezgif-com-gif-maker-6.gif"
   colors:
     background: "#FFFFFF"
