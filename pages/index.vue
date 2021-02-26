@@ -37,10 +37,10 @@
         <div class="col-12 col-md-5 col-lg-5 col-xl-5 offset-md-1 offset-xl-1">
           <div class="row" >
             <div class="col-12 mt-2" style="display: flex" v-for="item in content.visie.subtext">
-              <div style="flex: 10%">
+              <div align="left" id="flex-1">
                 <div class="round-icon"></div>
               </div>
-              <div style="flex: 90%">
+              <div id="flex-2">
                 <h4 class="mt-2">{{ item.title + ': ' }}<span style="font-weight: 500">{{ item.slogan }}</span></h4>
                 <p>{{ item.description }}</p>
               </div>
@@ -266,11 +266,20 @@ export default {
 
   }
 
+  #flex-1{
+    flex: 10%;
+  }
+
+  #flex-2{
+    flex: 90%;
+  }
+
 
   @media only screen and (max-width: 576px) {
     .round-icon{
       margin-top: 5px;
     }
+
   }
 
   @media only screen and (max-width: 767px) {
@@ -284,6 +293,12 @@ export default {
       position: relative;
       margin-top: 0;
       width: 100% !important;
+    }
+    #flex-1{
+      flex: 15%
+    }
+    #flex-2{
+      flex: 85%;
     }
   }
 

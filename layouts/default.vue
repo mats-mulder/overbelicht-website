@@ -179,13 +179,23 @@ body{
 
 @media only screen and (max-width: 576px) {
   h1{
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
-  .mid-p{
+  .large-p{
     font-size: 1.3rem;
   }
-  h4{
+  .mid-p{
     font-size: 1.2rem;
+  }
+  h3{
+    font-size: 1.4rem;
+  }
+
+  h4{
+    font-size: 1.4rem;
+  }
+  p{
+    font-size: 1rem;
   }
 }
 
