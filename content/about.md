@@ -25,7 +25,7 @@ services:
   content: De oplossing moet altijd het antwoord zijn op het probleem. Daarom hebben
     we een breed scala aan skills om ieder project aan te pakken. En het liefst pakken
     we het grondig aan. We verfrissen je huisstijl en werken dit uit tot een prachtige
-    nieuwe website inclusief foto's, want ook voor fotografie kan je bij ons terecht.
+    nieuwe website inclusief foto's, want ook voor fotografie kun je bij ons terecht.
     We vullen je website aan met illustraties en animaties die passen bij je nieuwe
     digitale identiteit. Je kunt altijd bij ons terecht voor een kleine eerste stap,
     of een stukje van de hele keten. Wij staan klaar om te helpen!
