@@ -120,7 +120,7 @@ content:
     dot: "#FDBB1E"
 info:
 - title: Bekijk
-  content: www.beingadesigner.com
+  content: <p><a href="https://beingadesigner.com/" title="">www.beingadesigner.com</a></p>
 - title: De Vraag
   content: 'De hoogste prioriteit: een breed toepasbare visuele identiteit. Uitstraling?
     Creatief, flexibel en intuïtief. Being A Designer duikt samen met klanten in abstracte,
