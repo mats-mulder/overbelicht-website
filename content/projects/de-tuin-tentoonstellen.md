@@ -34,13 +34,11 @@ content:
   width_or_height: false
 - template: project-image-right
   image: "/images/ob_kleuren-perspectief.png"
-  title: Een vrolijk nieuw kleurenpalet
-  description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id est laborum</p>"
+  title: Natuurlijke kleuren met een vrolijke twist.
+  description: "<p>Een nieuw kleurenpalet vormt de basis voor de online identiteit.
+    De voornamelijk natuurlijke kleuren passen perfecte bij de grote afbeeldingen
+    van natuur, tuinen en landschappen op de website. Maar een vrolijke twist mag
+    niet ontbreken. Lente!</p>"
   image_to_border: true
   colors:
     background: "#FFFFFF"
