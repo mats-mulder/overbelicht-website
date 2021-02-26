@@ -8,6 +8,8 @@ title: Een online festivalterrein
 image: "/images/19143807_1384453781621335_7115561523214085166_o.jpg"
 introduction: 'Stud playground '
 info:
+- title: Bekijk
+  content: "<p>www.xxx.com</p>"
 - title: De opdracht
   content: Creëer een online speeltuin
 - title: Resultaat
