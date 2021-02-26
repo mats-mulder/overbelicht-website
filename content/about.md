@@ -9,7 +9,7 @@ introduction:
       bureau op in haar studententijd en werkt als experiment designer bij een groot
       bureau. Mats is de technische nerd. Hij kent alle technieken, talen en tools
       om de beste implementatie te realiseren. De perfecte samenwerking dus!
-  image: "/images/about_us.png"
+  image: "/images/profielfoto-s-samen.jpg"
   visie:
     title: De juiste dingen, goed doen
     subtitle: Waar we in geloven
