@@ -66,8 +66,8 @@ content:
     toneel? Teken je idee alvast uit op het online kladpapier. </p>"
   colors:
     background: "#FFFFFF"
-    title: "#000000"
-    text: "#000000"
+    title: "#031D44"
+    text: "#031D44"
   left_or_right: false
   image_full_width: false
 - template: project-full-image
@@ -79,7 +79,7 @@ content:
   link: studplayground-2019.web.app
   colors:
     background: "#FFFFFF"
-    text: "#000000"
+    text: "#031D44"
     dot: "#F6D0EA"
 
 ---
