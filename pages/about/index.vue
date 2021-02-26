@@ -16,7 +16,7 @@
         </div>
 
         <div class="row mt-4">
-          <div class="col-12 col-md-8 col-lg-7 col-xl-6">
+          <div class="col-12 col-md-9 col-lg-8 col-xl-7">
             <p class="mid-p">{{ content.introduction['over_ons'].content }}</p>
           </div>
         </div>
@@ -36,7 +36,7 @@
 
 
         <div class="row justify-content-end mt-4">
-          <div class="col-12 col-md-8 col-lg-7 col-xl-6 text-left text-md-right">
+          <div class="col-12 9 col-lg-8 col-xl-7 text-left text-md-right">
             <p class="mid-p">{{ content.introduction.visie.content }}</p>
           </div>
         </div>

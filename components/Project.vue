@@ -10,7 +10,7 @@
         <h4><span v-for="(label, index) in project.services" :class="'service-'+label.toLowerCase()">{{ label }}<span v-if="index < project.services.length-1"> + </span></span></h4>
         <h1 class="mt-3">{{ project.title }}</h1>
         <div class="mobile-project-image-holder">
-          <img class="mobile-project-image" :src="project.image">
+          <img class="mobile-project-image mt-4" :src="project.image">
         </div>
         <p class="mt-4 mid-p">{{ project.introduction }}</p>
         <NuxtLink :to="project.path"><button class="btn-round mt-3">→</button></NuxtLink>
@@ -33,7 +33,6 @@ export default {
 <style scoped>
   h1{
     color: var(--yellow);
-    font-size: 7vh!important;
     line-height: 95%;
   }
 
@@ -84,7 +83,10 @@ export default {
   }
 
   @media only screen and (max-width: 576px) {
-
+    .btn-round{
+      background-color: var(--yellow);
+      color: var(--dark-purple);
+    }
   }
 
   @media only screen and (max-width: 767px) {

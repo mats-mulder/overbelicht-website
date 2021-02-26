@@ -30,6 +30,7 @@
 
 body{
   overflow-x: hidden;
+  max-width: 100vw;
 }
 
   @font-face {
@@ -69,21 +70,21 @@ body{
   h1{
     font-family: Gilroy;
     font-weight: bold;
-    font-size: 6.5vh;
+    font-size: 4rem;
   }
 
   .mid-p{
-    font-size: 2.3vh;
+    font-size: 1.5rem;
     font-weight: bolder;
   }
 
   .large-p{
-    font-size: 2.5vh;
+    font-size: 1.5rem;
     font-weight: bolder;
   }
 
   p{
-    font-size: 2vh;
+    font-size: 1.3rem;
     font-family: avenir;
   }
 
@@ -91,26 +92,26 @@ body{
     font-family: Gilroy;
     font-weight: bold;
     color: white;
-    font-size: 5vh;
+    font-size: 2rem;
   }
 
   h3{
     font-family: Gilroy;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 2rem;
   }
 
   h4{
     font-family: Gilroy;
     font-weight: bold;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   h5{
     font-family: Gilroy;
     font-weight: bold;
-    font-size: 2vh;
+    font-size: 1.4rem;
   }
 
   .nav-full-image{
@@ -144,8 +145,8 @@ body{
 
   .back-link{
     position: fixed;
-    margin: 12px;
-    font-size: 2.5vh;
+    margin: 0.5rem;
+    font-size: 1.7rem;
     color: var(--yellow);
     font-family: Gilroy;
     font-weight: bold;
@@ -171,7 +172,33 @@ body{
   width: 100%;
   position: fixed;
   z-index: 500;
-  height: 6vh;
+  height: 3.5rem;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+  h1{
+    font-size: 3rem;
+  }
+  .mid-p{
+    font-size: 1.3rem;
+  }
+  h4{
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+
 }
 
 </style>

@@ -37,10 +37,10 @@
         <div class="col-12 col-md-5 col-lg-5 col-xl-5 offset-md-1 offset-xl-1">
           <div class="row" >
             <div class="col-12 mt-2" style="display: flex" v-for="item in content.visie.subtext">
-              <div style="flex: 8%">
+              <div style="flex: 10%">
                 <div class="round-icon"></div>
               </div>
-              <div style="flex: 92%">
+              <div style="flex: 90%">
                 <h4 class="mt-2">{{ item.title + ': ' }}<span style="font-weight: 500">{{ item.slogan }}</span></h4>
                 <p>{{ item.description }}</p>
               </div>
@@ -158,13 +158,15 @@ export default {
   .btn-round{
     background-color: transparent;
     border: 3px solid var(--yellow);
-    border-radius: 100vh;
+    border-radius: 100px;
     color: white;
-    height: 7vh;
-    width: 7vh;
-    font-size: 1.5rem;
+    height: 75px;
+    width: 75px;
+    font-size: 2rem;
     transition: 200ms;
+    padding-bottom: 7px;
   }
+
 
   .btn-round:hover{
     transform: scale(0.95);
@@ -223,9 +225,9 @@ export default {
   }
 
   .round-icon{
-    width: 4vh;
-    height: 4vh;
-    margin-top: 0.5vh;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
     background-color: var(--yellow);
     border-radius: 100px;
   }
@@ -266,7 +268,9 @@ export default {
 
 
   @media only screen and (max-width: 576px) {
-
+    .round-icon{
+      margin-top: 5px;
+    }
   }
 
   @media only screen and (max-width: 767px) {
