@@ -5,7 +5,7 @@ services:
 - Website
 - Fotografie
 customer: Being a Designer
-title: Design voor designers
+title: Een design voor designers
 introduction: Hoe ontwerp je een nieuwe stijl voor de meest kritische ogen - van designers
   zelf? Wij gingen aan de slag om het dynamische en creatieve karakter van Being A
   Designer te vangen in een nieuwe identiteit.
