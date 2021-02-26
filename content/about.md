@@ -31,8 +31,9 @@ services:
   image: "/images/watwedoen_shape.png"
 contact:
   title: Samenwerken?
-  introduction: Heb je een goed idee of een ingewikkeld digitaal vraagstuk? We gaan
-    graag het gesprek met je aan. Daag ons uit! (Tekst Hoppinger)
+  introduction: Benieuwd wat we voor jullie zouden kunnen betekenen? Wij ook! We maken
+    graag kennis met jouw bedrijf en de uitdagingen die voor jullie liggen. Stuur
+    ons een berichtje en we hebben het er snel over.
   image: "/images/contact_logo.png"
   content:
   - title: Ons kantoor
