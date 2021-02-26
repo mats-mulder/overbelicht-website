@@ -53,7 +53,7 @@ content:
   image_full_width: false
 - template: project-image-below
   title: In de details
-  image: "/images/ezgif-com-gif-maker-2.gif"
+  image: "/images/ezgif-com-gif-maker-3.gif"
   description: "<p>Tekst</p>"
   colors:
     background: "#FFFFFF"
