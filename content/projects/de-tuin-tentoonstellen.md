@@ -63,14 +63,14 @@ content:
   title: Paddenstoel
   width_or_height: false
 - template: project-image-below
-  title: In de details
+  title: The devil is in the details
   image: "/images/ezgif-com-gif-maker-3.gif"
   description: "<p>Tekst</p>"
   colors:
     background: "#FFFFFF"
     title: "#160046"
     text: "#160046"
-  left_or_right: false
+  left_or_right: true
   image_full_width: false
 - template: project-high-image
   image: "/images/group.jpg"
