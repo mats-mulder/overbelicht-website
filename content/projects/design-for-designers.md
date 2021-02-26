@@ -46,10 +46,10 @@ content:
 - template: project-image-right
   title: Schilderen, scheuren, combineren, plakken
   description: "<p>Foto’s, tekst en illustraties worden gecombineerd tot een collage
-    met gevoel van ‘craft’. Door verschillende elementen te gebruiken zoals gescheurd
-    papier, verfvegen en speciale brushes komt de hands-on aanpak van Being A Designer
-    terug in de stijl. Met deze elementen kan iedere ontwerper een nieuw en eigen
-    verhaal vertellen met zelf gecreëerde collages.</p>"
+    met het gevoel ‘craft’. Door verschillende elementen te gebruiken, zoals gescheurd
+    papier, verfvegen en speciale brushes, komt de hands-on aanpak van Being A Designer
+    terug in de stijl. Met behulp van zelf gecreëerde collages kan iedere ontwerper
+    een nieuw en eigen verhaal vertellen.</p>"
   image: "/images/verfveeg-brush.png"
   image_to_border: true
   colors:
