@@ -5,10 +5,10 @@ introduction:
     subtitle: Over ons
     content: Aangenaam! Wij zijn Marieke en Mats en vormen samen het team achter Overbelicht.
       Marieke is een visueel wonder. Ze ontwerpt, illustreert, animeert, schildert
-      en tekent. Ze heeft een achtergrond in industrieel design, richtte een ontwerp
-      bureau op in haar studententijd en werkt als experiment designer bij een groot
-      bureau. Mats is de technische nerd. Hij kent alle technieken, talen en tools
-      om de beste implementatie te realiseren. De perfecte samenwerking dus!
+      en tekent. Ze heeft een achtergrond in industrieel design, richtte een ontwerpbureau
+      op in haar studententijd en werkt als experiment designer bij een design agency.
+      Mats is de technische nerd. Hij kent alle technieken, talen en tools om de beste
+      implementatie te realiseren. De perfecte samenwerking dus!
   image: "/images/profielfoto-s-samen.jpg"
   visie:
     title: De juiste dingen, goed doen
