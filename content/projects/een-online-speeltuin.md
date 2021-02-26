@@ -60,7 +60,7 @@ content:
   title: Festival image
   width_or_height: false
 - template: project-image-below
-  image: "/images/dolfijn.gif"
+  image: "/images/dolfijn2.gif"
   title: Tijd voor jouw idee
   description: "<p>Een stand vol schilderijen? Je eigen kappershoek? Een stage voor
     toneel? Teken je idee alvast uit op het online kladpapier. </p>"
