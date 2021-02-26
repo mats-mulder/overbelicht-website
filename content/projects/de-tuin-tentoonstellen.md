@@ -85,8 +85,8 @@ content:
   link: www.tuinenlandschapsdokter.nl
   colors:
     background: "#FFFFFF"
-    text: "#160046"
-    dot: "#FFF5C1"
+    text: "#153243"
+    dot: "#DB0D86"
 active: true
 
 ---
