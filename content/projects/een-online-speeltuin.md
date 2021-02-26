@@ -23,7 +23,7 @@ info:
   content: "<p>De website is letterlijk een playground geworden. Beweeg met je muis
     over het scherm: achter elk element is een kleine animatie verborgen. Wil je je
     inschrijven? Gebruik het online kladpapier om je idee op te tekenen en in te schrijven.
-    </p>"
+    Interactie is het sleutelwoord op dit online festivalterrein. </p>"
 content:
 - template: project-high-image
   title: Draag bij
