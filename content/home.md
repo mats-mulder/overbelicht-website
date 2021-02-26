@@ -8,7 +8,7 @@ introduction:
 visie:
   title: Denken, ontwerpen, bouwen
   introduction: "Een website bouwen zonder strategie? Een advies geven zonder uitwerking?
-    \nWat geloven in een totaalaanpak. De beste ideeën ontstaan namelijk wanneer je
+    \nWij geloven in een totaalaanpak. De beste ideeën ontstaan namelijk wanneer je
     betrokken bent bij het gehele proces."
   subtext:
   - title: Denken
