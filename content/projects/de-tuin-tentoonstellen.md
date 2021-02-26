@@ -45,13 +45,11 @@ content:
     title: "#153243"
     text: "#153243"
 - template: project-high-image
-  title: Tuinontwerp
-  description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id est laborum.</p>"
+  title: 'Rasters, lijnen en vormen: tuinontwerp staat centraal'
+  description: "<p>In de website is ook rekening gehouden met het toekomst perspectief:
+    meer ontwerp en minder aanleg. Daarom hebben we tuinontwerp centraal gesteld in
+    de nieuwe website. Raster, lijnen en vormen: overal wordt duidelijk dat dit de
+    belangrijkste dienstverlening is van Perspectief.</p>"
   colors:
     background: "#AFC2C6"
     title: "#153243"
@@ -75,7 +73,7 @@ content:
   image_full_width: false
 - template: project-high-image
   image: "/images/group.jpg"
-  title: Prachtige elementen
+  title: 'Elementen '
   description: "<p>test</p>"
   colors:
     background: "#EAEAEA"
