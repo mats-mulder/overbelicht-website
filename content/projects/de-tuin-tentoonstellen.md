@@ -80,6 +80,10 @@ content:
     background: "#EAEAEA"
     title: "#153243"
     text: "#153243"
+- template: project-full-image
+  image: "/images/img_9710-1.jpg"
+  title: Boom
+  width_or_height: false
 - template: project-website-link
   title: Bekijk de website
   link: www.tuinenlandschapsdokter.nl
