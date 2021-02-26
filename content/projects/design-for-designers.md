@@ -97,6 +97,20 @@ content:
     background: "#FFFFFF"
     text: "#004D5A"
     dot: "#FDBB1E"
+- template: project-image-right
+  description: "<p>Het team van Being A Designer is relatief klein, en de opdrachten
+    verschillen vaak veel. Al gaat het altijd over design leren, design toepassen
+    en design coachen, de business verandert mee met de soort projecten die er spelen.
+    Zo hebben we onlangs een 'academy' pagina toegevoegd waarin je een design gerelateerde
+    training kunt boeken. De website is zo ingericht dat er altijd ruimte is voor
+    nieuwe ideeën, secties of pagina's.</p>"
+  title: Flexibele website voor een flexibele business
+  image: "/images/ezgif-com-gif-maker-1.gif"
+  colors:
+    background: "#FFFFFF"
+    title: "#004D5A"
+    text: "#004D5A"
+  image_to_border: false
 info:
 - title: Bekijk
   content: <p><a href="https://beingadesigner.com/" title="">www.beingadesigner.com</a></p>
