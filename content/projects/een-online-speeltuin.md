@@ -10,6 +10,14 @@ introduction: 'Stud playground '
 info:
 - title: Opdracht
   content: Creëer een online speeltuin
-content: []
+content:
+- template: project-high-image
+  title: Draag bij
+  image: "/images/wholepage.png"
+  colors:
+    background: "#FFFFFF"
+    title: "#000000"
+    text: "#000000"
+  description: "<p>test</p>"
 
 ---
