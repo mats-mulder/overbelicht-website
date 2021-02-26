@@ -32,7 +32,7 @@ content:
   image_full_width: false
 - template: project-image-below
   title: Flexibele website voor een flexibele business
-  image: "/images/designsprint-foto-2.jpg"
+  image: "/images/ezgif-com-gif-maker-1.gif"
   image_full_width: true
   colors:
     background: "#FFFFFF"
@@ -45,6 +45,15 @@ content:
     training kunt boeken. De website is zo ingericht dat er altijd ruimte is voor
     nieuwe ideeën, secties of pagina's. </p>"
   left_or_right: false
+- template: project-image-right
+  title: De ultieme uiting
+  description: "<p>blabla</p>"
+  image: "/images/ezgif-com-gif-maker-1.gif"
+  image_to_border: true
+  colors:
+    background: "#FFFFFF"
+    title: "#000000"
+    text: "#000000"
 - template: project-image-right
   title: Collages creëren
   description: "<p>Foto’s, tekst en illustraties worden gecombineerd tot een collage
@@ -98,15 +107,6 @@ content:
     title: "#004D5A"
     text: "#004D5A"
   image_to_border: false
-- template: project-image-right
-  title: De ultieme uiting
-  description: "<p>blabla</p>"
-  image: "/images/ezgif-com-gif-maker-1.gif"
-  image_to_border: true
-  colors:
-    background: "#FFFFFF"
-    title: "#000000"
-    text: "#000000"
 - template: project-full-image
   image: "/images/ob_-studio-buiten-9.jpg"
   title: BAD kantoor
