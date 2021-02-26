@@ -17,10 +17,10 @@ info:
   content: "<p>Perspectief ontwerpt en realiseert de mooiste tuinen van Diepenveen,
     maar was online een beetje achterop geraakt. De website was een oud monster: veel
     tekst, weinig afbeeldingen en geen mogelijkheden om zelf dingen aan te passen.
-    Perspectief vroeg ons om op basis van zijn huidige stijl een compleet nieuwe online
+    Perspectief vroeg ons om op basis van hun huidige stijl een compleet nieuwe online
     ervaring neer te zetten.</p>"
 - title: Resultaat
-  content: "<p>x </p>"
+  content: "<p></p>"
 content:
 - template: project-full-image
   title: Ernst in tuin
