@@ -73,8 +73,9 @@ content:
   image_full_width: false
 - template: project-high-image
   image: "/images/group.jpg"
-  title: 'Elementen '
-  description: "<p>test</p>"
+  title: Een goeie balans tussen eenheid en verscheidenheid
+  description: "<p>De website is levendig en divers door verschillende kleuren en
+    vormen. Maar de eenheid blijft altijd gewaarborgd.</p>"
   colors:
     background: "#EAEAEA"
     title: "#153243"
