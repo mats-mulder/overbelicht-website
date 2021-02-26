@@ -48,13 +48,14 @@ content:
     text: "#031D44"
   image_to_border: false
 - template: project-high-image
-  title: De vetste artiesten op een rij
+  title: Speels, ontspannen en grappig
   image: "/images/wholepage.png"
   colors:
     background: "#84C7BD"
     title: "#FFFFFF"
     text: "#FFFFFF"
-  description: "<p></p>"
+  description: "<p>Een online festival, dat was het doel. Daarom is de website speels,
+    ontspannen en grappig. Vol kleine details en leuke animaties. </p>"
 - template: project-full-image
   image: "/images/35765923_1751094811623895_1803432951996743680_o.jpg"
   title: Festival image
