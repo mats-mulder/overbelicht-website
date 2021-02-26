@@ -29,5 +29,9 @@ content:
     text: "#000000"
   left_or_right: false
   image_full_width: false
+- template: project-full-image
+  image: "/images/home.png"
+  title: Home overview
+  width_or_height: false
 
 ---
