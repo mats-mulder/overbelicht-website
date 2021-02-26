@@ -10,7 +10,7 @@ image: "/images/ob_foto-bij.png"
 introduction: leuke tekst
 info:
 - title: Bekijk
-  content: www.tuinenlandschapsdokter.nl
+  content: <p><a href="www.tuinenlandschapsdokter.nl" title="">www.tuinenlandschapsdokter.nl</a></p>
 - title: De vraag
   content: x
 - title: Resultaat
