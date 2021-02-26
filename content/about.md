@@ -42,7 +42,7 @@ contact:
   - title: Contact
     content: '<p><a href="mailto: info@overbelicht.com" title="">info@overbelicht.com</a><br><a
       href="tel: +31611817099" title="">0611817099</a><br><a href="https://www.linkedin.com/in/matsmulder/"
-      title="">Linkedin Mats</a></p><p><a href="https://www.linkedin.com/in/mgmvandijk/"
+      title="">Linkedin Mats</a><br><a href="https://www.linkedin.com/in/mgmvandijk/"
       title="">Linkedin Marieke</a></p>'
 
 ---
