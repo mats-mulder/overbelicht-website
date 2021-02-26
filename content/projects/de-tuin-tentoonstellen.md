@@ -12,9 +12,9 @@ info:
 - title: Bekijk
   content: <p><a href="www.tuinenlandschapsdokter.nl" title="">www.tuinenlandschapsdokter.nl</a></p>
 - title: De vraag
-  content: x
+  content: "<p>x </p>"
 - title: Resultaat
-  content: x
+  content: "<p>x </p>"
 content:
 - template: project-full-image
   title: Ernst in tuin

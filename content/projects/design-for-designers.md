@@ -122,17 +122,17 @@ info:
 - title: Bekijk
   content: <p><a href="https://beingadesigner.com/" title="">www.beingadesigner.com</a></p>
 - title: De Vraag
-  content: 'De hoogste prioriteit: een breed toepasbare visuele identiteit. Uitstraling?
+  content: "<p>De hoogste prioriteit: een breed toepasbare visuele identiteit. Uitstraling?
     Creatief, flexibel en intuïtief. Being A Designer duikt samen met klanten in abstracte,
     vaak publieke onderwerpen, om terug te komen met concrete oplossingen voor alle
     betrokkenen. De hands-on werkwijze van Being A Designer moet niet alleen terugkomen
-    op de website, maar ook op social media, in video''s, offertes met verhalen en
-    workshopmaterialen. Aanpakken dus!'
+    op de website, maar ook op social media, in video's, offertes met verhalen en
+    workshopmaterialen. Aanpakken dus!</p>"
 - title: Resultaat
-  content: 'Scheuren, knippen, combineren, plakken. In de trainingen en trajecten
+  content: "<p>Scheuren, knippen, combineren, plakken. In de trainingen en trajecten
     van Being A Designer wordt intuïtief en vaak visueel gewerkt. De stijl bestaat
     daarom uit verfvegen, scheurranden en spetters waarmee verhalen verteld kunnen
-    worden.  '
+    worden.</p>"
 active: true
 
 ---
