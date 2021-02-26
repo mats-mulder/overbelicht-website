@@ -30,10 +30,10 @@ visie:
       zo leggen we het juiste fundament voor jouw digitale toekomst.'
     slogan: een sterke implementatie door ervaring
 contact:
-  title: Wat zijn jullie uitdagingen?
-  introduction: Ben je geïnteresseerd geraakt in ons concept? Leuk! Wij zijn benieuwd
-    naar jouw bedrijf en de uitdagingen die voor jullie liggen. Stuur ons een berichtje
-    en we maken graag een keer kennis.
+  title: Samenwerken?
+  introduction: Benieuwd hoe we jou zouden kunnen helpen? Wij ook! We maken graag
+    kennis met jouw bedrijf en de uitdagingen die voor jullie liggen. Stuur ons een
+    berichtje en we hebben het er snel over.
   content:
   - title: Ons kantoor
     content: "<p>Zoutziederstraat 20<br>3026 EL<br>Rotterdam</p>"
