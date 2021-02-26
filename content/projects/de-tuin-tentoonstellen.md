@@ -20,12 +20,13 @@ info:
     Perspectief vroeg ons om op basis van hun logo een compleet nieuwe online ervaring
     neer te zetten.</p>"
 - title: Resultaat
-  content: "<p>Een verandering kan soms best moeilijk zijn. Daarom lieten we oude
-    elementen bestaan, maar gaven we ze een fris natuurlijk. Het logo kreeg een update
-    en de oude kleuren werden aangevuld tot een completer palet. In de nieuwe website
-    kwam fotografie centraal te staan. We vulden foto's van projecten aan met natuurfotografie
-    uit eigen collectie. En het resultaat is niet alleen nu prachtig, maar over 5
-    jaar nog steeds. Perspectief kan namelijk alles zelf aanpassen en onderhouden.</p>"
+  content: "<p>Het oude logo van Perspectief was gedateerd, maar vertrouwd. Daarom
+    gaven we het logo een kleine update en gebruikte het als uitgangspunt voor een
+    nieuwe online stijl. De bestaande kleuren werden aangevuld met nieuwe frisse tenten
+    tot een bruikbaar palet. In de nieuwe website kwam fotografie centraal te staan.
+    We vulden foto's van projecten aan met natuurfotografie uit eigen collectie. En
+    het resultaat is niet alleen nu prachtig, maar over 5 jaar nog steeds. Perspectief
+    kan namelijk alles zelf aanpassen en onderhouden.</p>"
 content:
 - template: project-full-image
   title: Ernst in tuin
