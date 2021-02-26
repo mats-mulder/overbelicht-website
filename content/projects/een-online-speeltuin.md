@@ -5,7 +5,7 @@ services:
 active: true
 customer: Stud Playground
 title: Een online festivalterrein
-image: "/images/19143807_1384453781621335_7115561523214085166_o.jpg"
+image: "/images/stucution.jpg"
 introduction: 'StuD, het Delftse uitzendbureau voor technische studenten, organiseert
   jaarlijks een groot feest op een oud industrieterrein. Het concept werd onlangs
   omgegooid: studenten mochten nu eigen initiatieven inbrengen op het terrein. Dit
