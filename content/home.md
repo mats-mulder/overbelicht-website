@@ -38,9 +38,10 @@ contact:
   - title: Ons kantoor
     content: "<p>Zoutziederstraat 20<br>3026 EL<br>Rotterdam</p>"
   - title: Contact
-    content: '<p><a href="mailto: info@overbelicht.com" title="" target="_blank">info@overbelicht.com</a><br><a
-      href="tel: +31611817099" title="" target="_blank">0611817099</a><br><a href="https://www.linkedin.com/in/matsmulder"
-      title="" target="_blank">Linkedin</a></p>'
+    content: '<p><a href="mailto: info@overbelicht.com" title="">info@overbelicht.com</a><br><a
+      href="tel: +31611817099" title="">0611817099</a><br><a href="https://www.linkedin.com/in/matsmulder/"
+      title="">Linkedin Mats</a></p><p><a href="https://www.linkedin.com/in/mgmvandijk/"
+      title="">Linkedin Marieke</a></p>'
   image: "/images/ob_afbeelding-homepage-23.png"
 
 ---

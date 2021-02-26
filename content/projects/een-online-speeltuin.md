@@ -28,8 +28,8 @@ content:
 - template: project-image-below
   title: Loading playground...
   description: "<p>De homepage toont direct waar het om gaat op dit festival: muziek,
-    cultuur en stands. Deze playground is direct het menu naar alle andere pagina's.
-    </p>"
+    cultuur en stands. En de playground is niet alleen tof om te zien, het vormt het
+    interactieve menu naar alle andere pagina's.</p>"
   image: "/images/ezgif-com-gif-maker-6.gif"
   colors:
     background: "#FFFFFF"
