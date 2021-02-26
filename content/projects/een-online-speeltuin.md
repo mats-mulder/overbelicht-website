@@ -13,7 +13,7 @@ introduction: 'StuD, het Delftse uitzendbureau voor technische studenten, organi
   van StuD playground!'
 info:
 - title: Bekijk
-  content: "<p>www.xxx.com</p>"
+  content: <p><a href="https://studplayground-2019.web.app/" title="www.studplayground.nl">https://studplayground-2019.web.app/</a></p>
 - title: De opdracht
   content: "<p>Onze missie: een online speeltuin creëren. De website moet studenten
     de mogelijkheid bieden zich in te schrijven met een eigen initiatief - van een
@@ -58,10 +58,6 @@ content:
 - template: project-full-image
   image: "/images/35765923_1751094811623895_1803432951996743680_o.jpg"
   title: Festival image
-  width_or_height: false
-- template: project-full-image
-  image: "/images/home.png"
-  title: Home overview
   width_or_height: false
 - template: project-image-below
   image: "/images/dolfijn.gif"
