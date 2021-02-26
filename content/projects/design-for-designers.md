@@ -66,7 +66,7 @@ content:
   description: "<p>De nieuwe stijl van Being A Designer werkt goed met foto's. Daarom
     hebben wij ook de fotografie onder handen genomen. We fotografeerden het team
     en de studio, maar liepen ook mee met verschillende design sprints en trainingen
-    om een database met scherp en kwalitatief beeldmateriaal aan te leggen.</p>"
+    om een collectie van scherp en kwalitatief beeldmateriaal aan te leggen.</p>"
   colors:
     background: "#FFFFFF"
     title: "#004D5A"
