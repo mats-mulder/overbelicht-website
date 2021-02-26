@@ -33,5 +33,9 @@ content:
   image: "/images/home.png"
   title: Home overview
   width_or_height: false
+- template: project-full-image
+  image: "/images/35765923_1751094811623895_1803432951996743680_o.jpg"
+  title: Festival image
+  width_or_height: false
 
 ---
