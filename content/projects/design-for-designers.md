@@ -45,17 +45,12 @@ content:
     training kunt boeken. De website is zo ingericht dat er altijd ruimte is voor
     nieuwe ideeën, secties of pagina's. </p>"
   left_or_right: false
+- template: project-full-image
+  image: "/images/collage-met-collages-nieuw.jpg"
+  title: 3 collages
+  width_or_height: false
 - template: project-image-right
-  title: De ultieme uiting
-  description: "<p>blabla</p>"
-  image: "/images/ezgif-com-gif-maker-1.gif"
-  image_to_border: true
-  colors:
-    background: "#FFFFFF"
-    title: "#000000"
-    text: "#000000"
-- template: project-image-right
-  title: Collages creëren
+  title: Schilderen, scheuren, combineren, plakken
   description: "<p>Foto’s, tekst en illustraties worden gecombineerd tot een collage
     met gevoel van ‘craft’. Door verschillende elementen te gebruiken zoals gescheurd
     papier, verfvegen en speciale brushes komt de hands-on aanpak van Being A Designer
@@ -78,18 +73,6 @@ content:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
-- template: project-image-below
-  image: "/images/collage-met-collages3.jpg"
-  title: Schilderen, scheuren, combineren, plakken
-  left_or_right: true
-  description: "<p>Een foto, een blauwe filter, gele spetters en een witte stift.
-    Hiermee maakten we collages voor op de verschillende tabbladen van de website.
-    Nieuwe collages zijn zo gemaakt door ieder teamlid van Being A Designer. </p>"
-  colors:
-    background: "#0096A1"
-    title: "#FFFFFF"
-    text: "#FFFFFF"
-  image_full_width: true
 - template: project-image-right
   title: Ruimte voor eigen creativiteit
   description: "<p>Being A Designer bestaat uit ontwerpers met verschillende creatieve
@@ -114,10 +97,6 @@ content:
     background: "#FFFFFF"
     text: "#004D5A"
     dot: "#FDBB1E"
-- template: project-full-image
-  image: "/images/collage-met-collages-nieuw.jpg"
-  title: 3 collages
-  width_or_height: false
 info:
 - title: Bekijk
   content: <p><a href="https://beingadesigner.com/" title="">www.beingadesigner.com</a></p>
