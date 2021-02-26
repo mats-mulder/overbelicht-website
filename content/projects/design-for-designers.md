@@ -114,6 +114,10 @@ content:
     background: "#FFFFFF"
     text: "#004D5A"
     dot: "#FDBB1E"
+- template: project-full-image
+  image: "/images/collage-met-collages-nieuw.jpg"
+  title: 3 collages
+  width_or_height: false
 info:
 - title: Bekijk
   content: <p><a href="https://beingadesigner.com/" title="">www.beingadesigner.com</a></p>
