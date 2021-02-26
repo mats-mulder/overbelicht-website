@@ -51,9 +51,9 @@ content:
   title: De vetste artiesten op een rij
   image: "/images/wholepage.png"
   colors:
-    background: "#FFFFFF"
-    title: "#000000"
-    text: "#000000"
+    background: "#84C7BD"
+    title: "#FFFFFF"
+    text: "#FFFFFF"
   description: "<p>test</p>"
 - template: project-full-image
   image: "/images/35765923_1751094811623895_1803432951996743680_o.jpg"
