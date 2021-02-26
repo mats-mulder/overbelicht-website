@@ -15,7 +15,10 @@ info:
 - title: Bekijk
   content: "<p>www.xxx.com</p>"
 - title: De opdracht
-  content: Creëer een online speeltuin
+  content: "<p>Onze missie: een online speeltuin creëren. De website moet studenten
+    de mogelijkheid bieden zich in te schrijven met een eigen initiatief - van een
+    eigen foodtruck tot zelf gebouwde kunstinstallaties. Daarnaast mag de line-up
+    en programma natuurlijk niet ontbreken! </p>"
 - title: Resultaat
   content: "<p>Website met animaties</p>"
 content:
