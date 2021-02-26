@@ -18,7 +18,7 @@ visie:
       de kern van jullie vraag.
     slogan: het probleem door en door leren kennen
   - title: Ontwerpen
-    description: We zetten de abstracte inzichten om in concrete ideeën. Onze kennis
+    description: We zetten abstracte inzichten om in concrete ideeën. Onze kennis
       en expertise op het gebied van design en innovatie helpt ons om de juiste keuzes
       te maken. Onze ontwerpen zijn vernieuwend, uniek, maar bovenal, een lust voor
       het oog!
