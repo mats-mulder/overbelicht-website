@@ -26,7 +26,7 @@ info:
     Interactie is het sleutelwoord op dit online festivalterrein. </p>"
 content:
 - template: project-high-image
-  title: Draag bij
+  title: De vetste artiesten op een rij
   image: "/images/wholepage.png"
   colors:
     background: "#FFFFFF"
