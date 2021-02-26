@@ -67,10 +67,6 @@ content:
     background: "#FFFFFF"
     title: "#004D5A"
     text: "#004D5A"
-- template: project-full-image
-  image: "/images/voorbeeldcollage.png"
-  title: Voorbeeldcollage
-  width_or_height: false
 - template: project-high-image
   image: "/images/fotos-bad2.png"
   title: Plaatjes schieten
