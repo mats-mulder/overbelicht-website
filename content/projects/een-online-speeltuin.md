@@ -33,8 +33,8 @@ content:
   image: "/images/ezgif-com-gif-maker-6.gif"
   colors:
     background: "#FFFFFF"
-    title: "#000000"
-    text: "#000000"
+    title: "#031D44"
+    text: "#031D44"
   left_or_right: false
   image_full_width: false
 - template: project-image-right
