@@ -49,9 +49,9 @@ content:
   title: Opknapbeurt
   description: "<p>tekst</p>"
   colors:
-    background: "#B7B7B7"
-    title: "#160046"
-    text: "#160046"
+    background: "#ECF0F1"
+    title: "#AFC2C6"
+    text: "#AFC2C6"
   image: "/images/ob_home-perspectief.png"
 - template: project-full-image
   image: "/images/home-section.png"
