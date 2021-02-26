@@ -57,7 +57,7 @@ content:
     background: "#AFC2C6"
     title: "#153243"
     text: "#153243"
-  image: "/images/ob_home-perspectief.png"
+  image: "/images/homeee.jpg"
 - template: project-full-image
   image: "/images/home-section.png"
   title: Home section
