@@ -66,7 +66,7 @@
 
       <div class="container-fluid high-image-container" style="padding-top: 0" v-if="section.template === 'project-high-image'">
         <div class="row high-image-background"  :style="{backgroundColor: section.colors.background}">
-          <div class="col-12 col-md-10 offset-md-1 col-lg-3 offset-xl-2" style="opacity: 0">
+          <div class="col-12 col-md-10 offset-md-1 col-lg-3 offset-xl-2">
             <h3 :style="{color: section.colors.title}">{{ section.title }}</h3>
             <div :style="{color: section.colors.text}" class="mt-5 text-color-container" v-html="section.description"></div>
           </div>
@@ -247,6 +247,7 @@ p{
   position: absolute;
   padding-top: 15vh;
   padding-bottom: 15vh;
+  width: 100%;
 }
 
 .small-round{
