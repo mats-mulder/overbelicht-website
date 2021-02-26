@@ -5,7 +5,7 @@ services:
 - Website
 - Fotografie
 customer: Perspectief
-title: Digitaal schoffelen
+title: Een digitale schoffelbeurt
 image: "/images/ob_foto-bij.png"
 introduction: leuke tekst
 info:
