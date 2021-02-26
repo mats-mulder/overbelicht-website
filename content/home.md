@@ -13,7 +13,7 @@ visie:
   subtext:
   - title: Denken
     description: Centraal in onze aanpak staat een sterk analytisch proces. Jullie
-      bedrijf, uitdagingen en markt leren kennen is namelijk ven essentieel belang
+      bedrijf, uitdagingen en markt leren kennen is namelijk van essentieel belang
       om een goed ontwerp neer te zetten. We stoppen pas als we aan zijn gekomen bij
       de kern van jullie vraag.
     slogan: het probleem door en door leren kennen
