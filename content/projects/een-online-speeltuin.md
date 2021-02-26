@@ -59,9 +59,27 @@ content:
   image: "/images/home.png"
   title: Home overview
   width_or_height: false
+- template: project-image-below
+  image: "/images/dolfijn.gif"
+  title: Tijd voor jouw idee
+  description: "<p>Een stand vol schilderijen? Je eigen kappershoek? Een stage voor
+    toneel? Teken je idee alvast uit op het online kladpapier. </p>"
+  colors:
+    background: "#FFFFFF"
+    title: "#000000"
+    text: "#000000"
+  left_or_right: false
+  image_full_width: false
 - template: project-full-image
   image: "/images/35765923_1751094811623895_1803432951996743680_o.jpg"
   title: Festival image
   width_or_height: false
+- template: project-website-link
+  title: Bekijk de website
+  link: https://studplayground-2019.web.app/
+  colors:
+    background: "#FFFFFF"
+    text: "#000000"
+    dot: "#F6D0EA"
 
 ---
