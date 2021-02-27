@@ -36,9 +36,9 @@ content:
   image: "/images/ob_kleuren-perspectief.png"
   title: Natuurlijke kleuren met een vrolijke twist.
   description: "<p>Een nieuw kleurenpalet vormt de basis voor de online identiteit.
-    De voornamelijk natuurlijke kleuren passen perfecte bij de grote afbeeldingen
-    van natuur, tuinen en landschappen op de website. Maar een vrolijke twist mag
-    niet ontbreken. Lente!</p>"
+    De voornamelijk natuurlijke kleuren passen perfect bij de grote afbeeldingen van
+    natuur, tuinen en landschappen op de website. Maar een vrolijke twist mag niet
+    ontbreken. Lente!</p>"
   image_to_border: true
   colors:
     background: "#FFFFFF"
