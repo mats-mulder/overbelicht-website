@@ -50,3 +50,14 @@ function waitForLoad(done, direction){
     }
   })
 }
+
+
+function arrowEffectIn(el){
+  el.getElementsByTagName('img')[0].style.opacity = 0;
+  el.getElementsByTagName('img')[1].style.opacity = 1;
+}
+
+function arrowEffectOut(el){
+  el.getElementsByTagName('img')[1].style.opacity = 0;
+  el.getElementsByTagName('img')[0].style.opacity = 1;
+}

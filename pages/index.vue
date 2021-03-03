@@ -164,7 +164,6 @@ export default {
     width: 75px;
     font-size: 2rem;
     transition: 200ms;
-    padding-bottom: 7px;
   }
 
 
@@ -248,7 +247,7 @@ export default {
     font-family: Gilroy;
     font-weight: bold;
     color: var(--dark-purple);
-    font-size: 2.4vh;
+    font-size: 1.7rem;
     z-index: 501;
   }
 

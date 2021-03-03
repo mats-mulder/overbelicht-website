@@ -172,7 +172,7 @@ body{
   width: 100%;
   position: fixed;
   z-index: 500;
-  height: 3.5rem;
+  height: 3.2rem;
 }
 
 

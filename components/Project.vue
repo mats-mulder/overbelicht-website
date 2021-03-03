@@ -13,7 +13,7 @@
           <img class="mobile-project-image mt-4" :src="project.image">
         </div>
         <p class="mt-4 mid-p">{{ project.introduction }}</p>
-        <NuxtLink :to="project.path"><button class="btn-round mt-3">→</button></NuxtLink>
+        <NuxtLink :to="project.path"><button class="btn-round mt-3" onmouseleave="arrowEffectOut(this)" onmouseenter="arrowEffectIn(this)"><img class="img-fluid btn-arrow" src="/assets/arrow_right.png"><img class="img-fluid btn-arrow btn-purple" src="/assets/arrow_right_purple.png"></button></NuxtLink>
       </div>
     </div>
 </template>
@@ -42,6 +42,10 @@ export default {
 
   h4{
     color: white;
+  }
+
+  .btn-purple{
+    opacity: 0;
   }
 
   .project-image-holder{
@@ -82,10 +86,20 @@ export default {
     outline: 0px!important;
   }
 
+  .btn-arrow{
+    width: 30px;
+    margin-left: -15px;
+    margin-top: -6px;
+    position: absolute;
+  }
+
   @media only screen and (max-width: 576px) {
     .btn-round{
       background-color: var(--yellow);
       color: var(--dark-purple);
+    }
+    .btn-purple{
+      opacity: 1;
     }
   }
 
