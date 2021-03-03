@@ -146,7 +146,7 @@ body{
   .back-link{
     position: fixed;
     margin: 0.5rem;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     color: var(--yellow);
     font-family: Gilroy;
     font-weight: bold;

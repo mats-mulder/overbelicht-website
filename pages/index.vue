@@ -247,7 +247,7 @@ export default {
     font-family: Gilroy;
     font-weight: bold;
     color: var(--dark-purple);
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     z-index: 501;
   }
 

@@ -25,7 +25,7 @@ name: "Logo"
 }
 
 #logo{
-  height: 6vh;
+  height: 4rem;
   opacity: 1;
   z-index: 200;
   margin: 2vh;
@@ -33,7 +33,7 @@ name: "Logo"
 }
 
 #logo_white{
-  height: 6vh;
+  height: 4rem;
   opacity: 0;
   z-index: 200;
   margin: 2vh;
@@ -46,7 +46,13 @@ name: "Logo"
 
 @media only screen and (max-width: 767px) {
   #logo-holder{
-    height: 9vh;
+    height: 4.2rem;
+  }
+  #logo{
+    height: 3rem;
+  }
+  #logo_white{
+    height: 3rem;
   }
 }
 
