@@ -12,7 +12,7 @@ introduction: Een natuurlijke vijver, een Japanse tuin, een bijenvolk? Alles wat
   een digitale schoffelbeurt dus.
 info:
 - title: Bekijk
-  content: <p><a href="www.tuinenlandschapsdokter.nl" title="">www.tuinenlandschapsdokter.nl</a></p>
+  content: <p><a href="https://tuinenlandschapsdokter.nl/" title="">www.tuinenlandschapsdokter.nl</a></p>
 - title: De vraag
   content: "<p>Perspectief ontwerpt en realiseert de mooiste tuinen van Diepenveen,
     maar was online een beetje achterop geraakt. De oude website bestond uit veel
