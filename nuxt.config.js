@@ -57,6 +57,25 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: "AIzaSyB6Uo-GrRRp-p8oq9GnxTvNiJXmcROXzIg",
+          authDomain: "overbelicht-4120f.firebaseapp.com",
+          projectId: "overbelicht-4120f",
+          storageBucket: "overbelicht-4120f.appspot.com",
+          messagingSenderId: "154950537918",
+          appId: "1:154950537918:web:b6d0468cbaa1bb0ffbc4ef",
+          measurementId: "G-MN3LZ6C22K"
+        },
+        services: {
+          analytics: {
+            collectionEnabled: true // default
+          }
+        }
+      }
+    ]
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -65,4 +84,5 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   },
+
 }
