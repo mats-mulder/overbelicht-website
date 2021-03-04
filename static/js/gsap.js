@@ -44,7 +44,7 @@ function initHomeAnimations(){
       trigger: project,
       start: 'top 10%',
       pin: true,
-      scrub: 0.5,
+      scrub: true,
       animation: t1
     })
     projectCount++
