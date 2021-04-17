@@ -5,7 +5,7 @@ services:
 - Website
 - Fotografie
 customer: The Energy Boutique
-title: Een compleet nieuwe uitstraling
+title: Een compleet nieuwe uitstralingbjh
 introduction: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium, totam rem aperiam, eaqeeue ipsa quae ab illo inventore veritatis
   et quasi.
